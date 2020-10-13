@@ -58,12 +58,12 @@ Scope
 
   
 
-1.  The written content has to be concise and to the point, relevant to the section of the website. It has to follow the same typography to maintain consistency throughout the website.
-2.  The imagery has to be consistent throughout the website in terms of colours and sizes.
-3.  The colours has to be consistent with the logo colours to bring a theme based to the visitors.
-4.  The typography will have consistency between written content and logo. It is important that the website will have one typography for the logo and one for the content.
-5.  The logo has to bring set the tone for the look and feel of the website so that the other parts can follow it nicely.
-6.  All information to have the right amount of contrast between foreground and background to avoid distractions.
+    - The written content has to be concise and to the point, relevant to the section of the website. It has to follow the same typography to maintain consistency throughout the website.
+    - The imagery has to be consistent throughout the website in terms of colours and sizes.
+    - The colours has to be consistent with the logo colours to bring a theme based to the visitors.
+    - The typography will have consistency between written content and logo. It is important that the website will have one typography for the logo and one for the content.
+    - The logo has to bring set the tone for the look and feel of the website so that the other parts can follow it nicely.
+    - All information to have the right amount of contrast between foreground and background to avoid distractions.
 
   
 
@@ -78,7 +78,7 @@ I have designed the structure and skeleton using Balsamiq to layout how I would 
 
   
 
-1.  Sitemap for website - [view](https://share.balsamiq.com/c/v4ukjy3DWkYhper9eWnVMn.png)
+    - Sitemap for website - [view](https://share.balsamiq.com/c/v4ukjy3DWkYhper9eWnVMn.png)
 
   
 
@@ -86,16 +86,16 @@ I have designed the structure and skeleton using Balsamiq to layout how I would 
 
   
 
-1.  Home Page Wireframe - [view](https://share.balsamiq.com/c/wgdMxkKwtSrBq1ocXS5tzY.png)
-2.  Menu Page Wireframe - [view](https://share.balsamiq.com/c/wdaU4zAq1fGafjAj5X5gp5.png)
-3.  Bookings Page Wireframe - [view](https://share.balsamiq.com/c/pu7NEDfu5w7hubcnP5Dg1N.png)
-4.  Gallery Page Wireframe - [view](https://share.balsamiq.com/c/GQqyxFawTMCjNt8886Qhh.png)
-5.  Our Story Page Wireframe - [view](https://share.balsamiq.com/c/pyXZ5CWZ35hHC2foRvmqDV.png)
-6.  Contact Page Wireframe - [view](https://share.balsamiq.com/c/nSo7nV1FH6ZxiGL8f2Nwh1.png)
-7.  Signup Newsletter Page Wireframe - [view](https://share.balsamiq.com/c/eNT8pKLXqVuQPd1XpoUzg2.png)
-8.  Customer Service Page Wireframe - [view](https://share.balsamiq.com/c/7Q1Tq1k2uTKGhL2jUhwNLF.png)
-9.  Product Information Wireframe - [view](https://share.balsamiq.com/c/k66xrVpw6rLYGRG4h1PQxU.png)
-10.  Privacy and GDPR Policy Wireframe - [view](https://share.balsamiq.com/c/sSEnD2jX7oBeEnKWXTbJvm.png)
+    - Home Page Wireframe - [view](https://share.balsamiq.com/c/wgdMxkKwtSrBq1ocXS5tzY.png)
+    - Menu Page Wireframe - [view](https://share.balsamiq.com/c/wdaU4zAq1fGafjAj5X5gp5.png)
+    - Bookings Page Wireframe - [view](https://share.balsamiq.com/c/pu7NEDfu5w7hubcnP5Dg1N.png)
+    - Gallery Page Wireframe - [view](https://share.balsamiq.com/c/GQqyxFawTMCjNt8886Qhh.png)
+    - Our Story Page Wireframe - [view](https://share.balsamiq.com/c/pyXZ5CWZ35hHC2foRvmqDV.png)
+    - Contact Page Wireframe - [view](https://share.balsamiq.com/c/nSo7nV1FH6ZxiGL8f2Nwh1.png)
+    - Signup Newsletter Page Wireframe - [view](https://share.balsamiq.com/c/eNT8pKLXqVuQPd1XpoUzg2.png)
+    - Customer Service Page Wireframe - [view](https://share.balsamiq.com/c/7Q1Tq1k2uTKGhL2jUhwNLF.png)
+    - Product Information Wireframe - [view](https://share.balsamiq.com/c/k66xrVpw6rLYGRG4h1PQxU.png)
+    - Privacy and GDPR Policy Wireframe - [view](https://share.balsamiq.com/c/sSEnD2jX7oBeEnKWXTbJvm.png)
 
   
 
@@ -125,13 +125,16 @@ Below you will see all the pages using high fidelity software Figma. I decided t
 
   
 
-1.  Home Page Wireframe - view
-2.  Product Page Wireframe - view
-3.  Signup Newsletter Page Wireframe - view
-4.  Menu and Booking Table Page Wireframe - view
-5.  Order Signup/Login Page Wireframe - view
-6.  Customer Service Page Wireframe - view
-7.  About Us Page Wireframe - view
+    - Home Page Wireframe - [view](https://share.balsamiq.com/c/wgdMxkKwtSrBq1ocXS5tzY.png)
+    - Menu Page Wireframe - [view](https://share.balsamiq.com/c/wdaU4zAq1fGafjAj5X5gp5.png)
+    - Bookings Page Wireframe - [view](https://share.balsamiq.com/c/pu7NEDfu5w7hubcnP5Dg1N.png)
+    - Gallery Page Wireframe - [view](https://share.balsamiq.com/c/GQqyxFawTMCjNt8886Qhh.png)
+    - Our Story Page Wireframe - [view](https://share.balsamiq.com/c/pyXZ5CWZ35hHC2foRvmqDV.png)
+    - Contact Page Wireframe - [view](https://share.balsamiq.com/c/nSo7nV1FH6ZxiGL8f2Nwh1.png)
+    - Signup Newsletter Page Wireframe - [view](https://share.balsamiq.com/c/eNT8pKLXqVuQPd1XpoUzg2.png)
+    - Customer Service Page Wireframe - [view](https://share.balsamiq.com/c/7Q1Tq1k2uTKGhL2jUhwNLF.png)
+    - Product Information Wireframe - [view](https://share.balsamiq.com/c/k66xrVpw6rLYGRG4h1PQxU.png)
+    - Privacy and GDPR Policy Wireframe - [view](https://share.balsamiq.com/c/sSEnD2jX7oBeEnKWXTbJvm.png)
 
   
 
