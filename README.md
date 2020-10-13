@@ -46,7 +46,7 @@ Scope
 
   
 
-*   The functional specification will be based on the [assessment criteria](https://drive.google.com/file/d/1GBoEwg5ODXp1Gg3oJJdXYpELdO7_s3MP/view?usp=sharing) and user stories.
+    *   The functional specification will be based on the [assessment criteria](https://drive.google.com/file/d/1GBoEwg5ODXp1Gg3oJJdXYpELdO7_s3MP/view?usp=sharing) and user stories.
 
   
 
@@ -54,16 +54,16 @@ Scope
 
   
 
-*   The content required to bring value are the following:
+    *   The content required to bring value are the following:
 
   
 
-    - The written content has to be concise and to the point, relevant to the section of the website. It has to follow the same typography to maintain consistency throughout the website.
-    - The imagery has to be consistent throughout the website in terms of colours and sizes.
-    - The colours has to be consistent with the logo colours to bring a theme based to the visitors.
-    - The typography will have consistency between written content and logo. It is important that the website will have one typography for the logo and one for the content.
-    - The logo has to bring set the tone for the look and feel of the website so that the other parts can follow it nicely.
-    - All information to have the right amount of contrast between foreground and background to avoid distractions.
+        - The written content has to be concise and to the point, relevant to the section of the website. It has to follow the same typography to maintain consistency throughout the website.
+        - The imagery has to be consistent throughout the website in terms of colours and sizes.
+        - The colours has to be consistent with the logo colours to bring a theme based to the visitors.
+        - The typography will have consistency between written content and logo. It is important that the website will have one typography for the logo and one for the content.
+        - The logo has to bring set the tone for the look and feel of the website so that the other parts can follow it nicely.
+        - All information to have the right amount of contrast between foreground and background to avoid distractions.
 
   
 
@@ -110,10 +110,10 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
   
 
-1.  Colours - you can view my colour palette [here](https://drive.google.com/file/d/1UCfpu3mklf5q-NEgOSEBL4i2vkdrQvGQ/view?usp=sharing). The palette was created based on the logo.
-2.  Typography - I will use Playflair Display (Medium Metallic) for the Logo and Montserrat (Regular) for the content.
-3.  Images - I will use [Pixabay](https://www.pixabay.com) and [Pexels](https://www.pexels.com) to source the images.
-4.  Logo - I will use [canva](https://www.canva.com) will be used to design logo and favicon.
+    -  Colours - you can view my colour palette [here](https://drive.google.com/file/d/1UCfpu3mklf5q-NEgOSEBL4i2vkdrQvGQ/view?usp=sharing). The palette was created based on the logo.
+    -  Typography - I will use Playflair Display (Medium Metallic) for the Logo and Montserrat (Regular) for the content.
+    -  Images - I will use [Pixabay](https://www.pixabay.com) and [Pexels](https://www.pexels.com) to source the images.
+    -  Logo - I will use [canva](https://www.canva.com) will be used to design logo and favicon.
 
   
 
