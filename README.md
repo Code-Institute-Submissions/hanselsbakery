@@ -18,22 +18,22 @@ This section is where we have established user stories to identify website funct
 
 *   **User Stories**
 
-  
+    
 
-1.  As a First Time User, I want to be presented with a well structured and designed website, so I can intuitively navigate through the website and access the information I seek.
-2.  As a First Time User, I want to be able to get back to the home page quickly and easily, so I don't waste time on going back and forth for what I need.
-3.  As a First Time User, I want to be able to see pictures of all the products are sold by the shop, so I can browse through it and choose the one that most catches my attention.
-4.  As a First Time User, I want to know in a glance what the website is about and why I should make a purchase, so I can make an informed decision whether to buy or not.
-5.  As a First Time User, I want to know prices for all products, so I can know if my budget is sufficient to purchase it.
-6.  As a First Time User, I want to be able to order cakes to be delivered to my home, so I can save time by having the convenience of home delivery.
-7.  As a First Time User, I want to have special occasion section, so cakes can be bespoke based on my needs.
-8.  As a First Time User, I want to change the website colour, so if I am colour blind the website will be more accessible.
-9.  As a First Time User, I want to see reviews about their products, so I can understand what others think about the company.
-10.  As a Returning User, I want to have a section where I can see their social media links, so I can follow them to get new updates.
-11.  As a Returning User, I want to have a section where I can contact the Bakery, when I have questions about the company.
-12.  As a Returning User, I want to easily login to my account, so I can make a purchase.
-13.  As a Frequent User, I want to have a section where I can sign up for newsletter, so I can get the latest offers and news about the shop.
-14.  As a Frequent User, I want a booking a table, so I can reserve ahead of time in case its busy.
+    - As a First Time User, I want to be presented with a well structured and designed website, so I can intuitively navigate through the website and access the information I seek.
+    - As a First Time User, I want to be able to get back to the home page quickly and easily, so I don't waste time on going back and forth for what I need.
+    - As a First Time User, I want to be able to see pictures of all the products are sold by the shop, so I can browse through it and choose the one that most catches my attention.
+    - As a First Time User, I want to know in a glance what the website is about and why I should make a purchase, so I can make an informed decision whether to buy or not.
+    - As a First Time User, I want to know prices for all products, so I can know if my budget is sufficient to purchase it.
+    - As a First Time User, I want to be able to order cakes to be delivered to my home, so I can save time by having the convenience of home delivery.
+    - As a First Time User, I want to have special occasion section, so cakes can be bespoke based on my needs.
+    - As a First Time User, I want to change the website colour, so if I am colour blind the website will be more accessible.
+    - As a First Time User, I want to see reviews about their products, so I can understand what others think about the company.
+    - As a Returning User, I want to have a section where I can see their social media links, so I can follow them to get new updates.
+    - As a Returning User, I want to have a section where I can contact the Bakery, when I have questions about the company.
+    - As a Returning User, I want to easily login to my account, so I can make a purchase.
+    - As a Frequent User, I want to have a section where I can sign up for newsletter, so I can get the latest offers and news about the shop.
+    - As a Frequent User, I want a booking a table, so I can reserve ahead of time in case its busy.
 
   
 
