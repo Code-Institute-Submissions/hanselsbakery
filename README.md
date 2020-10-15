@@ -8,7 +8,7 @@ Strategy
 
   
 
-The business is a bakery shop called Dominic & Hansel established 1 year ago, in that time they have provided customers with world class service and the products they produce all with high quality ingredients and beautiful design to indulge customers and empower them to have their best moments in life sharing with their friends and family.
+The business is a bakery shop called Hansel's Bakery established 1 year ago, in that time they have provided customers with world class service and the products they produce all with high quality ingredients and beautiful design to indulge customers and empower them to have their best moments in life sharing with their friends and family.
 
   
 
