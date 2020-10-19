@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Playfair+Display&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #000000;
+}
+
+#social-media a{
+
+    text-decoration: none;
+}
+
+.debug{
+    color: red;
+}
