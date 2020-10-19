@@ -1,4 +1,8 @@
+ /*----------------------- GLOBOL IMPORTS -----------------------*/ 
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Playfair+Display&display=swap');
+
+ /*----------------------- GLOBAL STYLES -----------------------*/ 
 
 *{
   margin: 0;
@@ -8,14 +12,125 @@
 
 body{
   font-family: 'Montserrat Alternates', sans-serif;
+  letter-spacing: 2px;
   color: #000000;
 }
 
-#social-media a{
+ /*----------------------- HEADER STYLE START -----------------------*/ 
 
+ /* MENU STYLES */ 
+
+#menu, #menu li, #menu a{
+    margin: auto 0;
+    padding: 10px 10px 10px 10px; 
+}
+
+#menu a{
     text-decoration: none;
+    color: #EEBA2B;
+
 }
 
-.debug{
-    color: red;
+#menu li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
 }
+
+#menu{
+    font-size: 18px;
+    list-style: none;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+ 
+#menu a:hover{
+    border-bottom: 1px solid #777777;
+}
+
+.divider-line{
+    display: inline-block;
+    height: 40px;
+    border-left: 2px solid #EEBA2B;
+    position: relative;
+    top: 10px;
+
+}
+
+ /* SOCIAL MEDIA STYLES */ 
+
+#social-media a{
+    text-decoration: none;
+    color: #000000;
+
+}
+#social-media li{
+    display: inline-block;
+    list-style: none;
+
+}
+#social-media{
+    margin: auto;
+    font-size: 18px;
+    list-style: none;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.iconify{
+    margin: auto 0;
+    width: 30px;
+    height: 30px;
+}
+
+#facebook-icon{
+    margin: auto 0;
+    width: 25px;
+    height: 25px;
+}
+
+ /*JOIN US STYLES */ 
+
+#join-us a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#join-us li{
+    display: inline-block;
+    list-style: none;
+}
+
+#join-us{
+    font-size: 18px;
+    list-style: none;
+    letter-spacing: 2px;
+    text-align: right;
+}
+
+ /*LOGO STYLES */ 
+
+#logo img{
+    width: 300px;
+    height: 300px;
+}
+
+ /* CONTAINER STYLES */ 
+
+#top-section{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#middle-section{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), rgba(114, 114, 114, 0.3);
+    text-align: center;
+}
+
+#bottom-section{
+    background-color: #000000;
+}
+
+
+ /*----------------------- HEADER STYLE END -----------------------*/ 
