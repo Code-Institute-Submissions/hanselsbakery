@@ -125,16 +125,8 @@ Below you will see all the pages using high fidelity software Figma. I decided t
 
   
 
-    - Home Page Wireframe - [view](https://share.balsamiq.com/c/wgdMxkKwtSrBq1ocXS5tzY.png)
-    - Menu Page Wireframe - [view](https://share.balsamiq.com/c/wdaU4zAq1fGafjAj5X5gp5.png)
-    - Bookings Page Wireframe - [view](https://share.balsamiq.com/c/pu7NEDfu5w7hubcnP5Dg1N.png)
-    - Gallery Page Wireframe - [view](https://share.balsamiq.com/c/GQqyxFawTMCjNt8886Qhh.png)
-    - Our Story Page Wireframe - [view](https://share.balsamiq.com/c/pyXZ5CWZ35hHC2foRvmqDV.png)
-    - Contact Page Wireframe - [view](https://share.balsamiq.com/c/nSo7nV1FH6ZxiGL8f2Nwh1.png)
-    - Signup Newsletter Page Wireframe - [view](https://share.balsamiq.com/c/eNT8pKLXqVuQPd1XpoUzg2.png)
-    - Customer Service Page Wireframe - [view](https://share.balsamiq.com/c/7Q1Tq1k2uTKGhL2jUhwNLF.png)
-    - Product Information Wireframe - [view](https://share.balsamiq.com/c/k66xrVpw6rLYGRG4h1PQxU.png)
-    - Privacy and GDPR Policy Wireframe - [view](https://share.balsamiq.com/c/sSEnD2jX7oBeEnKWXTbJvm.png)
+    - This is the final mockup for the whole website. Once the prototype is loaded you can navigate through the links in the pages - [view](https://www.figma.com/proto/Pl4PPktv4bRNCnKCihmIjp/Project-Milestone-1?node-id=94%3A5&scaling=min-zoom)
+  
 
   
 
