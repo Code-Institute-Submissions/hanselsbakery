@@ -43,10 +43,12 @@ body{
     letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase;
+
 }
  
 #menu a:hover{
-    border-bottom: 1px solid #777777;
+    color: #fff;
+    transition: color 450ms ease-in;
 }
 
 .divider-line{
@@ -108,6 +110,10 @@ body{
     letter-spacing: 2px;
     text-align: right;
 }
+#join-us a:hover{
+    color: gray;
+    transition: color 450ms ease-in;
+}
 
  /*LOGO STYLES */ 
 
@@ -120,11 +126,12 @@ body{
 
 #top-section{
     text-align: center;
-    margin-top: 20px;
+    padding-top: 20px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), rgba(114, 114, 114, 0.3);
+    transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 #middle-section{
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), rgba(114, 114, 114, 0.3);
     text-align: center;
 }
 
@@ -133,4 +140,43 @@ body{
 }
 
 
+
  /*----------------------- HEADER STYLE END -----------------------*/ 
+
+ /*----------------------- HERO SECTION STYLE START -----------------------*/ 
+
+#carousel-outer{
+    margin: 0 auto;;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#carousel-container{
+    margin: 0 auto;
+    padding: 0px;
+    width: 100%;
+}
+#carousel-cover-text{
+
+    position: absolute;
+    width: 1000px;
+    height: 140px;
+    left: 1080px;
+    top: 280px;
+    right: 0px;
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 14% 50%, 0% 0%);
+    background-color: rgba(238, 186, 43, 0.39);
+    z-index: 20;
+}
+#carousel-cover-text p{
+    margin: auto;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #DDDEDE;
+}
