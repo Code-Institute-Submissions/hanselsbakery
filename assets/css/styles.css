@@ -237,4 +237,37 @@ body{
 
  /*----------------------- EVENT & SHOP ADDRESS SECTION STYLE START -----------------------*/ 
 
- 
+ #event-section{
+    background-color: #EEBA2B;
+ }
+
+.event-custom-card{
+    background: rgba(133, 142, 130, 0.3);
+    border: 15px solid #fff;
+
+}
+.event-custom-card > img{
+    width: 100%;
+
+}
+.event-custom-card > p{
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 100px ;
+    padding-right: 100px;
+
+}
+.event-custom-card > h5{
+    padding-top: 25px ;
+    padding-bottom: 25px;
+
+}
+.event-custom-card > button{
+    margin-top: 25px ;
+    margin-bottom: 25px;
+}
+
+.event-custom-column{
+    padding: 50px 50px 50px 50px;
+}
