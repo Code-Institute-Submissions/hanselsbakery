@@ -28,36 +28,34 @@ body{
 #menu a{
     text-decoration: none;
     color: #EEBA2B;
-
 }
 
 #menu li{
-    display: inline-block;
     list-style: none;
-    text-align: center;
 }
 
 #menu{
     font-size: 18px;
     list-style: none;
     letter-spacing: 2px;
-    text-align: center;
     text-transform: uppercase;
-
 }
- 
+
 #menu a:hover{
     color: #fff;
     transition: color 450ms ease-in;
 }
 
-.divider-line{
-    display: inline-block;
-    height: 40px;
-    border-left: 2px solid #EEBA2B;
-    position: relative;
-    top: 10px;
+.navbar-toggler-icon{
+    color: #EEBA2B;
+}
 
+.navbar, .navbar-dark{
+    background-color:  #000;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+    justify-content: center;
 }
 
  /* SOCIAL MEDIA STYLES */ 
@@ -135,15 +133,9 @@ body{
     text-align: center;
 }
 
-#bottom-section{
-    background-color: #000000;
-}
-
-
-
  /*----------------------- HEADER STYLE END -----------------------*/ 
 
- /*----------------------- HERO SECTION STYLE START -----------------------*/ 
+ /*----------------------- CASOUSEL SECTION STYLE START -----------------------*/ 
 
 #carousel-outer{
     margin: 0 auto;;
@@ -156,22 +148,21 @@ body{
     margin: 0 auto;
     padding: 0px;
     width: 100%;
+    height: 100%;
 }
 #carousel-cover-text{
-
-    position: absolute;
-    width: 1000px;
+    float: right;
+    margin: auto;
+    padding: 0px;
+    width: 800px;
     height: 140px;
-    left: 1080px;
-    top: 280px;
-    right: 0px;
     clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 14% 50%, 0% 0%);
     background-color: rgba(238, 186, 43, 0.39);
-    z-index: 20;
 }
 #carousel-cover-text p{
     margin: auto;
     padding-top: 20px;
+    padding-left: 50px;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -180,3 +171,51 @@ body{
     letter-spacing: 2px;
     color: #DDDEDE;
 }
+.card-img-overlay{
+    position: absolute;
+    text-align: center;
+    margin-top: 250px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+ /*----------------------- CAROUSEL SECTION STYLE END -----------------------*/ 
+
+ /*----------------------- FEATURED PRODUCTS SECTION STYLE START -----------------------*/ 
+
+#featured-section{
+    margin: auto;
+    padding: 0px;
+    background: rgba(133, 142, 130, 0.3);
+
+}
+.card-title{
+    padding: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 34px;
+    letter-spacing: 2px;
+    color: #000000;
+}
+.card-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.card {
+    margin: 50px;
+    padding: 0px;
+    width: 481px;
+    height: 521.03px;
+    border: 20px solid #FFFFFF;
+    filter: drop-shadow(0px 32px 64px rgba(17, 17, 17, 0.08));
+}
+.card-body{
+    background-color: #EEBA2B;
+}
+
