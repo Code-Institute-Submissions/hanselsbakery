@@ -258,12 +258,12 @@ body{
     padding-right: 100px;
 
 }
-.event-custom-card > h5{
+.event-custom-card h5{
     padding-top: 25px ;
     padding-bottom: 25px;
 
 }
-.event-custom-card > .btn, .btn-primary{
+.event-custom-card .btn{
     margin-top: 25px ;
     margin-bottom: 25px;
     border: 2px solid #000000;
@@ -273,7 +273,7 @@ body{
     font-style: normal;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28px;
     display: flex;
     letter-spacing: 2px;
@@ -287,13 +287,6 @@ body{
     border-color: #fff;
     transition: 700ms ease;
 }
-
-.event-custom-card > .btn:after{
-    /* background: #fff; */
-    border: 2px solid red;
-    transition:  3s ease-in;
-}
-
 .event-custom-column{
     padding: 50px 50px 50px 50px;
 }
@@ -308,3 +301,74 @@ body{
 
  /*----------------------- FOOTER SECTION STYLE START -----------------------*/ 
 
+#footer-nav{
+    background-color: #383535;
+}
+
+#footer-nav a{
+    color: #EEBA2B;
+}
+
+#footer-nav h6{
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    color: #EEBA2B;
+    font-weight: 600;
+}
+
+#footer-nav li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#footer-nav a, #footer-nav li{
+    text-decoration: none;
+    list-style: none;
+}
+
+#footer-nav a:hover{
+    color: #fff;
+    transition: color 450ms ease-in;
+}
+
+#footer-nav label{
+    color:  #EEBA2B;
+    
+}
+#footer-nav .col-sm{
+    padding: 50px 50px 50px 50px;
+}
+
+#footer-form .btn{
+    margin-top: 25px ;
+    margin-bottom: 25px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 40px;
+    
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    display: flex;
+    letter-spacing: 2px;
+    color: #000000;
+    background: rgba(238, 186, 43, 0.5);
+}
+
+#footer-form .btn:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color: #fff;
+    border-color: #fff;
+    transition: 700ms ease;
+}
+
+#footer-credits{
+    background-color: #000;
+    color: #EEBA2B;
+}
+
+#footer-credits .col-sm-11, #footer-credits .col-sm-1{
+    padding: 10px 10px 10px 10px;
+}
