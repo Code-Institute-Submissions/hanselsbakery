@@ -60,17 +60,17 @@ body{
 
  /* SOCIAL MEDIA STYLES */ 
 
-#social-media a{
+.social-media a{
     text-decoration: none;
     color: #000000;
 
 }
-#social-media li{
+.social-media li{
     display: inline-block;
     list-style: none;
 
 }
-#social-media{
+.social-media{
     margin: auto;
     font-size: 18px;
     list-style: none;
@@ -84,7 +84,7 @@ body{
     height: 30px;
 }
 
-#facebook-icon{
+.facebook-icon{
     margin: auto 0;
     width: 25px;
     height: 25px;
@@ -263,11 +263,48 @@ body{
     padding-bottom: 25px;
 
 }
-.event-custom-card > button{
+.event-custom-card > .btn, .btn-primary{
     margin-top: 25px ;
     margin-bottom: 25px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 40px;
+    
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    letter-spacing: 2px;
+    color: #000000;
+    background: rgba(238, 186, 43, 0.5);
+}
+
+.event-custom-card > .btn:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color: #fff;
+    border-color: #fff;
+    transition: 700ms ease;
+}
+
+.event-custom-card > .btn:after{
+    /* background: #fff; */
+    border: 2px solid red;
+    transition:  3s ease-in;
 }
 
 .event-custom-column{
     padding: 50px 50px 50px 50px;
 }
+
+@media only screen and (max-width: 991px) {
+    #top-section, #middle-section {
+        display: none;
+    }
+}
+
+ /*----------------------- EVENT & SHOP ADDRESS SECTION STYLE END -----------------------*/ 
+
+ /*----------------------- FOOTER SECTION STYLE START -----------------------*/ 
+
