@@ -1,351 +1,511 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../assets/css/styles.css" type="text/css" />
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-	<link rel="stylesheet" href="../../assets/css/styles.css" type="text/css" />
+    <title>Hansel's Bakery</title>
+  </head>
 
-	<title>Hansel's Bakery</title>
-</head>
+  <body>
+    <header>
+      <!-- Top header section -->
+      <div class="container-fluid" id="top-section">
+        <div class="row">
+          <div class="col-sm">
+            <p>“One of the best cakes experiences” - The Elixir Magazine</p>
+          </div>
+        </div>
+      </div>
+      <!-- Middle header section -->
+      <div class="container-fluid" id="middle-section">
+        <div class="row">
+          <div class="col-sm">
+            <ul class="social-media">
+              <li>
+                <span
+                  class="iconify facebook-icon"
+                  data-inline="false"
+                  data-icon="brandico:facebook-rect"
+                  style="color: #000000"
+                ></span>
+              </li>
+              <li>
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="ant-design:instagram-filled"
+                  style="color: #000000"
+                ></span>
+              </li>
+              <li>
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bx:bxl-pinterest"
+                  style="color: #000000"
+                ></span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <ul id="logo">
+              <a href="index.html">
+                <img
+                  src="../../assets/images/logo.png"
+                  alt="Hansel's Bakery Logo"
+                />
+              </a>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <ul id="join-us">
+              <li>
+                <a href="#">JOIN US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Bottom header section -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav justify-content-center" id="menu">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <div class="divider-line"></div>
+            <li>
+              <a href="menu.html">Menu</a>
+            </li>
+            <div class="divider-line"></div>
+            <li>
+              <a href="#">Bookings</a>
+            </li>
+            <div class="divider-line"></div>
+            <li>
+              <a href="#">Gallery</a>
+            </li>
+            <div class="divider-line"></div>
+            <li>
+              <a href="#">Our Story</a>
+            </li>
+            <div class="divider-line"></div>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Casousel Section -->
+    <section id="carousel-outer">
+      <div class="container-fluid" id="carousel-container">
+        <div class="row">
+          <div class="col-sm">
+            <div
+              id="heroImageSlider"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#heroImageSlider"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#heroImageSlider" data-slide-to="1"></li>
+                <li data-target="#heroImageSlider" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="d-block w-100"
+                    src="../../assets/images/hero-image.png"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="../../assets/images/hero-image.png"
+                    alt="Second slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="../../assets/images/hero-image.png"
+                    alt="Third slide"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#heroImageSlider"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#heroImageSlider"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <div class="card-img-overlay">
+              <div id="carousel-cover-text">
+                <p>WE LOVE WHAT WE DO.</p>
+                <p>WE BAKE WITH OUR HEARTS.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Products Section -->
+    <section id="featured-section">
+      <div class="container-fluid">
+        <div class="row" id="custom-section-title">
+          <div class="col-sm">
+            <div class="card mx-auto">
+              <div
+                class="card-body align-items-center d-flex justify-content-center"
+              >
+                <h5 class="card-title">Our Featured Products</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <div class="card mx-auto">
+              <img
+                src="../../assets/images/triple_chocolate_cake.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Jane K.</h5>
+                <p class="card-text">
+                  "Really great customer service and their products are just
+                  made in heaven! Will definitely visit again!"
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card mx-auto">
+              <img
+                src="../../assets/images/triple_chocolate_cake.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tanya B.</h5>
+                <p class="card-text">
+                  "Great bakery! They saved my birthday with a last minute cake
+                  for a party of 20 people! Besides preparing a delicious
+                  cake..."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card mx-auto">
+              <img
+                src="../../assets/images/triple_chocolate_cake.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rebbeca L.</h5>
+                <p class="card-text">
+                  "Delicious cupcakes! Best I tried in London!"
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <div class="card mx-auto">
+              <img
+                src="../../assets/images/triple_chocolate_cake.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sarah F.</h5>
+                <p class="card-text">
+                  "I came across this bakery when visiting London. Most
+                  delicious macaroons I've tried!"
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card mx-auto">
+              <img
+                src="../../assets/images/triple_chocolate_cake.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lucy R.</h5>
+                <p class="card-text">
+                  "Best cakes I've ever tasted! Their vegan options are just
+                  wonderfully made, you wouldn't say it's made with no eggs or
+                  dairy."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card mx-auto">
+              <img
+                src="../../assets/images/triple_chocolate_cake.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Teresa M.</h5>
+                <p class="card-text">
+                  "Thought this place was just another cake shop around London,
+                  but once I tried their products I couldn't stay away!...”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Bakery Address & Event Section -->
+    <section id="event-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm mx-auto">
+            <div class="card align-items-center d-flex justify-content-center">
+              <img
+                src="../../assets/images/shop_image.png"
+                class="img-fluid mx-auto"
+                alt="This is a image of our bakery"
+              />
+            </div>
+          </div>
+          <div class="col-sm mx-auto">
+            <div
+              class="card mx-auto align-items-center d-flex justify-content-center"
+            >
+              <h5 class="card-title mx-auto">Hansel's Bakery</h5>
+              <p class="card-text mx-auto">116 Claymont Street</p>
+              <p class="card-text mx-auto">Cardinal</p>
+              <p class="card-text mx-auto">London SW1W 8SJ</p>
 
-<body>
-	<header>
-		<!-- Top header section -->
-		<div class="container-fluid" id="top-section">
-			<div class="row">
-				<div class="col-sm">
-					<p>“One of the best cakes experiences” - The Elixir Magazine</p>
-				</div>
-			</div>
-		</div>
-		<!-- Middle header section -->
-		<div class="container-fluid" id="middle-section">
-			<div class="row">
-				<div class="col-sm">
-					<ul class="social-media">
-						<li>
-							<span class="iconify facebook-icon" data-inline="false" data-icon="brandico:facebook-rect" style="color: #000000;"></span>
-						</li>
-						<li>
-							<span class="iconify" data-inline="false" data-icon="ant-design:instagram-filled" style="color: #000000;"></span>
-						</li>
-						<li>
-							<span class="iconify" data-inline="false" data-icon="bx:bxl-pinterest" style="color: #000000;"></span>
-						</li>
-					</ul>
-				</div>
-				<div class="col-sm">
-					<ul id="logo">
-						<a href="index.html">
-							<img src="../../assets/images/logo.png" alt="Hansel's Bakery Logo">
-                                </a>
-					</ul>
-				</div>
-				<div class="col-sm">
-					<ul id="join-us">
-						<li>
-							<a href="#">JOIN US</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<!-- Bottom header section -->
-		<nav class="navbar navbar-expand-lg navbar-dark">
-			<a class="navbar-brand" href="#"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav justify-content-center" id="menu">
-					<li>
-						<a href="index.html">Home</a>
-					</li>
-					<div class="divider-line"></div>
-					<li>
-						<a href="#">Menu</a>
-					</li>
-					<div class="divider-line"></div>
-					<li>
-						<a href="#">Bookings</a>
-					</li>
-					<div class="divider-line"></div>
-					<li>
-						<a href="#">Gallery</a>
-					</li>
-					<div class="divider-line"></div>
-					<li>
-						<a href="#">Our Story</a>
-					</li>
-					<div class="divider-line"></div>
-					<li>
-						<a href="#">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-
-	</header>
-	<!-- Casousel Section -->
-	<section id="carousel-outer">
-		<div class="container-fluid" id="carousel-container">
-			<div class="row">
-				<div class="col-sm">
-					<div id="heroImageSlider" class="carousel slide" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li data-target="#heroImageSlider" data-slide-to="0" class="active"></li>
-							<li data-target="#heroImageSlider" data-slide-to="1"></li>
-							<li data-target="#heroImageSlider" data-slide-to="2"></li>
-						</ol>
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img class="d-block w-100" src="../../assets/images/hero-image.png" alt="First slide">
-                            </div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="../../assets/images/hero-image.png" alt="Second slide">
-                            </div>
-									<div class="carousel-item">
-										<img class="d-block w-100" src="../../assets/images/hero-image.png" alt="Third slide">
-                            </div>
-
-									</div>
-									<a class="carousel-control-prev" href="#heroImageSlider" role="button"
-										data-slide="prev">
-										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="carousel-control-next" href="#heroImageSlider" role="button"
-										data-slide="next">
-										<span class="carousel-control-next-icon" aria-hidden="true"></span>
-										<span class="sr-only">Next</span>
-									</a>
-								</div>
-								<div class="card-img-overlay">
-									<div id="carousel-cover-text">
-										<p>WE LOVE WHAT WE DO.</p>
-										<p>WE BAKE WITH OUR HEARTS.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-	</section>
-	<!-- Featured Products Section -->
-	<section id="featured-section">
-		<div class="container-fluid featured-container">
-			<div class="row">
-				<div class="col-sm feature-card-column">
-					<div class="card mx-auto" id="custom-card">
-						<div class="card-body " id="custom-card-body">
-							<h5 class="card-title">Our Featured Products</h5>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm feature-card-column">
-					<div class="card mx-auto">
-						<img src="../../assets/images/triple_chocolate_cake.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Jane K.</h5>
-							<p class="card-text ">"Really great customer service and their products are just made in
-								heaven! Will definitely visit again!"</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm feature-card-column">
-					<div class="card mx-auto">
-						<img src="../../assets/images/triple_chocolate_cake.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Tanya B.</h5>
-							<p class="card-text">"Great bakery! They saved my birthday with a last minute cake for a
-								party of 20 people! Besides preparing a delicious cake..."</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm feature-card-column">
-					<div class="card mx-auto">
-						<img src="../../assets/images/triple_chocolate_cake.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Rebbeca L.</h5>
-							<p class="card-text">"Delicious cupcakes! Best I tried in London!"</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm feature-card-column">
-					<div class="card mx-auto">
-						<img src="../../assets/images/triple_chocolate_cake.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Sarah F.</h5>
-							<p class="card-text">"I came across this bakery when visiting London. Most delicious
-								macaroons I've tried!"</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm feature-card-column">
-					<div class="card mx-auto">
-						<img src="../../assets/images/triple_chocolate_cake.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Lucy R.</h5>
-							<p class="card-text">"Best cakes I've ever tasted! Their vegan options are just wonderfully
-								made, you wouldn't say it's made with no eggs or dairy."</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm feature-card-column">
-					<div class="card mx-auto">
-						<img src="../../assets/images/triple_chocolate_cake.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Teresa M.</h5>
-							<p class="card-text">"Thought this place was just another cake shop around London, but once
-								I tried their products I couldn't stay away!...”</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Bakery Address & Event Section -->
-	<section id="event-section">
-		<div class="container-fluid">
-			<div class="row event-custom-row">
-				<div class="col-sm event-custom-column  mx-auto">
-					<div class="card event-custom-card align-items-center d-flex justify-content-center">
-						<img  src="../../assets/images/shop_image.png" class="img-fluid mx-auto" alt="This is a image of our bakery">
-                    </div>
-					</div>
-					<div class="col-sm event-custom-column mx-auto">
-						<div class="card mx-auto event-custom-card align-items-center d-flex justify-content-center">
-							<h5 class="card-title mx-auto ">Hansel's Bakery</h5>
-							<p class="card-text mx-auto">116 Claymont Street</p>
-							<p class="card-text mx-auto">Cardinal</p>
-							<p class="card-text mx-auto">London SW1W 8SJ</p>
-
-							<h5 class="card-title mx-auto">Opening Hours</h5>
-							<p class="card-text mx-auto">Monday to Thursday 10am - 5pm</p>
-							<p class="card-text mx-auto">Friday & Saturday 10am - 6pm</p>
-							<p class="card-text mx-auto">Sunday 10am - 5pm </p>
-							<button type="button" class="btn btn-primary">Book Table</button>
-						</div>
-					</div>
-				</div>
-				<div class="row event-custom-row">
-					<div class="col-sm event-custom-column mx-auto">
-						<div class="card mx-auto event-custom-card align-items-center d-flex justify-content-center">
-							<h5 class="card-title mx-auto">Upcoming Event</h5>
-							<p class="card-text mx-auto">There will be an event coming up soon. We will be doing special
-								themed cakes that will be available for a limited amount of time. Sign up below to get
-								up to date information</p>
-							<button type="button" class="btn btn-primary">SIgn Up Now</button>
-
-						</div>
-					</div>
-					<div class="col-sm event-custom-column mx-auto">
-						<div class="card event-custom-card align-items-center d-flex justify-content-center">
-							<img src="../../assets/images/special_event_image.png" class="img-fluid" alt="this is an image of a speial christmas cupcake">
-                    </div>
-						</div>
-					</div>
-				</div>
-	</section>
-	<!-- Footer Section -->
-	<footer id="footer-section">
-		<div class="container-fluid">
-			<div class="row" id="footer-nav">
-				<div class="col-sm align-items-top d-flex justify-content-left" id="footer-about">
-					<nav class="navbar-nav">
-						<h6 class="">About Hansel's Bakery</h6>
-						<ul class="navbar-nav">
-							<li>
-								<a href="#">Product Information</a>
-							</li>
-							<li>
-								<a href="#">Customer Service</a>
-							</li>
-							<li>
-								<a href="#">Privacy Policy and GDPR</a>
-							</li>
-							<li>
-								<a href="#">Testimonials</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-				<div class="col-sm align-items-top d-flex justify-content-left" id="footer-sitemap">
-					<nav class="navbar-nav">
-						<h6 class="">Sitemap</h6>
-						<ul class="navbar-nav">
-							<li>
-								<a href="#">Home</a>
-							</li>
-							<li>
-								<a href="#">Menu</a>
-							</li>
-							<li>
-								<a href="#">Bookings</a>
-							</li>
-							<li>
-								<a href="#">Gallery</a>
-							</li>
-							<li>
-								<a href="#">Our Story</a>
-							</li>
-							<li>
-								<a href="#">Contact</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-				<div class="col-sm align-items-top d-flex justify-content-left" id="footer-form">
-					<form>
-						<div class="form-group">
-							<h6>Join Our Newsletter</h6>
-							<label for="subcribe-form">Email address</label>
-							<input type="email" class="form-control" id="subscribe-form" aria-describedby="emailHelp" placeholder="Enter email">
-                    </div>
-							<div class="form-check">
-								<input type="checkbox" class="form-check-input" id="subscribe-checkbox">
-								<label class="form-check-label" for="subscribe-checkbox">Please, tick to agree with our Privacy Policy.</label>
-							</div>
-							<button type="submit" class="btn btn-primary">Subscribe!</button>
-					</form>
-				</div>
-			</div>
-			<div class="row" id="footer-credits">
-				<div class="col-sm-11 align-items-center d-flex justify-content-center">
-					<h6 class="mx-auto">Hansel’s Bakery ©. All rights reserved.</h6>
-				</div>
-				<div class="col-sm-1 social-media align-items-bottom d-flex justify-content-bottom">
-					<ul class="mx-auto">
-						<li>
-							<span class="iconify facebook-icon" data-inline="false" data-icon="brandico:facebook-rect" style="color: #EEBA2B;"></span>
-						</li>
-						<li>
-							<span class="iconify" data-inline="false" data-icon="ant-design:instagram-filled" style="color: #EEBA2B;"></span>
-						</li>
-						<li>
-							<span class="iconify" data-inline="false" data-icon="bx:bxl-pinterest" style="color: #EEBA2B;"></span>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
-</body>
-<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-	integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-	integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-</script>
-
+              <h5 class="card-title mx-auto">Opening Hours</h5>
+              <p class="card-text mx-auto">Monday to Thursday 10am - 5pm</p>
+              <p class="card-text mx-auto">Friday & Saturday 10am - 6pm</p>
+              <p class="card-text mx-auto">Sunday 10am - 5pm</p>
+              <button type="button" class="btn btn-primary">Book Table</button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm mx-auto">
+            <div
+              class="card mx-auto align-items-center d-flex justify-content-center"
+            >
+              <h5 class="card-title mx-auto">Upcoming Event</h5>
+              <p class="card-text mx-auto">
+                There will be an event coming up soon. We will be doing special
+                themed cakes that will be available for a limited amount of
+                time. Sign up below to get up to date information
+              </p>
+              <button type="button" class="btn btn-primary">SIgn Up Now</button>
+            </div>
+          </div>
+          <div class="col-sm mx-auto">
+            <div class="card align-items-center d-flex justify-content-center">
+              <img
+                src="../../assets/images/special_event_image.png"
+                class="img-fluid"
+                alt="this is an image of a speial christmas cupcake"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer id="footer-section">
+      <div class="container-fluid">
+        <div class="row" id="footer-nav">
+          <div
+            class="col-sm align-items-top d-flex justify-content-left"
+            id="footer-about"
+          >
+            <nav class="navbar-nav">
+              <h6 class="">About Hansel's Bakery</h6>
+              <ul class="navbar-nav">
+                <li>
+                  <a href="#">Product Information</a>
+                </li>
+                <li>
+                  <a href="#">Customer Service</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy and GDPR</a>
+                </li>
+                <li>
+                  <a href="#">Testimonials</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div
+            class="col-sm align-items-top d-flex justify-content-left"
+            id="footer-sitemap"
+          >
+            <nav class="navbar-nav">
+              <h6 class="">Sitemap</h6>
+              <ul class="navbar-nav">
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">Menu</a>
+                </li>
+                <li>
+                  <a href="#">Bookings</a>
+                </li>
+                <li>
+                  <a href="#">Gallery</a>
+                </li>
+                <li>
+                  <a href="#">Our Story</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div
+            class="col-sm align-items-top d-flex justify-content-left"
+            id="footer-form"
+          >
+            <form>
+              <div class="form-group">
+                <h6>Join Our Newsletter</h6>
+                <label for="subcribe-form">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="subscribe-form"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                />
+              </div>
+              <div class="form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="subscribe-checkbox"
+                />
+                <label class="form-check-label" for="subscribe-checkbox"
+                  >Please, tick to agree with our Privacy Policy.</label
+                >
+              </div>
+              <button type="submit" class="btn btn-primary">Subscribe!</button>
+            </form>
+          </div>
+        </div>
+        <div class="row" id="footer-credits">
+          <div
+            class="col-sm-11 align-items-center d-flex justify-content-center"
+          >
+            <h6 class="mx-auto">Hansel’s Bakery ©. All rights reserved.</h6>
+          </div>
+          <div
+            class="col-sm-1 social-media align-items-bottom d-flex justify-content-bottom"
+          >
+            <ul>
+              <li>
+                <span
+                  class="iconify facebook-icon"
+                  data-inline="false"
+                  data-icon="brandico:facebook-rect"
+                  style="color: #eeba2b"
+                ></span>
+              </li>
+              <li>
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="ant-design:instagram-filled"
+                  style="color: #eeba2b"
+                ></span>
+              </li>
+              <li>
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bx:bxl-pinterest"
+                  style="color: #eeba2b"
+                ></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"
+  ></script>
 </html>

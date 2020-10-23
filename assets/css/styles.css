@@ -16,7 +16,7 @@ body {
   color: #000000;
 }
 
-/*----------------------- HEADER STYLE START -----------------------*/
+/*----------------------- HOME PAGE STYLE START -----------------------*/
 
 /* MENU STYLES */
 
@@ -189,50 +189,55 @@ body {
   padding: 0px;
   background: rgba(133, 142, 130, 0.3);
 }
-.card-body {
-  background-color: #eeba2b;
-}
-.card {
-  width: 100%;
+
+#featured-section .card {
   height: 100%;
   border: 15px solid #ffffff;
   filter: drop-shadow(0px 32px 64px rgba(17, 17, 17, 0.08));
   overflow: hidden;
 }
-.card-title {
+
+#featured-section .card-body {
+  background-color: #eeba2b;
+}
+
+#featured-section .card-title {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   letter-spacing: 2px;
   text-align: left;
 }
-.card-text {
+#featured-section .card-text {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   letter-spacing: 2px;
   text-align: center;
-  vertical-align: middle;
 }
 
-.feature-card-column {
+#featured-section .col-sm {
   padding: 50px 50px 50px 50px;
 }
 
-#custom-card {
+#custom-section-title .card-body {
+  background-color: #daddda;
+}
+
+#custom-section-title .card {
   width: 500px;
 }
-
-#custom-card-body {
-  text-align: center;
-  background: #daddda;
+#custom-section-title > .col-sm {
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
-#custom-card-body h5 {
-  margin: 0 auto;
-  padding: auto;
-  text-align: center;
+#custom-section-title h5 {
+  text-transform: uppercase;
+  margin: auto;
+  padding: 0px;
 }
+
 /*----------------------- FEATURED PRODUCTS SECTION STYLE END -----------------------*/
 
 /*----------------------- EVENT & SHOP ADDRESS SECTION STYLE START -----------------------*/
@@ -241,27 +246,33 @@ body {
   background-color: #eeba2b;
 }
 
-.event-custom-card {
+#event-section .card {
   background: rgba(133, 142, 130, 0.3);
   border: 15px solid #fff;
+  height: 100%;
 }
-.event-custom-card > img {
+#event-section img {
   width: 100%;
+  height: 100%;
 }
-.event-custom-card > p {
+#event-section p {
   margin: 0;
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 100px;
   padding-right: 100px;
+  text-align: center;
 }
-.event-custom-card h5 {
+#event-section h5 {
   padding-top: 25px;
   padding-bottom: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 30px;
 }
-.event-custom-card .btn {
-  margin-top: 25px;
-  margin-bottom: 25px;
+#event-section .btn {
+  margin-top: 35px;
+  margin-bottom: 35px;
   border: 2px solid #000000;
   box-sizing: border-box;
   border-radius: 40px;
@@ -277,13 +288,13 @@ body {
   background: rgba(238, 186, 43, 0.5);
 }
 
-.event-custom-card > .btn:hover {
+#event-section .btn:hover {
   text-shadow: 0 0 2em rgba(255, 255, 255, 1);
   color: #fff;
   border-color: #fff;
   transition: 700ms ease;
 }
-.event-custom-column {
+#event-section .col-sm {
   padding: 50px 50px 50px 50px;
 }
 
@@ -369,4 +380,38 @@ body {
 #footer-credits .col-sm-11,
 #footer-credits .col-sm-1 {
   padding: 10px 10px 10px 10px;
+}
+
+/*----------------------- HOME PAGE END -----------------------*/
+
+/*----------------------- MENU PAGE STYLE START -----------------------*/
+
+#bakery-menu{
+    background-color: #EEBA2B;
+}
+#bakery-menu .col-sm{
+    margin: 0;
+    padding: 0;
+}
+
+#bakery-menu .card{
+    border: 0;
+    background-color:rgba(240, 240, 240, 0.5);
+    height: 100%;
+}
+#bakery-menu .card-body{
+    border: 0;
+    width: 100%;
+}
+#bakery-menu h5{
+    font-weight: 600;
+    padding: 20px;
+}
+#bakery-menu p{
+    padding: 10px;
+}
+#bakery-menu #custom-row{
+    border: 15px solid #fff;
+    padding: 50px 150px 50px 150px;
+    margin: 0;
 }
