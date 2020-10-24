@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Playfair+Display&display=swap");
 
-/*----------------------- GLOBAL STYLES -----------------------*/
+/*----------------------- GLOBAL STYLES START -----------------------*/
 
 * {
   margin: 0;
@@ -50,6 +50,9 @@ body {
 .custom-section-title > .col-sm {
   margin-top: 100px;
 }
+
+/*----------------------- GLOBAL STYLES END -----------------------*/
+
 
 /*----------------------- HOME PAGE STYLE START -----------------------*/
 
@@ -401,7 +404,7 @@ body {
 
 /*----------------------- HOME PAGE END -----------------------*/
 
-/*----------------------- MENU PAGE STYLE START -----------------------*/
+/*----------------------- BAKERY MENU PAGE STYLE START -----------------------*/
 
 #bakery-menu {
   background-color: #eeba2b;
@@ -447,3 +450,7 @@ body {
   letter-spacing: 2px;
   text-decoration-line: underline;
 }
+
+/*----------------------- BAKERY MENU PAGE STYLE END -----------------------*/
+
+/*----------------------- BOOKINGS PAGE STYLE START -----------------------*/
