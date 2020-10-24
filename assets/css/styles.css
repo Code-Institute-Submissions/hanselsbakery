@@ -216,26 +216,30 @@ body {
   text-align: center;
 }
 
-#featured-section .col-sm {
+.products-spacing .col-sm {
   padding: 50px 50px 50px 50px;
 }
 
-#custom-section-title .card-body {
-  background-color: #daddda;
-}
+/* SECTION TITLE GENERIC STYLES */
 
-#custom-section-title .card {
+.custom-section-title h5 {
+  padding: 10px 10px 10px 10px;
   width: 500px;
-}
-#custom-section-title > .col-sm {
-  padding-left: 200px;
-  padding-right: 200px;
-}
-
-#custom-section-title h5 {
+  height: 100px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;  
+  font-weight: 600;
+  font-size: 28px;
   text-transform: uppercase;
-  margin: auto;
-  padding: 0px;
+  text-align: center;
+  border: 15px solid #fff;
+  background-color: #daddda;
+  overflow: hidden;
+}
+.custom-section-title > .col-sm {
+  margin-top: 100px;
 }
 
 /*----------------------- FEATURED PRODUCTS SECTION STYLE END -----------------------*/
@@ -386,32 +390,63 @@ body {
 
 /*----------------------- MENU PAGE STYLE START -----------------------*/
 
-#bakery-menu{
-    background-color: #EEBA2B;
+#bakery-menu {
+  background-color: #eeba2b;
 }
-#bakery-menu .col-sm{
-    margin: 0;
-    padding: 0;
+#bakery-menu .card {
+  border: 0;
+  background-color: rgba(240, 240, 240, 0.5);
+}
+#bakery-menu .card-body {
+  width: 450px;
+  height: 350px;
+}
+#bakery-menu h5 {
+  font-weight: 600;
+  padding: 20px;
+}
+#bakery-menu p {
+  padding: 10px;
+}
+#download-menu .card-body {
+  width: 100%;
+  height: 100px;
 }
 
-#bakery-menu .card{
-    border: 0;
-    background-color:rgba(240, 240, 240, 0.5);
-    height: 100%;
+#download-menu a {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  list-style: none;
+  filter: drop-shadow(0px 12px 24px rgba(0, 0, 0, 0.06));
+  background: rgba(238, 186, 43, 0.5);
+  border-radius: 40px;
+  border: 2px solid #000;
+  color: #000;
+  font-size: 14px;
+
+  padding: 5px 5px 5px 5px;
+
 }
-#bakery-menu .card-body{
-    border: 0;
-    width: 100%;
+
+#download-menu p {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-decoration-line: underline;
 }
-#bakery-menu h5{
-    font-weight: 600;
-    padding: 20px;
+
+/* CARD BORDER GENERIC STYLES */
+
+.frame-border {
+  width: 1500px;
+  margin: 100px 100px 100px 100px;
+  padding: 50px 70px 50px 70px;
+  border: 15px solid #fff;
 }
-#bakery-menu p{
-    padding: 10px;
+.inner-row .col-sm {
+  margin: 0;
+  padding: 0;
 }
-#bakery-menu #custom-row{
-    border: 15px solid #fff;
-    padding: 50px 150px 50px 150px;
-    margin: 0;
-}
+
+/* GENERIC STYLES */
