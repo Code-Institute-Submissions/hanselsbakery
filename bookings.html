@@ -15,6 +15,12 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"
+      integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../../assets/css/styles.css" type="text/css" />
 
     <title>Hansel's Bakery</title>
@@ -123,23 +129,161 @@
         </div>
       </nav>
     </header>
-    <!-- Bakery Menu -->
-    <section id="bakery-menu">
+    <!-- Bookings Form -->
+    <section id="bookings">
       <div class="container-fluid">
         <div class="row custom-section-title">
-          <div class="col-sm">
-            <h5 class="mx-auto">Menu</h5>
+          <div class="col-auto mx-auto">
+            <h5 class="mx-auto">Bookings</h5>
           </div>
         </div>
       </div>
-      <div
-        class="row outer-row align-items-center d-flex justify-content-center"
-      >
+      <div class="outer-row align-items-center d-flex justify-content-center">
         <div class="frame-border">
-          <div class="row inner-row">
-            <div class="col-sm">
-                <p>Booking Form willl go here.</p>
-            </div>
+          <div class="inner-row">
+            <form class="form-validation form-inline" novalidate>
+              <div class="col-auto mx-auto">
+                <!-- Booking First Name Input -->
+                <div class="form-group p-2 mt-5">
+                  <div class="col-auto">
+                    <label class="" for="fname">First Name:</label>
+                  </div>
+                  <div class="col-auto">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="fname"
+                      placeholder="First Name"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Please, enter your first name.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Booking Last Name Input -->
+                <div class="form-group p-2">
+                  <div class="col-auto">
+                    <label class="" for="lname">Last Name:</label>
+                  </div>
+                  <div class="col-auto">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="lname"
+                      placeholder="Last Name"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Please, enter your last name.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Booking Email Input -->
+                <div class="form-group p-2">
+                  <div class="col-auto">
+                    <label class="" for="booking-email">Email:</label>
+                  </div>
+                  <div class="col-auto">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="booking-email"
+                      placeholder="Last name"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Please, enter your email.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Booking Group Quantity Input -->
+                <div class="form-group p-2">
+                  <div class="col-auto">
+                    <label class="pr-3" for="people-quantity">People:</label>
+                  </div>
+                  <div class="col-auto">
+                    <select
+                      class="custom-select form-control"
+                      id="people-quantity"
+                      required
+                    >
+                      <option selected></option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                      <option value="3">6</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please, enter how many people will come with you.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Booking Date Input -->
+                <div class="form-group p-2">
+                  <div class="col-auto">
+                    <label class="control-label" for="booking-date"
+                      >Date:</label
+                    >
+                  </div>
+                  <div class="col-auto">
+                    <input
+                      class="form-control"
+                      id="booking-date"
+                      name="date"
+                      placeholder="Seclect a date."
+                      type="text"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      <p>Please, select date for your booking.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Booking Time Input -->
+                <div class="form-group p-2">
+                  <div class="col-auto">
+                    <label class="" for="time">Time:</label>
+                  </div>
+                  <div class="col-auto">
+                    <select
+                      class="custom-select form-control"
+                      id="time"
+                      required
+                    >
+                      <option selected></option>
+                      <option value="1">9:00</option>
+                      <option value="2">10:00</option>
+                      <option value="3">11:00</option>
+                      <option value="1">12:00</option>
+                      <option value="2">13:00</option>
+                      <option value="3">14:00</option>
+                      <option value="3">15:00</option>
+                      <option value="3">16:00</option>
+                      <option value="3">17:00</option>
+                      <option value="3">18:00</option>
+                      <option value="3">19:00</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please, select a time for your booking.
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group p-2 mb-5">
+                  <div class="col-auto">
+                    <button class="btn btn-primary" type="submit">
+                      Book Table
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -205,11 +349,11 @@
             <form>
               <div class="form-group">
                 <h6>Join Our Newsletter</h6>
-                <label for="subcribe-form">Email address</label>
+                <label for="join-email">Email address</label>
                 <input
                   type="email"
                   class="form-control"
-                  id="subscribe-form"
+                  id="join-email"
                   aria-describedby="emailHelp"
                   placeholder="Enter email"
                 />
@@ -279,4 +423,10 @@
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"
   ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"
+    integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ=="
+    crossorigin="anonymous"
+  ></script>
+  <script src="../../assets/scripts/scripts.js"></script>
 </html>

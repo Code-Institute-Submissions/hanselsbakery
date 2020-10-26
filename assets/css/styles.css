@@ -47,12 +47,11 @@ body {
   background-color: #daddda;
   overflow: hidden;
 }
-.custom-section-title > .col-sm {
+.custom-section-title > .col-auto {
   margin-top: 100px;
 }
 
 /*----------------------- GLOBAL STYLES END -----------------------*/
-
 
 /*----------------------- HOME PAGE STYLE START -----------------------*/
 
@@ -454,3 +453,41 @@ body {
 /*----------------------- BAKERY MENU PAGE STYLE END -----------------------*/
 
 /*----------------------- BOOKINGS PAGE STYLE START -----------------------*/
+
+#bookings {
+  background-color: #eeba2b;
+}
+
+#bookings .inner-row {
+  background-color: rgba(240, 240, 240, 0.5);
+}
+#bookings label{
+    text-align: left;
+    width: 150px;
+}
+
+#bookings .col-auto{
+    border:  5px solid red;
+    text-align: left;
+}
+
+#bookings button {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  list-style: none;
+  filter: drop-shadow(0px 12px 24px rgba(0, 0, 0, 0.06));
+  background: rgba(238, 186, 43, 0.5);
+  border-radius: 40px;
+  border: 2px solid #000;
+  color: #000;
+  font-size: 14px;
+  padding: 5px 5px 5px 5px;
+}
+
+#bookings button:hover {
+  text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+  color: #fff;
+  border-color: #fff;
+  transition: 700ms ease;
+}
