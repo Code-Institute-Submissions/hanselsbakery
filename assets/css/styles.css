@@ -411,6 +411,8 @@ body {
 #bakery-menu .card {
   border: 0;
   background-color: rgba(240, 240, 240, 0.5);
+  width: 100%;
+  height: 100%;
 }
 #bakery-menu .card-body {
   width: 100%;
