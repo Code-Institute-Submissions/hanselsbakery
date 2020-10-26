@@ -467,7 +467,6 @@ body {
 }
 
 #bookings .col-auto{
-    border:  5px solid red;
     text-align: left;
 }
 
@@ -491,3 +490,17 @@ body {
   border-color: #fff;
   transition: 700ms ease;
 }
+
+/*----------------------- BOOKINGS PAGE STYLE END -----------------------*/
+
+
+/*----------------------- GALLERY PAGE STYLE START -----------------------*/
+
+
+
+
+
+
+
+
+/*----------------------- GALLERY PAGE STYLE END -----------------------*/
