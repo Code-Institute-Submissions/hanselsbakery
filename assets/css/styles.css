@@ -19,10 +19,10 @@ body {
 /* CARD BORDER GENERIC STYLES */
 
 .frame-border {
-  width: 1500px;
-  margin: 100px 100px 100px 100px;
-  padding: 50px 70px 50px 70px;
-  border: 15px solid #fff;
+  width: 100%;
+  margin: 20px 20px 20px 20px;
+  padding: 25px 35px 25px 35px;
+  border: 5px solid #fff;
 }
 .inner-row .col-sm {
   margin: 0;
@@ -33,7 +33,7 @@ body {
 
 .custom-section-title h5 {
   padding: 10px 10px 10px 10px;
-  width: 500px;
+  width: 100%;
   height: 100px;
   display: flex;
   justify-items: center;
@@ -43,12 +43,12 @@ body {
   font-size: 28px;
   text-transform: uppercase;
   text-align: center;
-  border: 15px solid #fff;
+  border: 5px solid #fff;
   background-color: #daddda;
   overflow: hidden;
 }
 .custom-section-title > .col-auto {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 /*----------------------- GLOBAL STYLES END -----------------------*/
@@ -229,7 +229,7 @@ body {
 
 #featured-section .card {
   height: 100%;
-  border: 15px solid #ffffff;
+  border: 5px solid #ffffff;
   filter: drop-shadow(0px 32px 64px rgba(17, 17, 17, 0.08));
   overflow: hidden;
 }
@@ -254,7 +254,7 @@ body {
 }
 
 .products-spacing .col-sm {
-  padding: 50px 50px 50px 50px;
+  padding: 15px 15px 15px 15px;
 }
 
 /*----------------------- FEATURED PRODUCTS SECTION STYLE END -----------------------*/
@@ -267,7 +267,7 @@ body {
 
 #event-section .card {
   background: rgba(133, 142, 130, 0.3);
-  border: 15px solid #fff;
+  border: 5px solid #fff;
   height: 100%;
 }
 #event-section img {
@@ -314,7 +314,7 @@ body {
   transition: 700ms ease;
 }
 #event-section .col-sm {
-  padding: 50px 50px 50px 50px;
+  padding: 20px 20px 20px 20px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -413,8 +413,8 @@ body {
   background-color: rgba(240, 240, 240, 0.5);
 }
 #bakery-menu .card-body {
-  width: 450px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
 }
 #bakery-menu h5 {
   font-weight: 600;
@@ -426,7 +426,7 @@ body {
 
 #download-menu .card-body {
   width: 100%;
-  height: 100px;
+  height: 100%;
 }
 
 #download-menu a {
@@ -461,13 +461,13 @@ body {
 #bookings .inner-row {
   background-color: rgba(240, 240, 240, 0.5);
 }
-#bookings label{
-    text-align: left;
-    width: 150px;
+#bookings label {
+  width: 120px;
 }
 
-#bookings .col-auto{
-    text-align: left;
+#bookings input,
+#bookings select {
+  width: 200px;
 }
 
 #bookings button {
@@ -491,12 +491,10 @@ body {
   transition: 700ms ease;
 }
 
+
 /*----------------------- BOOKINGS PAGE STYLE END -----------------------*/
 
-
 /*----------------------- GALLERY PAGE STYLE START -----------------------*/
-
-
 
 
 
