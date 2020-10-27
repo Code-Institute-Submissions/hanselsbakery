@@ -29,10 +29,10 @@ $(document).ready(function () {
               event.stopPropagation();
             }
             form.classList.add("was-validated");
-              $("#customerResponseModal").modal();
-              setTimeout(function () {
-                location.reload();
-              }, 10000);
+            $("#customerResponseModal").modal();
+            setTimeout(function () {
+              location.reload();
+            }, 10000);
           },
           false
         );
@@ -41,3 +41,27 @@ $(document).ready(function () {
     false
   );
 })();
+
+$(document).ready(function () {
+  $(".nav-pills a").click(function () {
+    $(this).tab("show");
+  });
+  $(".nav-pills a").on("shown.bs.tab", function (event) {
+    var currentTab = $(event.target).text();
+    var previousTab = $(event.relatedTarget).text();
+    console.log(
+      "Current: " + currentTab + " --- " + "Previous: " + previousTab
+    );
+    if (currentTab === "All") {
+      $("#cupcakes").tab("show");
+      $("#one-layer-cakes").tab("show");
+      $("#two-layer-cakes").tab("show");
+      $("#party-cakes").tab("show");
+      
+    }
+    if ($(".nav-pills a").parent("li").hasClass(".active")) {
+        $($(this).attr("href")).hide();
+      }
+
+  });
+});
