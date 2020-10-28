@@ -65,3 +65,10 @@ $(document).ready(function () {
 
   });
 });
+
+$(function() {
+		$('.imgThumbnail').on('click', function() {
+			$('.originalImage').attr('src', $(this).find('img').attr('src'));
+			$('#imgModal').modal('show');   
+		});		
+});

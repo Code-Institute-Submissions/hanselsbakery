@@ -48,7 +48,9 @@ body {
   overflow: hidden;
 }
 .custom-section-title > .col-auto {
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 400px;
 }
 
 /*----------------------- GLOBAL STYLES END -----------------------*/
@@ -497,6 +499,41 @@ body {
 
 /*----------------------- GALLERY PAGE STYLE START -----------------------*/
 
+#gallery-section {
+  background-color: rgba(133, 142, 130, 0.3);
+}
 
+#gallery-section .card {
+  border: 5px solid #fff;
+}
+
+#gallery-section .card-header {
+  background-color: #eeba2b;
+}
+#gallery-section .nav-pills {
+  border: 5px solid #fff;
+}
+#gallery-section .nav-pills a {
+  color: #000;
+  border-radius: 0px;
+}
+#gallery-section img{
+    border: 0px;
+}
+#gallery-section .nav-pills .active {
+  background-color: #eeba2b;
+}
+
+#gallery-section .nav-pills a:active {
+  background-color: #eeba2b;
+  color: #fff;
+}
+
+#gallery-section .nav-pills a:hover {
+  text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+  color: #fff;
+  border-color: #fff;
+  transition: 700ms ease;
+}
 
 /*----------------------- GALLERY PAGE STYLE END -----------------------*/
