@@ -29,10 +29,6 @@ $(document).ready(function () {
               event.stopPropagation();
             }
             form.classList.add("was-validated");
-            $("#customerResponseModal").modal();
-            setTimeout(function () {
-              location.reload();
-            }, 10000);
           },
           false
         );
