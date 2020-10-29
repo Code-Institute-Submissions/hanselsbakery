@@ -336,13 +336,14 @@ body {
 
 #footer-nav a {
   color: #eeba2b;
+  font-size: 20px;
 }
 
 #footer-nav h6 {
   text-transform: uppercase;
-  padding-bottom: 5px;
   color: #eeba2b;
   font-weight: 600;
+  font-size: 24px;
 }
 
 #footer-nav li {
@@ -365,12 +366,12 @@ body {
   color: #eeba2b;
 }
 #footer-nav .col-sm {
-  padding: 50px 50px 50px 50px;
+  padding: 10px 10px 10px 10px;
+  border: 5px solid red;
 }
 
 #footer-form .btn {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 5px;
   border: 2px solid #000000;
   box-sizing: border-box;
   border-radius: 40px;
@@ -378,9 +379,8 @@ body {
   font-style: normal;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 28px;
-  display: flex;
   letter-spacing: 2px;
   color: #000000;
   background: rgba(238, 186, 43, 0.5);
@@ -400,7 +400,7 @@ body {
 
 #footer-credits .col-sm-11,
 #footer-credits .col-sm-1 {
-  padding: 10px 10px 10px 10px;
+  border: 5px solid red;
 }
 
 /*----------------------- HOME PAGE END -----------------------*/
@@ -500,7 +500,7 @@ body {
 /*----------------------- GALLERY PAGE STYLE START -----------------------*/
 
 #gallery-section {
-  background-color: rgba(133, 142, 130, 0.3);
+  background-color: rgba(133, 142, 130);
 }
 
 #gallery-section .card {
@@ -517,8 +517,8 @@ body {
   color: #000;
   border-radius: 0px;
 }
-#gallery-section img{
-    border: 0px;
+#gallery-section img {
+  border: 0px;
 }
 #gallery-section .nav-pills .active {
   background-color: #eeba2b;
@@ -537,3 +537,34 @@ body {
 }
 
 /*----------------------- GALLERY PAGE STYLE END -----------------------*/
+
+#about-section {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #858e82;
+}
+#about-section .card-body {
+  padding: 10px 10px 10px 10px;
+  background: rgba(240, 240, 240, 1);
+}
+
+#about-section img {
+  padding: 10px 10px 10px 10px;
+}
+
+#about-section .card-text {
+  padding: 10px 10px 10px 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 4px;
+  color: #000000;
+}
+
+#about-section .card {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 0;
+}
