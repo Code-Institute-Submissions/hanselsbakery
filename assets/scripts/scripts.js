@@ -38,29 +38,29 @@ $(document).ready(function () {
   );
 })();
 
-$(document).ready(function () {
-  $(".nav-pills a").click(function () {
-    $(this).tab("show");
-  });
-  $(".nav-pills a").on("shown.bs.tab", function (event) {
-    var currentTab = $(event.target).text();
-    var previousTab = $(event.relatedTarget).text();
-    console.log(
-      "Current: " + currentTab + " --- " + "Previous: " + previousTab
-    );
-    if (currentTab === "All") {
-      $("#cupcakes").tab("show");
-      $("#one-layer-cakes").tab("show");
-      $("#two-layer-cakes").tab("show");
-      $("#party-cakes").tab("show");
+// $(document).ready(function () {
+//   $(".nav-pills a").click(function () {
+//     $(this).tab("show");
+//   });
+//   $(".nav-pills a").on("shown.bs.tab", function (event) {
+//     var currentTab = $(event.target).text();
+//     var previousTab = $(event.relatedTarget).text();
+//     console.log(
+//       "Current: " + currentTab + " --- " + "Previous: " + previousTab
+//     );
+//     if (currentTab === "All") {
+//       $("#cupcakes").tab("show");
+//       $("#one-layer-cakes").tab("show");
+//       $("#two-layer-cakes").tab("show");
+//       $("#party-cakes").tab("show");
       
-    }
-    if ($(".nav-pills a").parent("li").hasClass(".active")) {
-        $($(this).attr("href")).hide();
-      }
+//     }
+//     if ($(".nav-pills a").parent("li").hasClass(".active")) {
+//         $($(this).attr("href")).hide();
+//       }
 
-  });
-});
+//   });
+// });
 
 $(function() {
 		$('.imgThumbnail').on('click', function() {

@@ -127,8 +127,8 @@
         </div>
       </nav>
     </header>
-    <!-- Bookings Form -->
-    <section id="bookings">
+    <!-- Contact Form -->
+    <section id="contact-form">
       <div class="container-fluid">
         <div class="row custom-section-title">
           <div class="col-auto mx-auto">
@@ -141,52 +141,31 @@
           <div class="inner-row mx-auto">
             <form class="needs-validation form-inline" novalidate>
               <div class="col-auto mx-auto">
-                <!-- Booking First Name Input -->
+                <!-- Contact Full Name Input -->
                 <div class="form-group p-2 mt-5">
                   <div class="col-auto">
                     <label class="d-block align-text-left" for="fname"
-                      >First Name:</label
+                      >Full Name:</label
                     >
                   </div>
                   <div class="col-auto">
                     <input
                       type="text"
                       class="form-control"
-                      id="fname"
-                      placeholder="First Name"
+                      id="fullName"
+                      placeholder="Full Name"
                       required
                     />
                     <div class="invalid-feedback">
-                      Please, enter your first name.
+                      Please, enter your full name.
                     </div>
                   </div>
                 </div>
 
-                <!-- Booking Last Name Input -->
+                <!-- Contact Email Input -->
                 <div class="form-group p-2">
                   <div class="col-auto">
-                    <label class="d-block align-text-left" for="lname"
-                      >Last Name:</label
-                    >
-                  </div>
-                  <div class="col-auto">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="lname"
-                      placeholder="Last Name"
-                      required
-                    />
-                    <div class="invalid-feedback">
-                      Please, enter your last name.
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Booking Email Input -->
-                <div class="form-group p-2">
-                  <div class="col-auto">
-                    <label class="d-block align-text-left" for="booking-email"
+                    <label class="d-block align-text-left" for="contact-email"
                       >Email:</label
                     >
                   </div>
@@ -194,8 +173,8 @@
                     <input
                       type="text"
                       class="form-control"
-                      id="booking-email"
-                      placeholder="Email"
+                      id="contact-email"
+                      placeholder="Last name"
                       required
                     />
                     <div class="invalid-feedback">
@@ -203,92 +182,26 @@
                     </div>
                   </div>
                 </div>
-
-                <!-- Booking Group Quantity Input -->
-                <div class="form-group p-2">
-                  <div class="col-auto">
-                    <label class="d-block align-text-left" for="people-quantity"
-                      >People:</label
-                    >
-                  </div>
-                  <div class="col-auto">
-                    <select
-                      class="custom-select form-control"
-                      id="people-quantity"
-                      required
-                    >
-                      <option selected></option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="1">4</option>
-                      <option value="2">5</option>
-                      <option value="3">6</option>
-                    </select>
-                    <div class="invalid-feedback">
-                      Please, select party people.
+                <!-- Contact Message Input -->
+                <div class="form-group">
+                  <label for="textAreaContactForm"
+                    >Message:</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="textAreaContactForm"
+                    rows="3"
+                    required
+                  ></textarea>
+                  <div class="invalid-feedback">
+                      Please, enter your message.
                     </div>
-                  </div>
                 </div>
 
-                <!-- Booking Date Input -->
-                <div class="form-group p-2">
-                  <div class="col-auto">
-                    <label
-                      class="control-label d-block align-text-left"
-                      for="booking-date"
-                      >Date:</label
-                    >
-                  </div>
-                  <div class="col-auto">
-                    <input
-                      class="form-control"
-                      id="booking-date"
-                      name="date"
-                      placeholder="Seclect a date."
-                      type="text"
-                      required
-                    />
-                    <div class="invalid-feedback">
-                      <p>Please, select a date.</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Booking Time Input -->
-                <div class="form-group p-2">
-                  <div class="col-auto">
-                    <label class="d-block align-text-left" for="time"
-                      >Time:</label
-                    >
-                  </div>
-                  <div class="col-auto">
-                    <select
-                      class="custom-select form-control"
-                      id="time"
-                      required
-                    >
-                      <option selected></option>
-                      <option value="1">9:00</option>
-                      <option value="2">10:00</option>
-                      <option value="3">11:00</option>
-                      <option value="1">12:00</option>
-                      <option value="2">13:00</option>
-                      <option value="3">14:00</option>
-                      <option value="3">15:00</option>
-                      <option value="3">16:00</option>
-                      <option value="3">17:00</option>
-                      <option value="3">18:00</option>
-                      <option value="3">19:00</option>
-                    </select>
-                    <div class="invalid-feedback">
-                      Please, select a time.
-                    </div>
-                  </div>
-                </div>
                 <div class="form-group p-2 mb-5">
                   <div class="col-auto">
                     <button class="btn btn-primary" type="submit">
-                      Book Table
+                      Send
                     </button>
                   </div>
                 </div>
