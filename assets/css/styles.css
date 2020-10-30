@@ -367,7 +367,6 @@ body {
 }
 #footer-nav .col-sm {
   padding: 10px 10px 10px 10px;
-  border: 5px solid red;
 }
 
 #footer-form .btn {
@@ -585,9 +584,6 @@ body {
 #contact-form input,
 #contact-form textarea {
   width: 200px;
-}
-#contact-form .col-auto {
-  border: 5px solid red;
 }
 
 #contact-form button {
