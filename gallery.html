@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -72,9 +72,10 @@
           <div class="col-lg">
             <ul id="join-us">
               <li>
-                <a href="#">JOIN US</a>
+                <a href="#" id="popModal">JOIN US</a>
               </li>
             </ul>
+            <div id="join-form"></div>
           </div>
         </div>
       </div>
@@ -138,6 +139,7 @@
                   id="cupcakes-tab"
                   href="#cupcakes"
                   role="tab"
+                  data-toggle="tab"
                   aria-controls="cupcakes"
                   aria-selected="true"
                   >Cupcakes</a
@@ -149,8 +151,9 @@
                   id="one-layer-cakes-tab"
                   href="#one-layer-cakes"
                   role="tab"
+                  data-toggle="tab"
                   aria-controls="one-layer-cakes"
-                  aria-selected="false"
+                  aria-selected="true"
                   >One Layer Cakes</a
                 >
               </li>
@@ -160,8 +163,9 @@
                   id="two-layer-cakes-tab"
                   href="#two-layer-cakes"
                   role="tab"
+                  data-toggle="tab"
                   aria-controls="two-layer-cakes"
-                  aria-selected="false"
+                  aria-selected="true"
                   >Two Layer Cakes</a
                 >
               </li>
@@ -171,15 +175,16 @@
                   id="party-cakes-tab"
                   href="#party-cakes"
                   role="tab"
+                  data-toggle="tab"
                   aria-controls="party-cakes"
-                  aria-selected="false"
+                  aria-selected="true"
                   >Party Cakes</a
                 >
               </li>
             </ul>
           </div>
         </div>
-        <div class="tab-content" id="cakes-tabContent">
+        <div class="tab-content" id="cakes-tab-content">
           <!-- Cupcakes -->
           <div
             class="tab-pane fade show active"
@@ -598,7 +603,11 @@
                 <span aria-hidden="true">&times;</span
                 ><span class="sr-only">Close</span>
               </button>
-              <img src="#" class="originalImage" style="width: 100%; height: 100%;" />
+              <img
+                src="#"
+                class="originalImage"
+                style="width: 100%; height: 100%;"
+              />
             </div>
           </div>
         </div>

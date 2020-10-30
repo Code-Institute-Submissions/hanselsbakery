@@ -1,3 +1,6 @@
+
+/*-------------------- DATEPICKER.JS LIBRARY FUNCTION ----------------------*/
+
 $(document).ready(function () {
   var date_input = $('input[name="date"]'); //our date input has the name "date"
   var options = {
@@ -12,59 +15,54 @@ $(document).ready(function () {
   date_input.datepicker(options);
 });
 
-(function () {
-  "use strict";
-  window.addEventListener(
-    "load",
-    function () {
-      // Fetch all the forms we want to apply custom Bootstrap validation styles to
-      const forms = document.getElementsByClassName("needs-validation");
-      // Loop over them and prevent submission
-      const validation = Array.prototype.filter.call(forms, function (form) {
-        form.addEventListener(
-          "submit",
-          function (event) {
-            if (form.checkValidity() === false) {
-              event.preventDefault();
-              event.stopPropagation();
-            }
-            form.classList.add("was-validated");
-          },
-          false
-        );
-      });
-    },
-    false
-  );
-})();
+/*-------------------- ADD MODAL JOIN FORM ----------------------*/
+$('#join-form').append(
+'<div class="modal fade" id="joinModal" tabindex="-1" role="dialog" aria-labelledby="joinModelLabel" aria-hidden="true">'+
+  '<div class="modal-dialog modal-dialog-centered modal-lg">'+
+    '<div class="modal-content">'+
+      '<div class="modal-body">'+
+        '<button type="button" class="close" data-dismiss="modal">'+
+          '<span aria-hidden="true">&times;</span>'+
+          '<span class="sr-only">Close</span>'+
+        '</button>'+
+        '<form>'+
+              '<div class="form-group">'+
+                '<h3>Join Our Newsletter</h3>'+
+                '<!-- Join Email -->'+
+                '<div class="form-group">'+
+                  '<label for="join-email">Email Address</label>'+
+                  '<input type="email" class="form-control" id="join-email" placeholder="Enter email" required />'+
+                '</div>'+
+                '<!-- Join Checkbox -->'+
+                '<div class="form-group">'+
+                  '<div class="form-check">'+
+                    '<input class="form-check-input" type="checkbox" value="" id="join-checkbox" required />'+
+                    '<label class="form-check-label" for="join-checkbox">'+
+                      'Please, accept our Privacy Policy.'+
+                    '</label>'+
+                  '</div>'+
+                '</div>'+
+              '</div>'+
+              '<button type="submit" class="btn btn-primary">'+
+                'Subscribe!'+
+              '</button>'+
+            '</form>'+
+      '</div>'+
+    '</div>'+
+  '</div>'+
+'</div>');
 
-// $(document).ready(function () {
-//   $(".nav-pills a").click(function () {
-//     $(this).tab("show");
-//   });
-//   $(".nav-pills a").on("shown.bs.tab", function (event) {
-//     var currentTab = $(event.target).text();
-//     var previousTab = $(event.relatedTarget).text();
-//     console.log(
-//       "Current: " + currentTab + " --- " + "Previous: " + previousTab
-//     );
-//     if (currentTab === "All") {
-//       $("#cupcakes").tab("show");
-//       $("#one-layer-cakes").tab("show");
-//       $("#two-layer-cakes").tab("show");
-//       $("#party-cakes").tab("show");
-      
-//     }
-//     if ($(".nav-pills a").parent("li").hasClass(".active")) {
-//         $($(this).attr("href")).hide();
-//       }
+/* DISPLAY MODAL FOR GALLERY CARDS AND JOIN US LINK IN THE PAGE HEADER */
 
-//   });
-// });
+$(function () {
+  $("#popModal").on("click", function () {
+    $("#joinModal").modal("show");
+  });
+});
 
-$(function() {
-		$('.imgThumbnail').on('click', function() {
-			$('.originalImage').attr('src', $(this).find('img').attr('src'));
-			$('#imgModal').modal('show');   
-		});		
+$(function () {
+  $(".imgThumbnail").on("click", function () {
+    $(".originalImage").attr("src", $(this).find("img").attr("src"));
+    $("#imgModal").modal("show");
+  });
 });
