@@ -339,7 +339,7 @@ body {
   font-size: 20px;
 }
 
-#footer-nav h6 {
+#footer-nav h3 {
   text-transform: uppercase;
   color: #eeba2b;
   font-weight: 600;
@@ -375,12 +375,9 @@ body {
   border: 2px solid #000000;
   box-sizing: border-box;
   border-radius: 40px;
-
-  font-style: normal;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 14px;
   letter-spacing: 2px;
   color: #000000;
   background: rgba(238, 186, 43, 0.5);
@@ -396,11 +393,6 @@ body {
 #footer-credits {
   background-color: #000;
   color: #eeba2b;
-}
-
-#footer-credits .col-sm-11,
-#footer-credits .col-sm-1 {
-  border: 5px solid red;
 }
 
 /*----------------------- HOME PAGE END -----------------------*/
@@ -575,7 +567,49 @@ body {
 
 /*----------------------- CONTACT PAGE STYLE START -----------------------*/
 
+#contact-form {
+  background-color: #eeba2b;
+}
 
+#contact-form .inner-row {
+  background-color: rgba(240, 240, 240, 0.5);
+}
+#contact-form label {
+  width: 120px;
+}
+
+#contact-form .inner-row {
+  background-image: url("background.jpg") no-repeat fixed center;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 200px;
+}
+#contact-form .col-auto {
+  border: 5px solid red;
+}
+
+#contact-form button {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  list-style: none;
+  filter: drop-shadow(0px 12px 24px rgba(0, 0, 0, 0.06));
+  background: rgba(238, 186, 43, 0.5);
+  border-radius: 40px;
+  border: 2px solid #000;
+  color: #000;
+  font-size: 14px;
+  padding: 5px 5px 5px 5px;
+  width: 150px;
+}
+
+#contact-form button:hover {
+  text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+  color: #fff;
+  border-color: #fff;
+  transition: 700ms ease;
+}
 
 /*----------------------- CONTACT PAGE STYLE END -----------------------*/
-

@@ -132,81 +132,82 @@
       <div class="container-fluid">
         <div class="row custom-section-title">
           <div class="col-auto mx-auto">
-            <h5 class="mx-auto">Bookings</h5>
+            <h5 class="mx-auto">Contact</h5>
           </div>
         </div>
-      </div>
-      <div class="outer-row align-items-center d-flex justify-content-center">
-        <div class="frame-border">
-          <div class="inner-row mx-auto">
-            <form class="needs-validation form-inline" novalidate>
-              <div class="col-auto mx-auto">
-                <!-- Contact Full Name Input -->
-                <div class="form-group p-2 mt-5">
-                  <div class="col-auto">
-                    <label class="d-block align-text-left" for="fname"
-                      >Full Name:</label
-                    >
-                  </div>
-                  <div class="col-auto">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="fullName"
-                      placeholder="Full Name"
-                      required
-                    />
-                    <div class="invalid-feedback">
-                      Please, enter your full name.
-                    </div>
-                  </div>
-                </div>
 
-                <!-- Contact Email Input -->
-                <div class="form-group p-2">
-                  <div class="col-auto">
-                    <label class="d-block align-text-left" for="contact-email"
-                      >Email:</label
-                    >
-                  </div>
-                  <div class="col-auto">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="contact-email"
-                      placeholder="Last name"
-                      required
-                    />
-                    <div class="invalid-feedback">
-                      Please, enter your email.
+        <div
+          class="row outer-row align-items-center d-flex justify-content-center"
+        >
+          <div class="frame-border">
+            <div class="row inner-row">
+              <form class="form-inline mx-auto">
+                <div class="col-auto">
+                  <!-- Contact Full Name Input -->
+                  <div class="form-group p-2 mt-5">
+                    <div class="col-auto">
+                      <label class="d-block align-text-left" for="full-name"
+                        >Full Name:</label
+                      >
+                    </div>
+                    <div class="col-auto">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="full-name"
+                        placeholder="Full Name"
+                        required
+                      />
                     </div>
                   </div>
-                </div>
-                <!-- Contact Message Input -->
-                <div class="form-group">
-                  <label for="textAreaContactForm"
-                    >Message:</label
-                  >
-                  <textarea
-                    class="form-control"
-                    id="textAreaContactForm"
-                    rows="3"
-                    required
-                  ></textarea>
-                  <div class="invalid-feedback">
-                      Please, enter your message.
-                    </div>
-                </div>
 
-                <div class="form-group p-2 mb-5">
-                  <div class="col-auto">
-                    <button class="btn btn-primary" type="submit">
-                      Send
-                    </button>
+                  <!-- Contact Email Input -->
+                  <div class="form-group p-2">
+                    <div class="col-auto">
+                      <label class="d-block align-text-left" for="contact-email"
+                        >Email:</label
+                      >
+                    </div>
+                    <div class="col-auto">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="contact-email"
+                        placeholder="Email"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <!-- Contact Message Input -->
+                  <div class="form-group p-2">
+                    <div class="col-auto">
+                      <label
+                        class="d-block align-text-left"
+                        for="contact-textarea"
+                        >Message:</label
+                      >
+                    </div>
+                    <div class="col-auto">
+                      <textarea
+                        class="form-control d-block align-text-left"
+                        id="contact-textarea"
+                        rows="3"
+                        placeholder="Message"
+                        required
+                      ></textarea>
+                    </div>
+                  </div>
+
+                  <div class="form-group p-2 mb-5">
+                    <div class="col-auto d-flex justify-content-start">
+                      <button class="btn btn-primary" type="submit">
+                        Send
+                      </button>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -216,7 +217,7 @@
       <div class="container-fluid">
         <div class="row" id="footer-nav">
           <div
-            class="col-sm align-items-top d-flex justify-content-left"
+            class="col-sm align-items-top d-flex justify-content-center"
             id="footer-about"
           >
             <nav class="navbar-nav">
@@ -238,7 +239,7 @@
             </nav>
           </div>
           <div
-            class="col-sm align-items-top d-flex justify-content-left"
+            class="col-sm align-items-top d-flex justify-content-center"
             id="footer-sitemap"
           >
             <nav class="navbar-nav">
@@ -266,32 +267,43 @@
             </nav>
           </div>
           <div
-            class="col-sm align-items-top d-flex justify-content-left"
+            class="col-sm align-items-top d-flex justify-content-center"
             id="footer-form"
           >
             <form>
               <div class="form-group">
-                <h6>Join Our Newsletter</h6>
-                <label for="join-email">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="join-email"
-                  aria-describedby="emailHelp"
-                  placeholder="Enter email"
-                />
+                <h3>Join Our Newsletter</h3>
+
+                <!-- Join Email -->
+                <div class="form-group">
+                  <label for="join-email">Email Address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="join-email"
+                    placeholder="Enter email"
+                    required
+                  />
+                </div>
+                <!-- Join Checkbox -->
+                <div class="form-group">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="join-checkbox"
+                      required
+                    />
+                    <label class="form-check-label" for="join-checkbox">
+                      Please, accept our Privacy Policy.
+                    </label>
+                  </div>
+                </div>
               </div>
-              <div class="form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="subscribe-checkbox"
-                />
-                <label class="form-check-label" for="subscribe-checkbox"
-                  >Please, tick to agree with our Privacy Policy.</label
-                >
-              </div>
-              <button type="submit" class="btn btn-primary">Subscribe!</button>
+              <button type="submit" class="btn btn-primary">
+                Subscribe!
+              </button>
             </form>
           </div>
         </div>
@@ -352,5 +364,5 @@
     crossorigin="anonymous"
   ></script>
 
-  <script src="../../assets/scripts/scripts.js"></script>
+  <script src="assets/scripts/scripts.js"></script>
 </html>
