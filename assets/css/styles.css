@@ -393,6 +393,10 @@ body {
   color: #eeba2b;
 }
 
+#footer-credits .col-sm-11, #footer-credits .col-sm-1{
+    border: 5px solid red;
+}
+
 /*----------------------- HOME PAGE END -----------------------*/
 
 /*----------------------- BAKERY MENU PAGE STYLE START -----------------------*/
