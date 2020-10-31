@@ -1,4 +1,4 @@
-/*-------------------- APPEND HEADER TO ALL PAGES ----------------------*/
+/*-------------------- APPEND HEADER FOR ALL PAGES ----------------------*/
 
 $("#top-section").append(
   '<div class="container-fluid">' +
@@ -107,10 +107,11 @@ $("#bottom-section").append(
     "        </nav>  "
 );
 
-/*-------------------- FOOTER SECTION TO ALL PAGES ----------------------*/
+/*-------------------- FOOTER SECTION FOR ALL PAGES ----------------------*/
 
 $("#footer-section").append(
   '   <div class="container-fluid">  ' +
+    /* About Hansel's Bakery  */
     '           <div class="row" id="footer-nav">  ' +
     "             <div  " +
     '               class="col-sm align-items-top d-flex justify-content-left"  ' +
@@ -135,6 +136,7 @@ $("#footer-section").append(
     "                 </ul>  " +
     "               </nav>  " +
     "             </div>  " +
+    /* Footer Sitemap Start */
     "             <div  " +
     '               class="col-sm align-items-top d-flex justify-content-left"  ' +
     '               id="footer-sitemap"  ' +
@@ -163,16 +165,16 @@ $("#footer-section").append(
     "                 </ul>  " +
     "               </nav>  " +
     "             </div>  " +
+    /* Footer Sitemap End */
+    /* Footer Form Start */
     "             <div  " +
     '               class="col-sm align-items-top d-flex justify-content-left"  ' +
     '               id="footer-form"  ' +
-    "             >  " +
-    /* Form Start */
-
+    "      '       >  " +
     "               <form>  " +
     '                 <div class="form-group">  ' +
     "                   <h3>Join Our Newsletter</h3>  " +
-    /* Join Email  */
+    /* Footer Form Join Email Input */
 
     '                   <div class="form-group">  ' +
     '                     <label for="join-email">Email Address</label>  ' +
@@ -184,7 +186,7 @@ $("#footer-section").append(
     "                       required  " +
     "                     />  " +
     "                   </div>  " +
-    /* Join Checkbox */
+    /* Footer Form Join Checkbox Input */
     '                   <div class="form-group">  ' +
     '                     <div class="form-check">  ' +
     "                       <input  " +
@@ -200,24 +202,27 @@ $("#footer-section").append(
     "                     </div>  " +
     "                   </div>  " +
     "                 </div>  " +
+    /* Footer Form Join Button */
     '                 <button type="submit" class="btn btn-primary">  ' +
     "                   Subscribe!  " +
     "                 </button>  " +
     "               </form>  " +
-    /* Form End */
-    "             </div>  " +
+    "         '    </div>  " +
     "           </div>  " +
+    /* Footer Form End */
+    '           <div class="row" id="footer-credits" >  ' +
     /* Footer Credits Start */
-    '           <div class="row p-3" id="footer-credits" >  ' +
     "             <div  " +
     '               class="col-sm-11 align-items-center d-flex justify-content-center"  ' +
     "             >  " +
-    '               <p class="mx-auto">Hansel’s Bakery ©. All rights reserved.</p>  ' +
+    '               <p class="pt-2">Hansel’s Bakery ©. All rights reserved.</p>  ' +
     "             </div>  " +
+    /* Footer Credits End  */
+    /* Footer Social Media Icons Start */
     "             <div  " +
     '               class="col-sm-1 social-media align-items-bottom d-flex justify-content-bottom"  ' +
     "             >  " +
-    '               <ul class="mx-auto">  ' +
+    '               <ul class="mx-auto pt-2">  ' +
     "                 <li>  " +
     "                   <span  " +
     '                     class="iconify facebook-icon"  ' +
@@ -245,7 +250,7 @@ $("#footer-section").append(
     "               </ul>  " +
     "             </div>  " +
     "           </div>  " +
-    /* Footer Credits End  */
+    /* Footer Social Media Icons End */
     "        </div>  "
 );
 
