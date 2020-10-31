@@ -3,14 +3,13 @@
 $(function () {
   $("#load-header").load("components/header/header-component.html");
 });
+
 $(function () {
   $("#load-footer").load("components/footer/footer-component.html");
 });
-$(function () {
-  $("#join-form").append("components/modals/modal-component.html");
-});
 
-$(function () {
+$(window).on("load", function () {
+  $("#join-form").load("components/modals/modal-component.html");
   $("#popModal").on("click", function () {
     $("#joinModal").modal("show");
   });
