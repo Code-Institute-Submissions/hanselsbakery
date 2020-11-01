@@ -2,18 +2,31 @@
 
 $(function () {
   $("#load-header").load("components/header/header-component.html");
-});
-
-$(function () {
   $("#load-footer").load("components/footer/footer-component.html");
 });
 
-$(window).on("load", function () {
-  $("#join-form").load("components/modals/modal-component.html");
-  $("#popModal").on("click", function () {
-    $("#joinModal").modal("show");
-  });
-});
+function loadModalComponent() {
+  $("#joinUsModal").load("components/modals/join-form-modal.html");
+}
+
+$(window).on("load", loadModalComponent);
+
+function displayModal() {
+  const clickedLink = $(this).text();
+  if (clickedLink === "JOIN US" || clickedLink === "Join Us Now") {
+    $("#joinUs").modal("show");
+  } else if (clickedLink === "Product Information") {
+    alert(clickedLink);
+  } else if (clickedLink === "Customer Service") {
+    alert(clickedLink);
+  } else if (clickedLink === "Privacy Policy and GDPR") {
+    alert(clickedLink);
+  } else if (clickedLink === "Testimonials") {
+    alert(clickedLink);
+  }
+}
+
+$(document).on("click", ".clickCustomModal", displayModal);
 
 $(function () {
   $(".imgThumbnail").on("click", function () {
