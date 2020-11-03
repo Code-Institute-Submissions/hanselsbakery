@@ -1,12 +1,15 @@
 /* DISPLAY MODAL FOR GALLERY CARDS AND JOIN US LINK IN THE PAGE HEADER */
 
-$(function () {
-  $("#load-header").load("components/header/header-component.html");
-  $("#load-footer").load("components/footer/footer-component.html");
-});
+$("#load-header").load("components/header/header-component.html");
+$("#load-footer").load("components/footer/footer-component.html");
+
 
 function loadModalComponent() {
   $("#joinUsModal").load("components/modals/join-form-modal.html");
+  $("#productInformationModal").load("components/modals/product-information-modal.html");
+  $("#customerServiceModal").load("components/modals/customer-service-modal.html");
+  $("#privacyPolicyModal").load("components/modals/privacy-policy-modal.html");
+  $("#testimonialsModal").load("components/modals/testimonials-modal.html");
 }
 
 $(window).on("load", loadModalComponent);
@@ -16,13 +19,13 @@ function displayModal() {
   if (clickedLink === "JOIN US" || clickedLink === "Join Us Now") {
     $("#joinUs").modal("show");
   } else if (clickedLink === "Product Information") {
-    alert(clickedLink);
+    $("#product-information").modal("show")
   } else if (clickedLink === "Customer Service") {
-    alert(clickedLink);
+    $("#customer-service").modal("show")
   } else if (clickedLink === "Privacy Policy and GDPR") {
-    alert(clickedLink);
+    $("#privacy-policy").modal("show")
   } else if (clickedLink === "Testimonials") {
-    alert(clickedLink);
+    $("#testimonials").modal("show")
   }
 }
 

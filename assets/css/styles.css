@@ -225,7 +225,7 @@ body {
 #featured-section {
   margin: auto;
   padding: 0px;
-  background: rgba(133, 142, 130, 0.3);
+  background-color: #858E82;
 }
 
 #featured-section .card {
@@ -449,7 +449,7 @@ body {
 /*----------------------- BOOKINGS PAGE STYLE START -----------------------*/
 
 #bookings {
-  background-color: #eeba2b;
+  background-color: #858E82;
 }
 
 #bookings .inner-row {
@@ -609,11 +609,11 @@ body {
 
 /*----------------------- CONTACT PAGE STYLE END -----------------------*/
 
-#join-form .modal-body {
+#joinUs .modal-body {
   background-color: #eeba2b;
 }
 
-#join-form button {
+#joinUs button {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
