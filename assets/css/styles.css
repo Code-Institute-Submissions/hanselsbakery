@@ -225,7 +225,7 @@ body {
 #featured-section {
   margin: auto;
   padding: 0px;
-  background-color: #858E82;
+  background-color: #858e82;
 }
 
 #featured-section .card {
@@ -449,7 +449,7 @@ body {
 /*----------------------- BOOKINGS PAGE STYLE START -----------------------*/
 
 #bookings {
-  background-color: #858E82;
+  background-color: #858e82;
 }
 
 #bookings .inner-row {
@@ -607,22 +607,20 @@ body {
   transition: 700ms ease;
 }
 
-/*----------------------- CONTACT PAGE STYLE END -----------------------*/
+/*----------------------- CONTACT MODAL STYLE END -----------------------*/
 
-#joinUs .modal-body {
+.joinUs .modal-body, .joinUs .modal-header, .joinUs .modal-footer {
   background-color: #eeba2b;
 }
 
-#joinUs button {
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  list-style: none;
-  filter: drop-shadow(0px 12px 24px rgba(0, 0, 0, 0.06));
-  background: rgba(238, 186, 43, 0.5);
-  border-radius: 40px;
-  border: 2px solid #000;
-  color: #000;
-  font-size: 14px;
-  padding: 5px 5px 5px 5px;
+#customer-service .modal-body, 
+#customer-service .modal-header,
+#customer-service .modal-footer{
+  background-color: #858e82;
+}
+
+#product-information .modal-body, 
+#product-information .modal-header,
+#product-information .modal-footer{
+  background-color: #858e82;
 }
