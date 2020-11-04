@@ -42,6 +42,14 @@ $(function () {
     $("#imgModal").modal("show");
   });
 });
+
+$(document).ready(function () {
+  $("#form-response").submit(function (event) {
+    event.preventDefault();
+    alert("worked");
+  });
+});
+
 /*-------------------- DATEPICKER.JS LIBRARY FUNCTION ----------------------*/
 
 $(document).ready(function () {

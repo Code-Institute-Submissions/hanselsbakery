@@ -31,7 +31,7 @@ body {
 
 /* SECTION TITLE GENERIC STYLES */
 
-.custom-section-title h5 {
+.custom-section-title h1 {
   padding: 10px 10px 10px 10px;
   width: 100%;
   height: 100px;
@@ -39,8 +39,8 @@ body {
   justify-items: center;
   justify-content: center;
   align-items: center;
-  font-weight: 600;
   font-size: 28px;
+  font-weight: 600;
   text-transform: uppercase;
   text-align: center;
   border: 5px solid #fff;
@@ -461,7 +461,7 @@ body {
 
 #bookings input,
 #bookings select {
-  width: 200px;
+  width: 250px;
 }
 
 #bookings button {
@@ -609,18 +609,31 @@ body {
 
 /*----------------------- CONTACT MODAL STYLE END -----------------------*/
 
-.joinUs .modal-body, .joinUs .modal-header, .joinUs .modal-footer {
+.joinUs .modal-body,
+.joinUs .modal-header,
+.joinUs .modal-footer {
   background-color: #eeba2b;
 }
 
-#customer-service .modal-body, 
+#customer-service .modal-body,
 #customer-service .modal-header,
-#customer-service .modal-footer{
+#customer-service .modal-footer {
   background-color: #858e82;
 }
 
-#product-information .modal-body, 
+#product-information .modal-body,
 #product-information .modal-header,
-#product-information .modal-footer{
+#product-information .modal-footer {
   background-color: #858e82;
+}
+#privacy-policy .modal-body,
+#privacy-policy .modal-header,
+#privacy-policy .modal-footer {
+  background-color: #858e82;
+}
+
+#privacy-policy .modal-body,
+#product-information .modal-body,
+#customer-service .modal-body {
+  color: #fff;
 }
