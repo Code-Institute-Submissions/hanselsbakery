@@ -22,7 +22,7 @@
         >
           <div class="frame-border">
             <div class="row inner-row">
-              <form class="mx-auto">
+              <form class="mx-auto" id="join-form-modal">
                 <div class="form-group">
                   <h3>Join Our Newsletter</h3>
                   <label for="join-email">Email Address</label>
@@ -30,6 +30,7 @@
                     type="email"
                     class="form-control"
                     id="join-email"
+                    name="join-email-header"
                     placeholder="Enter email"
                     required
                   />
@@ -39,8 +40,8 @@
                     <input
                       class="form-check-input"
                       type="checkbox"
-                      value=""
                       id="join-checkbox"
+                      name="join-checkbox-header"
                       required
                     />
                     <label class="form-check-label" for="join-checkbox">
@@ -48,13 +49,15 @@
                     </label>
                   </div>
                 </div>
+                <button type="submit" class="btn" btn-primary>
+                  Subscribe!
+                </button>
               </form>
             </div>
           </div>
         </div>
       </div>
       <div class="modal-footer">
-        <button type="submit" class="btn" btn-primary>Subscribe!</button>
         <button type="button" class="btn btn-secondary" data-dismiss="modal">
           Close
         </button>

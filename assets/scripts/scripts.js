@@ -4,7 +4,8 @@ $("#load-header").load("components/header/header-component.html");
 $("#load-footer").load("components/footer/footer-component.html");
 
 function loadModalComponent() {
-  $(".joinUsModal").load("components/modals/join-form-modal.html");
+  $("#joinUsHeaderModal").load("components/modals/join-form-modal.html");
+  $("#joinUsFooterModal").load("components/modals/join-form-modal.html");
   $("#productInformationModal").load(
     "components/modals/product-information-modal.html"
   );
@@ -43,25 +44,16 @@ $(function () {
   });
 });
 
-$(document).ready(function () {
-  $("#form-response").submit(function (event) {
-    event.preventDefault();
-    alert("worked");
-  });
-});
+$(document).on("submit", "form", function (event) {
+  var formID = event.target.id;
+  if (formID === "join-form-modal") {
+    console.log("Header", $("#join-form-modal").serializeArray());
+  } else if (formID === "join-form-footer") {
+    console.log("Footer", $("#join-form-footer").serializeArray());
+  } else if (formID === "booking-form") {
+  } else if (formID === "contact-form") {
+  }
 
-/*-------------------- DATEPICKER.JS LIBRARY FUNCTION ----------------------*/
-
-$(document).ready(function () {
-  var date_input = $('input[name="date"]'); //our date input has the name "date"
-  var options = {
-    format: "dd/mm/yy",
-    startDate: "today",
-    maxViewMode: 0,
-    todayBtn: true,
-    autoclose: true,
-    todayHighlight: true,
-    toggleActive: true,
-  };
-  date_input.datepicker(options);
+  event.preventDefault();
+  alert("worked");
 });
