@@ -565,27 +565,27 @@ body {
 
 /*----------------------- CONTACT PAGE STYLE START -----------------------*/
 
-#contact-form {
+#contact-form-section {
   background-color: #eeba2b;
 }
 
-#contact-form .inner-row {
+#contact-form-section .inner-row {
   background-color: rgba(240, 240, 240, 0.5);
 }
-#contact-form label {
+#contact-form-section label {
   width: 120px;
 }
 
-#contact-form .inner-row {
+#contact-form-section .inner-row {
   background-image: url("background.jpg") no-repeat fixed center;
 }
 
-#contact-form input,
-#contact-form textarea {
+#contact-form-section input,
+#contact-form-section textarea {
   width: 200px;
 }
 
-#contact-form button {
+#contact-form-section button {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
@@ -600,7 +600,7 @@ body {
   width: 150px;
 }
 
-#contact-form button:hover {
+#contact-form-section button:hover {
   text-shadow: 0 0 2em rgba(255, 255, 255, 1);
   color: #fff;
   border-color: #fff;

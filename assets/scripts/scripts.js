@@ -46,12 +46,22 @@ $(function () {
 
 $(document).on("submit", "form", function (event) {
   var formID = event.target.id;
+  var booking = {};
   if (formID === "join-form-modal") {
     console.log("Header", $("#join-form-modal").serializeArray());
   } else if (formID === "join-form-footer") {
     console.log("Footer", $("#join-form-footer").serializeArray());
   } else if (formID === "booking-form") {
+    var bookingForm = $("#booking-form").serializeArray();
+    const entries = Object.entries(bookingForm);
+    for (const [key, value] of entries) {
+      console.log(`${value.name}  :  ${value.value}`);
+
+    }
+    event.preventDefault();
+    // console.log("Footer", $("#booking-form").serializeArray());
   } else if (formID === "contact-form") {
+    console.log("Footer", $("#contact-form").serializeArray());
   }
 
   event.preventDefault();
