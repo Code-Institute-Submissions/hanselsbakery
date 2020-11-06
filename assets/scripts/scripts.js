@@ -44,26 +44,54 @@ $(function () {
   });
 });
 
+var formSerializedArray = {};
+var inputDetails = {};
+
 $(document).on("submit", "form", function (event) {
   var formID = event.target.id;
-  var booking = {};
+
   if (formID === "join-form-modal") {
-    console.log("Header", $("#join-form-modal").serializeArray());
+    formSerializedArray = serializeFormArray(formID);
+    deconstructFormArray(formSerializedArray);
   } else if (formID === "join-form-footer") {
-    console.log("Footer", $("#join-form-footer").serializeArray());
+    formSerializedArray = serializeFormArray(formID);
+    deconstructFormArray(formSerializedArray);
   } else if (formID === "booking-form") {
-    var bookingForm = $("#booking-form").serializeArray();
-    const entries = Object.entries(bookingForm);
-    for (const [key, value] of entries) {
-      console.log(`${value.name}  :  ${value.value}`);
-
-    }
-    event.preventDefault();
-    // console.log("Footer", $("#booking-form").serializeArray());
+    formSerializedArray = serializeFormArray(formID);
+    deconstructFormArray(formSerializedArray);
   } else if (formID === "contact-form") {
-    console.log("Footer", $("#contact-form").serializeArray());
+    formSerializedArray = serializeFormArray(formID);
+    deconstructFormArray(formSerializedArray);
   }
+});
 
-  event.preventDefault();
-  alert("worked");
+function serializeFormArray(formID) {
+  const formArray = $("#" + formID).serializeArray();
+  return formArray;
+}
+
+function deconstructFormArray(formSerializedArray) {
+  const keys = Object.values(formSerializedArray);
+
+  for (const key of keys) {
+    inputDetails[key.name] = key.value;
+  }
+  console.log(inputDetails);
+  displayUserResponse(inputDetails);
+}
+
+function displayUserResponse(userDetails) {
+  $("#formResponseModal").load("components/modals/form-response-modal.html");
+  $(".joinUs").modal("hide");
+  setTimeout(() => {
+    $("#responseMessage").append(
+      "Thank you, for signing up with us! You will receive our newsletter to this email: ",
+      userDetails.joinEmail
+    );
+    $("#userResponse").modal("show");
+  }, 1000);
+}
+
+$("#userResponse").on("hidden.bs.modal", function (e) {
+  location.reload();
 });
