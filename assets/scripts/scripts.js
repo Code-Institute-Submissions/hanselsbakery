@@ -49,20 +49,24 @@ var inputDetails = {};
 
 $(document).on("submit", "form", function (event) {
   var formID = event.target.id;
-
+  formSerializedArray = {};
+  event.preventDefault();
   if (formID === "join-form-modal") {
     formSerializedArray = serializeFormArray(formID);
-    deconstructFormArray(formSerializedArray);
+    displayJoinUsResponse(deconstructFormArray(formSerializedArray));
   } else if (formID === "join-form-footer") {
+    alert("footer form");
     formSerializedArray = serializeFormArray(formID);
-    deconstructFormArray(formSerializedArray);
+    displayJoinUsResponse(deconstructFormArray(formSerializedArray));
   } else if (formID === "booking-form") {
     formSerializedArray = serializeFormArray(formID);
-    deconstructFormArray(formSerializedArray);
+    displayBookingResponse(deconstructFormArray(formSerializedArray));
   } else if (formID === "contact-form") {
     formSerializedArray = serializeFormArray(formID);
-    deconstructFormArray(formSerializedArray);
+    displayJoinUsResponse(deconstructFormArray(formSerializedArray));
   }
+
+  inputDetails = {};
 });
 
 function serializeFormArray(formID) {
@@ -76,11 +80,11 @@ function deconstructFormArray(formSerializedArray) {
   for (const key of keys) {
     inputDetails[key.name] = key.value;
   }
-  console.log(inputDetails);
-  displayUserResponse(inputDetails);
+  alert(JSON.stringify(inputDetails));
+  return inputDetails;
 }
 
-function displayUserResponse(userDetails) {
+function displayJoinUsResponse(userDetails) {
   $("#formResponseModal").load("components/modals/form-response-modal.html");
   $(".joinUs").modal("hide");
   setTimeout(() => {
@@ -92,6 +96,44 @@ function displayUserResponse(userDetails) {
   }, 1000);
 }
 
-$("#userResponse").on("hidden.bs.modal", function (e) {
-  location.reload();
+function displayBookingResponse(userDetails) {
+  $("#formResponseModal").load("components/modals/form-response-modal.html");
+  setTimeout(() => {
+    $("#responseMessage").append(
+      "Thank you ",
+      userDetails.firstName,
+      ", for booking with us! We can confirm your booking for the",
+      userDetails.dateAndTime,
+      " at ",
+      Date.parse(userDetails.dateAndTime),
+      " for ",
+      userDetails.peopleQuantity,
+      " people."
+    );
+    $("#userResponse").modal("show");
+  }, 1000);
+}
+
+function displayContactResponse(userDetails) {
+  $("#formResponseModal").load("components/modals/form-response-modal.html");
+  $(".joinUs").modal("hide");
+  setTimeout(() => {
+    $("#responseMessage").append(
+      "Thank you, for signing up with us! You will receive our newsletter to this email: ",
+      userDetails.joinEmail
+    );
+    $("#userResponse").modal("show");
+  }, 1000);
+}
+
+$('#timepicker').timepicker({
+    timeFormat: 'h:mm p',
+    interval: 60,
+    minTime: '10:00am',
+    maxTime: '8:00pm',
+    defaultTime: '10',
+    startTime: '10:00',
+    dynamic: false,
+    dropdown: true,
+    scrollbar: true
 });
