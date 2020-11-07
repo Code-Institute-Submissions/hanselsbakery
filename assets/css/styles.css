@@ -666,6 +666,7 @@ body {
 }
 
 #formResponseModal .modal-body {
+  color: #fff;
   font-size: 20px;
   text-align: center;
 }

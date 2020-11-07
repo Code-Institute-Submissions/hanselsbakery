@@ -55,7 +55,6 @@ $(document).on("submit", "form", function (event) {
     formSerializedArray = serializeFormArray(formID);
     displayJoinUsResponse(deconstructFormArray(formSerializedArray));
   } else if (formID === "join-form-footer") {
-    alert("footer form");
     formSerializedArray = serializeFormArray(formID);
     displayJoinUsResponse(deconstructFormArray(formSerializedArray));
   } else if (formID === "booking-form") {
@@ -63,9 +62,11 @@ $(document).on("submit", "form", function (event) {
     displayBookingResponse(deconstructFormArray(formSerializedArray));
   } else if (formID === "contact-form") {
     formSerializedArray = serializeFormArray(formID);
-    displayJoinUsResponse(deconstructFormArray(formSerializedArray));
+    displayContactResponse(deconstructFormArray(formSerializedArray));
   }
-
+  $("#" + formID)
+    .get(0)
+    .reset();
   inputDetails = {};
 });
 
@@ -102,10 +103,10 @@ function displayBookingResponse(userDetails) {
     $("#responseMessage").append(
       "Thank you ",
       userDetails.firstName,
-      ", for booking with us! We can confirm your booking for the",
-      userDetails.dateAndTime,
+      ", for booking with us! We can confirm your booking for the ",
+      userDetails.bookingDate,
       " at ",
-      Date.parse(userDetails.dateAndTime),
+      userDetails.bookingTime,
       " for ",
       userDetails.peopleQuantity,
       " people."
@@ -115,25 +116,45 @@ function displayBookingResponse(userDetails) {
 }
 
 function displayContactResponse(userDetails) {
+  $("#spinnerResponseModal").load("components/modals/spinner-modal.html");
   $("#formResponseModal").load("components/modals/form-response-modal.html");
-  $(".joinUs").modal("hide");
+
   setTimeout(() => {
+    $("#spinnerResponse").modal({
+      backdrop: "static", //remove ability to close modal with click
+      keyboard: false, //remove option to close with keyboard
+      show: true, //Display loader!
+    });
+  }, 500);
+
+  setTimeout(() => {
+    setInterval(() => {
+      $("#spinnerResponse").modal("hide");
+    }, 100);
+    $("#responseTitle").append("Thank you!");
     $("#responseMessage").append(
-      "Thank you, for signing up with us! You will receive our newsletter to this email: ",
-      userDetails.joinEmail
+      "Thank you, for getting in contact with us! You will receive a response to your message as soon as possible to: ",
+      userDetails.contactEmail
     );
     $("#userResponse").modal("show");
-  }, 1000);
+  }, 6000);
 }
 
-$('#timepicker').timepicker({
-    timeFormat: 'h:mm p',
-    interval: 60,
-    minTime: '10:00am',
-    maxTime: '8:00pm',
-    defaultTime: '10',
-    startTime: '10:00',
-    dynamic: false,
-    dropdown: true,
-    scrollbar: true
+$("#timepicker").timepicker({
+  timeFormat: "h:mm p",
+  interval: 60,
+  minTime: "10:00am",
+  maxTime: "8:00pm",
+  startTime: "10:00",
+  dynamic: false,
+  dropdown: true,
+  scrollbar: true,
+});
+
+$(function () {
+  $("#datepicker").datepicker({
+    minDate: 1,
+    maxDate: "+1M",
+    dateFormat: "DD', 'dd' 'MM",
+  });
 });
