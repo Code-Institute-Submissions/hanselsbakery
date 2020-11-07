@@ -81,7 +81,7 @@ function deconstructFormArray(formSerializedArray) {
   for (const key of keys) {
     inputDetails[key.name] = key.value;
   }
-  alert(JSON.stringify(inputDetails));
+  //alert(JSON.stringify(inputDetails));
   return inputDetails;
 }
 
@@ -118,22 +118,25 @@ function displayBookingResponse(userDetails) {
 function displayContactResponse(userDetails) {
   $("#spinnerResponseModal").load("components/modals/spinner-modal.html");
   $("#formResponseModal").load("components/modals/form-response-modal.html");
-
+  //display spinner in 100ms, to give enough time for spinner modal and response modal to load.
   setTimeout(() => {
     $("#spinnerResponse").modal({
-      backdrop: "static", //remove ability to close modal with click
-      keyboard: false, //remove option to close with keyboard
-      show: true, //Display loader!
+      backdrop: "static",
+      keyboard: false,
+      show: true,
     });
   }, 500);
-
+  //set spinner to hide 0.5s before response modal
   setTimeout(() => {
-    setInterval(() => {
-      $("#spinnerResponse").modal("hide");
-    }, 100);
+    $("#spinnerResponse").modal("hide");
+  }, 5500);
+  //append dynamic text to response modal and display it
+  setTimeout(() => {
     $("#responseTitle").append("Thank you!");
     $("#responseMessage").append(
-      "Thank you, for getting in contact with us! You will receive a response to your message as soon as possible to: ",
+      "Thank you ",
+      userDetails.fullName,
+      ", for getting in contact with us! You will receive a response to your message as soon as possible to: ",
       userDetails.contactEmail
     );
     $("#userResponse").modal("show");
