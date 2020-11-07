@@ -2,18 +2,17 @@
 $("#load-header").load("components/header/header-component.html");
 $("#load-footer").load("components/footer/footer-component.html");
 
-$("#productInformationModal").load(
-  "components/modals/product-information-modal.html"
-);
-$("#customerServiceModal").load(
-  "components/modals/customer-service-modal.html"
-);
-$("#privacyPolicyModal").load("components/modals/privacy-policy-modal.html");
-$("#testimonialsModal").load("components/modals/testimonials-modal.html");
-
 function loadModalComponent() {
   $("#joinUsHeaderModal").load("components/modals/join-form-modal.html");
   $("#joinUsFooterModal").load("components/modals/join-form-modal.html");
+  $("#productInformationModal").load(
+    "components/modals/product-information-modal.html"
+  );
+  $("#customerServiceModal").load(
+    "components/modals/customer-service-modal.html"
+  );
+  $("#privacyPolicyModal").load("components/modals/privacy-policy-modal.html");
+  $("#testimonialsModal").load("components/modals/testimonials-modal.html");
 }
 
 $(window).on("load", loadModalComponent);
