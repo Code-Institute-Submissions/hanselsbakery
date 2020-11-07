@@ -653,15 +653,21 @@ body {
   background-color: #858e82;
 }
 
+#testimonials .modal-body,
+#testimonials .modal-header,
+#testimonials .modal-footer {
+  background-color: #858e82;
+}
+
 #privacy-policy .modal-body,
 #product-information .modal-body,
-#customer-service .modal-body {
+#customer-service .modal-body, #testimonials .modal-body {
   color: #fff;
 }
 
 #formResponseModal .modal-body,
 #formResponseModal .modal-header,
-#formResponseModal .modal-footer {
+#formResponseModal .modal-footer{
   background-color: #858e82;
 }
 
