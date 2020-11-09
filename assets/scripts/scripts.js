@@ -1,18 +1,25 @@
 var formSerializedArray = {};
 var inputDetails = {};
+var formID;
 
 /* DISPLAY MODAL FOR GALLERY CARDS AND JOIN US LINK IN THE PAGE HEADER */
 $("#load-header").load("components/header/header-component.html");
 $("#load-footer").load("components/footer/footer-component.html");
-$("#joinUsModal").load("components/modals/join-form-modal.html");
-$("#productInformationModal").load(
-  "components/modals/product-information-modal.html"
-);
-$("#customerServiceModal").load(
-  "components/modals/customer-service-modal.html"
-);
-$("#privacyPolicyModal").load("components/modals/privacy-policy-modal.html");
-$("#testimonialsModal").load("components/modals/testimonials-modal.html");
+
+function loadModal() {
+  $("#joinUsModal").load("components/modals/join-form-modal.html");
+  $("#productInformationModal").load(
+    "components/modals/product-information-modal.html"
+  );
+  $("#customerServiceModal").load(
+    "components/modals/customer-service-modal.html"
+  );
+  $("#privacyPolicyModal").load("components/modals/privacy-policy-modal.html");
+  $("#testimonialsModal").load("components/modals/testimonials-modal.html");
+  $("#spinnerResponseModal").load("components/modals/spinner-modal.html");
+}
+
+$(window).on("load", loadModal);
 
 function displayModal() {
   const clickedLink = $(this).text();
@@ -39,9 +46,12 @@ $(function () {
 });
 
 $(document).on("submit", "form", function (event) {
-  var formID = event.target.id;
+  formID = event.target.id;
   formSerializedArray = {};
   event.preventDefault();
+  $("#formResponseModal").load("components/modals/form-response-modal.html");
+  $("#responseTitle").append("");
+  $("#responseMessage").append("");
   if (formID === "join-form-modal") {
     formSerializedArray = serializeFormArray(formID);
     displayJoinUsResponse(deconstructFormArray(formSerializedArray));
@@ -77,8 +87,6 @@ function deconstructFormArray(formSerializedArray) {
 }
 
 function displayJoinUsResponse(userDetails) {
-  $("#spinnerResponseModal").load("components/modals/spinner-modal.html");
-  $("#formResponseModal").load("components/modals/form-response-modal.html");
   $(".joinUs").modal("hide");
   setTimeout(() => {
     $("#spinnerResponse").modal({
@@ -86,7 +94,7 @@ function displayJoinUsResponse(userDetails) {
       keyboard: false,
       show: true,
     });
-  }, 500);
+  }, 200);
 
   setTimeout(() => {
     $("#spinnerResponse").modal("hide");
@@ -94,7 +102,7 @@ function displayJoinUsResponse(userDetails) {
   setTimeout(() => {
     $("#responseTitle").append("Thank you!");
     $("#responseMessage").append(
-      "Thank you, for getting in contact with us! You will receive a response to your message as soon as possible to: ",
+      "Thank you, for signing up with us! We will be sending our updates to the following email: ",
       userDetails.joinEmail
     );
     $("#userResponse").modal("show");
@@ -102,45 +110,45 @@ function displayJoinUsResponse(userDetails) {
 }
 
 function displayBookingResponse(userDetails) {
-  $("#spinnerResponseModal").load("components/modals/spinner-modal.html");
-  $("#formResponseModal").load("components/modals/form-response-modal.html");
   setTimeout(() => {
     $("#spinnerResponse").modal({
       backdrop: "static",
       keyboard: false,
       show: true,
     });
-  }, 500);
+  }, 200);
   setTimeout(() => {
     $("#spinnerResponse").modal("hide");
   }, 5500);
   setTimeout(() => {
-    $("#responseTitle").append("Thank you!");
+    $("#responseTitle").append("Booking Confirmation");
     $("#responseMessage").append(
       "Thank you ",
-      userDetails.fullName,
-      ", for getting in contact with us! You will receive a response to your message as soon as possible to: ",
-      userDetails.contactEmail
+      userDetails.firstName,
+      ", booking a table with us! We can confirm that you have booked a table for ",
+      userDetails.peopleQuantity,
+      " people, on ",
+      userDetails.bookingDate,
+      " at ",
+      userDetails.bookingTime
     );
     $("#userResponse").modal("show");
   }, 6000);
 }
 
 function displayContactResponse(userDetails) {
-  $("#spinnerResponseModal").load("components/modals/spinner-modal.html");
-  $("#formResponseModal").load("components/modals/form-response-modal.html");
   setTimeout(() => {
     $("#spinnerResponse").modal({
       backdrop: "static",
       keyboard: false,
       show: true,
     });
-  }, 500);
+  }, 200);
   setTimeout(() => {
     $("#spinnerResponse").modal("hide");
   }, 5500);
   setTimeout(() => {
-    $("#responseTitle").append("Thank you!");
+    $("#responseTitle").append("Confirmation");
     $("#responseMessage").append(
       "Thank you ",
       userDetails.fullName,
