@@ -661,13 +661,14 @@ body {
 
 #privacy-policy .modal-body,
 #product-information .modal-body,
-#customer-service .modal-body, #testimonials .modal-body {
+#customer-service .modal-body,
+#testimonials .modal-body {
   color: #fff;
 }
 
 #formResponseModal .modal-body,
 #formResponseModal .modal-header,
-#formResponseModal .modal-footer{
+#formResponseModal .modal-footer {
   background-color: #858e82;
 }
 
