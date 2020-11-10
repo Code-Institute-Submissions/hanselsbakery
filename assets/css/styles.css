@@ -48,6 +48,10 @@ body {
   width: 350px;
 }
 
+.products-spacing .col-sm {
+  padding: 15px 15px 15px 15px;
+}
+
 /*----------------------- GLOBAL STYLES END -----------------------*/
 
 /*----------------------- HOME PAGE STYLE START -----------------------*/
@@ -249,10 +253,6 @@ body {
   text-align: center;
 }
 
-.products-spacing .col-sm {
-  padding: 15px 15px 15px 15px;
-}
-
 /*----------------------- FEATURED PRODUCTS SECTION STYLE END -----------------------*/
 
 /*----------------------- EVENT & SHOP ADDRESS SECTION STYLE START -----------------------*/
@@ -311,13 +311,6 @@ body {
 }
 #event-section .col-sm {
   padding: 20px 20px 20px 20px;
-}
-
-@media only screen and (max-width: 991px) {
-  #top-section,
-  #middle-section {
-    display: none;
-  }
 }
 
 /*----------------------- EVENT & SHOP ADDRESS SECTION STYLE END -----------------------*/
@@ -667,4 +660,11 @@ body {
   color: #fff;
   font-size: 20px;
   text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+  #top-section,
+  #middle-section {
+    display: none;
+  }
 }
