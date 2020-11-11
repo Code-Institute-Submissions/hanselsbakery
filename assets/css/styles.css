@@ -32,7 +32,7 @@ body {
 /* SECTION TITLE GENERIC STYLES */
 
 .custom-section-title h1 {
-display: flex;
+  display: flex;
   height: 100px;
   font-size: 26px;
   font-weight: 600;
@@ -50,7 +50,7 @@ display: flex;
   width: 300px;
 }
 
-.products-spacing .col-sm {
+.products-spacing .col-sm, .products-spacing .col-lg{
   padding: 15px 15px 15px 15px;
 }
 
@@ -198,7 +198,7 @@ display: flex;
   width: 800px;
   height: 140px;
   clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 14% 50%, 0% 0%);
-  background: rgba(0, 0, 0, 0.50);
+  background: rgba(0, 0, 0, 0.5);
 }
 #carousel-cover-text p {
   margin: auto;
@@ -310,7 +310,7 @@ display: flex;
   border-color: #fff;
   transition: 700ms ease;
 }
-#event-section .col-sm {
+#event-section .col-md {
   padding: 20px 20px 20px 20px;
 }
 
@@ -659,7 +659,8 @@ display: flex;
 
 @media only screen and (max-width: 991px) {
   #top-section,
-  #middle-section, #logo-dropdown-nav {
+  #middle-section,
+  #logo-dropdown-nav {
     display: none;
   }
 }
@@ -668,9 +669,9 @@ display: flex;
   #logo-dropdown-nav {
     display: inline-block;
   }
-  #logo-dropdown-nav img{
-      width: 350px;
-      height: 70px;
+  #logo-dropdown-nav img {
+    width: 350px;
+    height: 70px;
   }
 }
 
@@ -678,14 +679,44 @@ display: flex;
   #logo-dropdown-nav {
     display: inline-block;
   }
-  #logo-dropdown-nav img{
-      width: 200px;
-      height: 45px;
+  #logo-dropdown-nav img {
+    width: 200px;
+    height: 45px;
+  }
+
+  #event-section h5,
+  #featured-section .card-title {
+    font-size: 20px;
   }
 }
 
 @media only screen and (min-width: 991px) {
   #logo-dropdown-nav {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1100px) {
+  #event-section h5 {
+    font-size: 14px;
+    padding: 20px 5px 5px 5px;
+  }
+
+  #event-section p,
+  #featured-section {
+    font-size: 14px;
+    padding: 5px 5px 5px 5px;
+  }
+  #event-section .btn {
+    font-size: 14px;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 0 10px 0;
+  }
+
+  #featured-section .card-title,
+  #featured-section .card-text {
+    font-size: 14px;
+    padding: 5px 5px 5px 5px;
+    margin: 0;
   }
 }
