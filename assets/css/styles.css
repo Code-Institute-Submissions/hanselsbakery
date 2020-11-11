@@ -241,11 +241,6 @@ display: flex;
   background-color: #eeba2b;
 }
 
-#featured-section img{
-    width: 600px;
-    height: 600px;
-}
-
 #featured-section .card-title {
   font-weight: bold;
   font-size: 26px;
