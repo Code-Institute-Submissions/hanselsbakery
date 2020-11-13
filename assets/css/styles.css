@@ -486,6 +486,12 @@ body {
 
 #gallery-section .card-header {
   background-color: #eeba2b;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 3px 3px 3px;
 }
 #gallery-section .nav-pills {
   border: 5px solid #fff;
@@ -727,13 +733,12 @@ body {
   #featured-section .card-text {
     font-size: 14px;
   }
-  #event-section p{
-      padding: 0;
-      margin: 0;
+  #event-section p {
+    padding: 0;
+    margin: 0;
   }
-
-   #event-section .col{
-      padding: 0;
-      margin: 0;
+  #event-section .col {
+    padding: 0;
+    margin: 0;
   }
 }

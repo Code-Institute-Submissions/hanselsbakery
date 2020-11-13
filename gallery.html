@@ -35,9 +35,21 @@
         <div class="row row-cols-4">
           <div class="col-auto mx-auto">
             <ul class="nav nav-pills my-3" id="cakes-tab" role="tablist">
+              <li class="nav-item mx-auto ">
+                <a
+                  class="nav-link active clickedLink"
+                  id="allcakes-tab"
+                  href="#all-cakes"
+                  role="tab"
+                  data-toggle="tab"
+                  aria-controls="allcakes"
+                  aria-selected="true"
+                  >All Cakes</a
+                >
+              </li>
               <li class="nav-item mx-auto">
                 <a
-                  class="nav-link active"
+                  class="nav-link clickedLink"
                   id="cupcakes-tab"
                   href="#cupcakes"
                   role="tab"
@@ -49,7 +61,7 @@
               </li>
               <li class="nav-item mx-auto">
                 <a
-                  class="nav-link"
+                  class="nav-link clickedLink"
                   id="one-layer-cakes-tab"
                   href="#one-layer-cakes"
                   role="tab"
@@ -61,7 +73,7 @@
               </li>
               <li class="nav-item mx-auto">
                 <a
-                  class="nav-link"
+                  class="nav-link clickedLink"
                   id="two-layer-cakes-tab"
                   href="#two-layer-cakes"
                   role="tab"
@@ -73,7 +85,8 @@
               </li>
               <li class="nav-item mx-auto">
                 <a
-                  class="nav-link"
+                  class="nav-link clickedLink
+                  "
                   id="party-cakes-tab"
                   href="#party-cakes"
                   role="tab"
@@ -87,6 +100,12 @@
           </div>
         </div>
         <div class="tab-content" id="cakes-tab-content">
+          <div
+            class="tab-pane fade show active"
+            id="allcakes"
+            role="tabpanel"
+            aria-labelledby="allcakes-tab"
+          ></div>
           <!-- Cupcakes -->
           <div
             class="tab-pane fade show active"
@@ -94,8 +113,8 @@
             role="tabpanel"
             aria-labelledby="cupcakes-tab"
           >
-            <div class="row products-spacing">
-              <div class="col-sm p-3">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Cherry Cupcake</div>
                   <a href="#cherry_cupcake" class="imgThumbnail">
@@ -106,7 +125,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Double Chocolate Cupcake</div>
                   <a href="#double_chocolate_cupcake" class="imgThumbnail">
@@ -117,7 +136,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Ferrero Rocher Cupcake</div>
                   <a href="#ferrero_rocher_cupcake" class="imgThumbnail">
@@ -128,7 +147,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Honey Cupcake</div>
                   <a href="#honey_cupcake" class="imgThumbnail">
@@ -139,9 +158,7 @@
                   /></a>
                 </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Oreo Cupcake</div>
                   <a href="#oreo_cupcake" class="imgThumbnail">
@@ -152,7 +169,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Pink Brownie Cupcake</div>
                   <a href="#pink_brownie_cupcake" class="imgThumbnail">
@@ -163,7 +180,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Toffee Cupcake</div>
                   <a href="#toffee_cupcake" class="imgThumbnail">
@@ -174,7 +191,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Rainbow Cupcake</div>
                   <a href="#rainbow_cake" class="imgThumbnail">
@@ -189,13 +206,13 @@
           </div>
           <!-- One Tier Cakes -->
           <div
-            class="tab-pane fade"
+            class="tab-pane fade show active"
             id="one-layer-cakes"
             role="tabpanel"
             aria-labelledby="one-layer-cakes-tab"
           >
-            <div class="row products-spacing">
-              <div class="col-sm p-3">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Fig Cake</div>
                   <a href="#cake_figs" class="imgThumbnail">
@@ -206,7 +223,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Carrot Cake</div>
 
@@ -218,7 +235,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Cherry Cake</div>
                   <a href="#cherry_cake" class="imgThumbnail">
@@ -229,7 +246,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Chocolate Cake</div>
                   <a href="#chocolate_cake" class="imgThumbnail">
@@ -240,9 +257,7 @@
                   /></a>
                 </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Date Cake</div>
                   <a href="#date_cake" class="imgThumbnail">
@@ -253,7 +268,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Ferrero Rocher Cake</div>
                   <a href="#ferrero_rocher_cake" class="imgThumbnail">
@@ -264,7 +279,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Lemon Drizzle Cake</div>
                   <a href="#lemon_drizzle_cake" class="imgThumbnail">
@@ -275,7 +290,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Oreo Cake</div>
                   <a href="#ocean_cake" class="imgThumbnail">
@@ -290,13 +305,13 @@
           </div>
           <!-- Two Tier Cakes -->
           <div
-            class="tab-pane fade"
+            class="tab-pane fade show active"
             id="two-layer-cakes"
             role="tabpanel"
             aria-labelledby="two-layer-cakes-tab"
           >
             <div class="row">
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Blueberry Sponge Cake</div>
                   <a href="#blueberry_cake" class="imgThumbnail">
@@ -307,7 +322,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Cream and Fig Sponge Cake</div>
                   <a href="#cream_and_figs_cake" class="imgThumbnail">
@@ -318,7 +333,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Dark Chocolate Sponge Cake</div>
                   <a href="#dark_chocolate_cake" class="imgThumbnail">
@@ -329,7 +344,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">
                     Grape and Passion Fruit Sponge Cake
@@ -342,9 +357,7 @@
                   /></a>
                 </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Peach Sponge Cake</div>
                   <a href="#peach_cake" class="imgThumbnail">
@@ -355,7 +368,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Rose Sponge Cake</div>
                   <a href="#rose_cake" class="imgThumbnail">
@@ -366,7 +379,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Tropical Fruits Sponge Cake</div>
                   <a href="#tropical_fruits_cake" class="imgThumbnail">
@@ -377,7 +390,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Vanilla Choco Sponge Cake</div>
                   <a href="#vanilla_choco_cake" class="imgThumbnail">
@@ -392,13 +405,13 @@
           </div>
           <!-- Special Event Cakes -->
           <div
-            class="tab-pane fade"
+            class="tab-pane fade show active"
             id="party-cakes"
             role="tabpanel"
             aria-labelledby="party-cakes-tab"
           >
             <div class="row">
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Rose & Vanilla Sponge Cake</div>
                   <a href="#rose_wedding_cake" class="imgThumbnail">
@@ -409,7 +422,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Dolce de Leice Cake</div>
                   <a href="#dolce_de_leice_cake" class="imgThumbnail">
@@ -420,7 +433,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Fruit Sponge Cake</div>
                   <a href="#fruit_sponge_cake" class="imgThumbnail">
@@ -431,7 +444,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Ocean Flavoured Sponge Cake</div>
                   <a href="#ocean_cake" class="imgThumbnail">
@@ -442,9 +455,7 @@
                   /></a>
                 </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Pink Rose Sponge Cake</div>
                   <a href="#pink_cake" class="imgThumbnail">
@@ -455,7 +466,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Vanilla Sponge Cake</div>
                   <a href="#vanilla_sponge_cake" class="imgThumbnail">
@@ -466,7 +477,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Victoria Sponge Cake</div>
                   <a href="#victoria_sponge_cake" class="imgThumbnail">
@@ -478,7 +489,7 @@
                   /></a>
                 </div>
               </div>
-              <div class="col-sm p-3">
+              <div class="col-12 col-sm-6 col-lg-3 col-xl-3 p-3">
                 <div class="card mx-auto">
                   <div class="card-header">Honey Sponge Cake</div>
                   <a href="#honey_wedding_cake" class="imgThumbnail">

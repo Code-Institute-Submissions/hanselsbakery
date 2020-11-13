@@ -86,9 +86,9 @@ function deconstructFormArray(formSerializedArray) {
   return inputDetails;
 }
 /**
- * 
- * @param {string} userDetails 
- */ 
+ *
+ * @param {string} userDetails
+ */
 function displayJoinUsResponse(userDetails) {
   $(".joinUs").modal("hide");
   setTimeout(() => {
@@ -133,7 +133,8 @@ function displayBookingResponse(userDetails) {
       " people, on ",
       userDetails.bookingDate,
       " at ",
-      userDetails.bookingTime, "."
+      userDetails.bookingTime,
+      "."
     );
     $("#userResponse").modal("show");
   }, 3000);
@@ -161,6 +162,32 @@ function displayContactResponse(userDetails) {
     $("#userResponse").modal("show");
   }, 3000);
 }
+
+$(function () {
+  $(document).on("click", ".clickedLink", function (e) {
+    const clickedTab = $(this).text();
+    e.preventDefault();
+    if (clickedTab === "All Cakes") {
+      e.preventDefault();
+      $("#cupcakes").tab("show");
+      $("#one-layer-cakes").tab("show");
+      $("#two-layer-cakes").tab("show");
+      $("#party-cakes").tab("show");
+    } else if (
+      clickedTab === "Cupcakes" ||
+      clickedTab === "One Tier Cakes" ||
+      clickedTab === "Two Tier Cakes" ||
+      clickedTab === "Special Event Cakes"
+    ) {
+      e.preventDefault();
+      $("#cupcakes").removeClass("active");
+      $("#one-layer-cakes").removeClass("active");
+      $("#two-layer-cakes").removeClass("active");
+      $("#party-cakes").removeClass("active");
+    }
+    e.preventDefault();
+  });
+});
 
 $("#timepicker").timepicker({
   timeFormat: "h:mm p",
