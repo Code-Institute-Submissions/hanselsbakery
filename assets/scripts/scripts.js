@@ -85,7 +85,10 @@ function deconstructFormArray(formSerializedArray) {
   //alert(JSON.stringify(inputDetails));
   return inputDetails;
 }
-
+/**
+ * 
+ * @param {string} userDetails 
+ */ 
 function displayJoinUsResponse(userDetails) {
   $(".joinUs").modal("hide");
   setTimeout(() => {
