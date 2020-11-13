@@ -39,11 +39,15 @@ function displayModal() {
 $(document).on("click", ".clickCustomModal", displayModal);
 
 $(function () {
-  $(".imgThumbnail").on("click", function (event) {
+  $(".imgThumbnail").on("click", function () {
+    const cakeName = $( this ).parent().text();
+    $(".cake-name").empty();;
+    $(".cake-name").css({"font-size":"20px","padding":"3px 6px 3px 6px"}).append(cakeName);
     $(".originalImage").attr("src", $(this).find("img").attr("src"));
     $("#imgModal").modal("show");
   });
 });
+
 
 $(document).on("submit", "form", function (event) {
   formID = event.target.id;
