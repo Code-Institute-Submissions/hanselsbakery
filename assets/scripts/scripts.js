@@ -82,7 +82,6 @@ function deconstructFormArray(formSerializedArray) {
   for (const key of keys) {
     inputDetails[key.name] = key.value;
   }
-  //alert(JSON.stringify(inputDetails));
   return inputDetails;
 }
 /**
