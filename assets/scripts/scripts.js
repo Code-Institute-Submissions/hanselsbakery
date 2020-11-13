@@ -101,7 +101,7 @@ function displayJoinUsResponse(userDetails) {
 
   setTimeout(() => {
     $("#spinnerResponse").modal("hide");
-  }, 5500);
+  }, 2500);
   setTimeout(() => {
     $("#responseTitle").append("Thank you!");
     $("#responseMessage").append(
@@ -109,7 +109,7 @@ function displayJoinUsResponse(userDetails) {
       userDetails.joinEmail
     );
     $("#userResponse").modal("show");
-  }, 6000);
+  }, 3000);
 }
 
 function displayBookingResponse(userDetails) {
@@ -122,21 +122,21 @@ function displayBookingResponse(userDetails) {
   }, 200);
   setTimeout(() => {
     $("#spinnerResponse").modal("hide");
-  }, 5500);
+  }, 2500);
   setTimeout(() => {
     $("#responseTitle").append("Booking Confirmation");
     $("#responseMessage").append(
       "Thank you ",
       userDetails.firstName,
-      ", booking a table with us! We can confirm that you have booked a table for ",
+      ", for booking a table with us! We can confirm that you have booked a table for ",
       userDetails.peopleQuantity,
       " people, on ",
       userDetails.bookingDate,
       " at ",
-      userDetails.bookingTime
+      userDetails.bookingTime, "."
     );
     $("#userResponse").modal("show");
-  }, 6000);
+  }, 3000);
 }
 
 function displayContactResponse(userDetails) {
@@ -149,7 +149,7 @@ function displayContactResponse(userDetails) {
   }, 200);
   setTimeout(() => {
     $("#spinnerResponse").modal("hide");
-  }, 5500);
+  }, 2500);
   setTimeout(() => {
     $("#responseTitle").append("Confirmation");
     $("#responseMessage").append(
@@ -159,7 +159,7 @@ function displayContactResponse(userDetails) {
       userDetails.contactEmail
     );
     $("#userResponse").modal("show");
-  }, 6000);
+  }, 3000);
 }
 
 $("#timepicker").timepicker({
