@@ -17,6 +17,7 @@ function loadModal() {
   $("#privacyPolicyModal").load("components/modals/privacy-policy-modal.html");
   $("#testimonialsModal").load("components/modals/testimonials-modal.html");
   $("#spinnerResponseModal").load("components/modals/spinner-modal.html");
+  $("#galleryImageModal").load("components/modals/gallery-image-modal.html");
 }
 
 $(window).on("load", loadModal);
@@ -40,14 +41,16 @@ $(document).on("click", ".clickCustomModal", displayModal);
 
 $(function () {
   $(".imgThumbnail").on("click", function () {
-    const cakeName = $( this ).parent().text();
-    $(".cake-name").empty();;
-    $(".cake-name").css({"font-size":"20px","padding":"3px 6px 3px 6px"}).append(cakeName);
+    const cakeName = $(this).parent().text();
+    $(".cake-name").empty();
+    $(".cake-name")
+      .css({ "font-size": "20px", padding: "3px 6px 3px 6px" })
+      .append(cakeName);
     $(".originalImage").attr("src", $(this).find("img").attr("src"));
+    $(".originalImage").css("border", "2px solid #fff");
     $("#imgModal").modal("show");
   });
 });
-
 
 $(document).on("submit", "form", function (event) {
   formID = event.target.id;
