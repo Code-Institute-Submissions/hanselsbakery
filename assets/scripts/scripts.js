@@ -168,24 +168,31 @@ $(function () {
     const clickedTab = $(this).text();
     e.preventDefault();
     if (clickedTab === "All Cakes") {
-      e.preventDefault();
       $("#cupcakes").tab("show");
       $("#one-layer-cakes").tab("show");
       $("#two-layer-cakes").tab("show");
       $("#party-cakes").tab("show");
-    } else if (
-      clickedTab === "Cupcakes" ||
-      clickedTab === "One Tier Cakes" ||
-      clickedTab === "Two Tier Cakes" ||
-      clickedTab === "Special Event Cakes"
-    ) {
-      e.preventDefault();
-      $("#cupcakes").removeClass("active");
+    } else if (clickedTab === "Cupcakes") {
       $("#one-layer-cakes").removeClass("active");
       $("#two-layer-cakes").removeClass("active");
       $("#party-cakes").removeClass("active");
+      $("#cupcakes").tab("show");
+    } else if (clickedTab === "One Tier Cakes") {
+      $("#cupcakes").removeClass("active");
+      $("#two-layer-cakes").removeClass("active");
+      $("#party-cakes").removeClass("active");
+      $("#one-layer-cakes").tab("show");
+    } else if (clickedTab === "Two Tier Cakes") {
+      $("#one-layer-cakes").removeClass("active");
+      $("#cupcakes").removeClass("active");
+      $("#party-cakes").removeClass("active");
+      $("#two-layer-cakes").tab("show");
+    } else if (clickedTab === "Special Event Cakes") {
+      $("#one-layer-cakes").removeClass("active");
+      $("#two-layer-cakes").removeClass("active");
+      $("#cupcakes").removeClass("active");
+      $("#party-cakes").tab("show");
     }
-    e.preventDefault();
   });
 });
 
