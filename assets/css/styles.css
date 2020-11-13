@@ -649,6 +649,12 @@ body {
   background-color: #858e82;
 }
 
+#imgModal .modal-body,
+#imgModal .modal-header,
+#imgModal .modal-footer {
+  background-color: #858e82;
+}
+
 #formResponseModal .modal-body {
   color: #fff;
   font-size: 20px;

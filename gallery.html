@@ -1,483 +1,563 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
 
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
-	<link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+    <title>Hansel's Bakery</title>
+  </head>
 
-	<title>Hansel's Bakery</title>
-</head>
-
-<body>
-	<!-- Load Header Component -->
-	<header id="load-header"></header>
-	<!-- Gallery Section -->
-	<section id="gallery-section">
-		<div class="container-fluid">
-			<div class="row custom-section-title">
-				<div class="col-auto mx-auto">
-					<h1 class="mx-auto">Gallery</h1>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-auto mx-auto">
-					<ul class="nav nav-pills my-3" id="cakes-tab" role="tablist">
-						<li class="nav-item">
-							<a class="nav-link active" id="cupcakes-tab" href="#cupcakes" role="tab" data-toggle="tab"
-								aria-controls="cupcakes" aria-selected="true">Cupcakes</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="one-layer-cakes-tab" href="#one-layer-cakes" role="tab"
-								data-toggle="tab" aria-controls="one-layer-cakes" aria-selected="true">One Tier
-								Cakes</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="two-layer-cakes-tab" href="#two-layer-cakes" role="tab"
-								data-toggle="tab" aria-controls="two-layer-cakes" aria-selected="true">Two Tier
-								Cakes</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="party-cakes-tab" href="#party-cakes" role="tab" data-toggle="tab"
-								aria-controls="party-cakes" aria-selected="true">Special Event Cakes</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="tab-content" id="cakes-tab-content">
-				<!-- Cupcakes -->
-				<div class="tab-pane fade show active" id="cupcakes" role="tabpanel" aria-labelledby="cupcakes-tab">
-					<div class="row products-spacing">
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Cherry Cupcake</div>
-								<a href="#cherry_cupcake" class="imgThumbnail">
-									<img
+  <body>
+    <!-- Load Header Component -->
+    <header id="load-header"></header>
+    <!-- Gallery Section -->
+    <section id="gallery-section">
+      <div class="container-fluid pt-5 pb-5">
+        <div class="row custom-section-title">
+          <div class="col-auto mx-auto">
+            <h1 class="mx-auto">Gallery</h1>
+          </div>
+        </div>
+        <div class="row row-cols-4">
+          <div class="col-auto mx-auto">
+            <ul class="nav nav-pills my-3" id="cakes-tab" role="tablist">
+              <li class="nav-item mx-auto">
+                <a
+                  class="nav-link active"
+                  id="cupcakes-tab"
+                  href="#cupcakes"
+                  role="tab"
+                  data-toggle="tab"
+                  aria-controls="cupcakes"
+                  aria-selected="true"
+                  >Cupcakes</a
+                >
+              </li>
+              <li class="nav-item mx-auto">
+                <a
+                  class="nav-link"
+                  id="one-layer-cakes-tab"
+                  href="#one-layer-cakes"
+                  role="tab"
+                  data-toggle="tab"
+                  aria-controls="one-layer-cakes"
+                  aria-selected="true"
+                  >One Tier Cakes</a
+                >
+              </li>
+              <li class="nav-item mx-auto">
+                <a
+                  class="nav-link"
+                  id="two-layer-cakes-tab"
+                  href="#two-layer-cakes"
+                  role="tab"
+                  data-toggle="tab"
+                  aria-controls="two-layer-cakes"
+                  aria-selected="true"
+                  >Two Tier Cakes</a
+                >
+              </li>
+              <li class="nav-item mx-auto">
+                <a
+                  class="nav-link"
+                  id="party-cakes-tab"
+                  href="#party-cakes"
+                  role="tab"
+                  data-toggle="tab"
+                  aria-controls="party-cakes"
+                  aria-selected="true"
+                  >Special Event Cakes</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="tab-content" id="cakes-tab-content">
+          <!-- Cupcakes -->
+          <div
+            class="tab-pane fade show active"
+            id="cupcakes"
+            role="tabpanel"
+            aria-labelledby="cupcakes-tab"
+          >
+            <div class="row products-spacing">
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Cherry Cupcake</div>
+                  <a href="#cherry_cupcake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/cupcakes/cherry_cupcake_WQ1sPcLqiRrnq.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a cherry cupcake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Double Chocolate Cupcake</div>
-								<a href="#double_chocolate_cupcake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Double Chocolate Cupcake</div>
+                  <a href="#double_chocolate_cupcake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/cupcakes/double_chocolate_cupcake_n9NPjNF3iwU1w.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a double chocolate cupcake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Ferrero Rocher Cupcake</div>
-								<a href="#ferrero_rocher_cupcake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Ferrero Rocher Cupcake</div>
+                  <a href="#ferrero_rocher_cupcake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/cupcakes/ferrero_rocher_cupcake_vP2IreDRS.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a ferrero rocher cupcake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Honey Cupcake</div>
-								<a href="#honey_cupcake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Honey Cupcake</div>
+                  <a href="#honey_cupcake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/cupcakes/honey_cupcake_ds32gMQys.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a honey cupcake. "
                   /></a>
-							</div>
-						</div>
-					</div>
-					<div class="row products-spacing">
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Oreo Cupcake</div>
-								<a href="#oreo_cupcake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Oreo Cupcake</div>
+                  <a href="#oreo_cupcake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/cupcakes/oreo_cupcake_gbWlDWbtH9-IH.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="this is an image of oreo cupcake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Pink Brownie Cupcake</div>
-								<a href="#pink_brownie_cupcake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Pink Brownie Cupcake</div>
+                  <a href="#pink_brownie_cupcake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/cupcakes/pink_brownie_cupcake_eCFFroCSPELY.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a pink brownie cupcake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Toffee Cupcake</div>
-								<a href="#toffee_cupcake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Toffee Cupcake</div>
+                  <a href="#toffee_cupcake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/cupcakes/toffee_cupcake_V6Vgmy6QYuSH.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a toffee cupcake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Rainbow Cupcake</div>
-								<a href="#rainbow_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Rainbow Cupcake</div>
+                  <a href="#rainbow_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/cupcakes/rainbow_cupcake_iyXW-WDVd-.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a rainbow cupcake."
                   /></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- One Tier Cakes -->
-				<div class="tab-pane fade" id="one-layer-cakes" role="tabpanel" aria-labelledby="one-layer-cakes-tab">
-					<div class="row products-spacing">
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Fig Cake</div>
-								<a href="#cake_figs" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- One Tier Cakes -->
+          <div
+            class="tab-pane fade"
+            id="one-layer-cakes"
+            role="tabpanel"
+            aria-labelledby="one-layer-cakes-tab"
+          >
+            <div class="row products-spacing">
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Fig Cake</div>
+                  <a href="#cake_figs" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/one_tier_cakes/cake_figs_eF0rONQqANANB.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="This image is of one tier fig cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Carrot Cake</div>
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Carrot Cake</div>
 
-								<a href="#carrot_cake" class="imgThumbnail">
-									<img
+                  <a href="#carrot_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/one_tier_cakes/carrot_cake_zQvR-knbFfjA.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="This image is of one tier carrot cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Cherry Cake</div>
-								<a href="#cherry_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Cherry Cake</div>
+                  <a href="#cherry_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/one_tier_cakes/cherry_cake_OjJngTbgBNjJE.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="This image is of one tier cherry cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Chocolate Cake</div>
-								<a href="#chocolate_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Chocolate Cake</div>
+                  <a href="#chocolate_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/one_tier_cakes/chocolate_cake_Kz5OgP1pkFX9.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="This image is of one tier chocolate cake."
                   /></a>
-							</div>
-						</div>
-					</div>
-					<div class="row products-spacing">
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Date Cake</div>
-								<a href="#date_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Date Cake</div>
+                  <a href="#date_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/one_tier_cakes/date_cake_xIF3GYiSCOQPv.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="This image is of one tier date cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Ferrero Rocher Cake</div>
-								<a href="#ferrero_rocher_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Ferrero Rocher Cake</div>
+                  <a href="#ferrero_rocher_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/one_tier_cakes/ferrero_rocher_cake_EMyz_CAH1WoBO.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="This image is of one tier ferrero rocher cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Lemon Drizzle Cake</div>
-								<a href="#lemon_drizzle_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Lemon Drizzle Cake</div>
+                  <a href="#lemon_drizzle_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/one_tier_cakes/lemon_drizzle_cake_5X-2jlqclGOx_.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="This image is of one tier lemon drizzle cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Oreo Cake</div>
-								<a href="#ocean_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Oreo Cake</div>
+                  <a href="#ocean_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/one_tier_cakes/oreo_cake_z9GfjEJNTovav.jpg?tr=w-600,h-600,c-force"
                       class="card-img-top img-fluid"
                       alt="This image is of one tier oero cake."
                   /></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Two Tier Cakes -->
-				<div class="tab-pane fade" id="two-layer-cakes" role="tabpanel" aria-labelledby="two-layer-cakes-tab">
-					<div class="row products-spacing">
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Blueberry Sponge Cake</div>
-								<a href="#blueberry_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Two Tier Cakes -->
+          <div
+            class="tab-pane fade"
+            id="two-layer-cakes"
+            role="tabpanel"
+            aria-labelledby="two-layer-cakes-tab"
+          >
+            <div class="row">
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Blueberry Sponge Cake</div>
+                  <a href="#blueberry_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/two_tier_cakes/blueberry_wedding_cake_20IiBCg87W2u.jpg?tr=w-600,h-800,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a blueberry sponge cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Cream and Fig Sponge Cake</div>
-								<a href="#cream_and_figs_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Cream and Fig Sponge Cake</div>
+                  <a href="#cream_and_figs_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/two_tier_cakes/cream_and_figs_cake_63m0yf8tjCE8E.jpg?tr=w-600,h-800,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a cream and fig cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Dark Chocolate Sponge Cake</div>
-								<a href="#dark_chocolate_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Dark Chocolate Sponge Cake</div>
+                  <a href="#dark_chocolate_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/two_tier_cakes/dark_chocolate_cake_2-pAwm9mf9w_.jpg?tr=w-600,h-800,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a dark chocolate cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Grape and Passion Fruit Sponge Cake</div>
-								<a href="#" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">
+                    Grape and Passion Fruit Sponge Cake
+                  </div>
+                  <a href="#" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/two_tier_cakes/grape_and_passion_fruit_u0lVpmRgQ6YU.jpg?tr=w-600,h-800,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a grape and passion fruit cake."
                   /></a>
-							</div>
-						</div>
-					</div>
-					<div class="row products-spacing">
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Peach Sponge Cake</div>
-								<a href="#peach_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Peach Sponge Cake</div>
+                  <a href="#peach_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/two_tier_cakes/peach_cake_zfW8-5WDzHmFI.jpg?tr=w-600,h-800,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a peach cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Rose Sponge Cake</div>
-								<a href="#rose_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Rose Sponge Cake</div>
+                  <a href="#rose_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/two_tier_cakes/rose_cake_JqG_dy9uRPVG.jpg?tr=w-600,h-800,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a rose cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Tropical Fruits Sponge Cake</div>
-								<a href="#tropical_fruits_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Tropical Fruits Sponge Cake</div>
+                  <a href="#tropical_fruits_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/two_tier_cakes/tropical_fruits_cake_-F6kUY-x4EIAl.jpg?tr=w-600,h-800,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a tropical fruits cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Vanilla Choco Sponge Cake</div>
-								<a href="#vanilla_choco_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Vanilla Choco Sponge Cake</div>
+                  <a href="#vanilla_choco_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/two_tier_cakes/vanilla_choco_cake_sEHih0NmamKG1.jpg?tr=w-600,h-800,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a vanilla chocolate cake."
                   /></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Special Event Cakes -->
-				<div class="tab-pane fade" id="party-cakes" role="tabpanel" aria-labelledby="party-cakes-tab">
-					<div class="row products-spacing">
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Rose & Vanilla Sponge Cake</div>
-								<a href="#rose_wedding_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Special Event Cakes -->
+          <div
+            class="tab-pane fade"
+            id="party-cakes"
+            role="tabpanel"
+            aria-labelledby="party-cakes-tab"
+          >
+            <div class="row">
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Rose & Vanilla Sponge Cake</div>
+                  <a href="#rose_wedding_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/special_events/rose_wedding_cake_o3pUwpU7vrRbZ.jpg?tr=w-600,h-900,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a rose wedding cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Dolce de Leice Cake</div>
-								<a href="#dolce_de_leice_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Dolce de Leice Cake</div>
+                  <a href="#dolce_de_leice_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/special_events/flower_wedding_cake_PIiT8BZOGVtW.jpg?tr=w-600,h-900,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a dolce de leice and vanilla cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Fruit Sponge Cake</div>
-								<a href="#fruit_sponge_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Fruit Sponge Cake</div>
+                  <a href="#fruit_sponge_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/special_events/fruit_cake_r85rpUCt1Za6.jpg?tr=w-600,h-900,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a vanilla fruit cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Ocean Flavoured Sponge Cake</div>
-								<a href="#ocean_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Ocean Flavoured Sponge Cake</div>
+                  <a href="#ocean_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/special_events/ocean_cake_nWZBqR0iJ5UQ.jpg?tr=w-600,h-900,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a ocean weeding cake."
                   /></a>
-							</div>
-						</div>
-					</div>
-					<div class="row products-spacing">
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Pink Rose Sponge Cake</div>
-								<a href="#pink_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Pink Rose Sponge Cake</div>
+                  <a href="#pink_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/special_events/pink_cake_cVP9qhC4Fd8w.jpg?tr=w-600,h-900,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a pink wedding cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Vanilla Sponge Cake</div>
-								<a href="#vanilla_sponge_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Vanilla Sponge Cake</div>
+                  <a href="#vanilla_sponge_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/special_events/vanilla_sponge_DpJ8xmgBHTRq.jpg?tr=w-600,h-900,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a vanilla wedding cake."
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Victoria Sponge Cake</div>
-								<a href="#victoria_sponge_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Victoria Sponge Cake</div>
+                  <a href="#victoria_sponge_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/special_events/wedding_cake_eSB7pCVUHvk3.jpg?tr=w-600,h-900,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a victoria sponge cake with roses."
+
                   /></a>
-							</div>
-						</div>
-						<div class="col-sm">
-							<div class="card mx-auto">
-								<div class="card-header">Honey Sponge Cake</div>
-								<a href="#honey_wedding_cake" class="imgThumbnail">
-									<img
+                </div>
+              </div>
+              <div class="col-sm p-3">
+                <div class="card mx-auto">
+                  <div class="card-header">Honey Sponge Cake</div>
+                  <a href="#honey_wedding_cake" class="imgThumbnail">
+                    <img
                       src="https://ik.imagekit.io/2a1in3cldn/special_events/honey_wedding_cake_o-fFV2WNwEzVZ.jpg?tr=w-600,h-900,c-force"
                       class="card-img-top img-fluid"
                       alt="This is an image of a honey wedding cake."
                   /></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Image Gallery Modal -->
-		<div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-labelledby="imgModelLabel"
-			aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered modal-lg">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">
-                            <span aria-hidden="true">&times;</span
-                            ><span class="sr-only">Close</span>
-                        </button>
-					</div>
-					<div class="modal-body">
-						<img src="#" class="originalImage" style="width: 100%; height: 100%"/>
-                    </div>
-						<div class="modal-footer">
-							<button type="button" data-toggle="modal" class="btn btn-secondary" data-dismiss="modal">
-                            Close
-                        </button>
-						</div>
-					</div>
-				</div>
-			</div>
-	</section>
-	<!-- Modals Section -->
-	<div id="formResponseModal"></div>
-	<div id="spinnerResponseModal"></div>
-	<div id="productInformationModal"></div>
-	<div id="customerServiceModal"></div>
-	<div id="privacyPolicyModal"></div>
-	<div id="testimonialsModal"></div>
-	<div id="joinUsModal"></div>
-	<!-- Footer Section -->
-	<footer id="load-footer"></footer>
-	<!-- Scripts Section -->
-	<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"
-		integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ=="
-		crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
-		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-	</script>
-	<script src="assets/scripts/scripts.js"></script>
-</body>
-
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Image Gallery Modal -->
+      <div
+        class="modal fade"
+        id="imgModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="imgModelLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                <span aria-hidden="true">&times;</span
+                ><span class="sr-only">Close</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="#"
+                class="originalImage"
+                style="width: 100%; height: 100%"
+              />
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                data-toggle="modal"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Modals Section -->
+    <div id="formResponseModal"></div>
+    <div id="spinnerResponseModal"></div>
+    <div id="productInformationModal"></div>
+    <div id="customerServiceModal"></div>
+    <div id="privacyPolicyModal"></div>
+    <div id="testimonialsModal"></div>
+    <div id="joinUsModal"></div>
+    <!-- Footer Section -->
+    <footer id="load-footer"></footer>
+    <!-- Scripts Section -->
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"
+      integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/scripts/scripts.js"></script>
+  </body>
 </html>

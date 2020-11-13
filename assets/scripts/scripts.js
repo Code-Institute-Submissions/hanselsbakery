@@ -39,7 +39,7 @@ function displayModal() {
 $(document).on("click", ".clickCustomModal", displayModal);
 
 $(function () {
-  $(".imgThumbnail").on("click", function () {
+  $(".imgThumbnail").on("click", function (event) {
     $(".originalImage").attr("src", $(this).find("img").attr("src"));
     $("#imgModal").modal("show");
   });
