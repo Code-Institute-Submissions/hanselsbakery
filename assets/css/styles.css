@@ -50,10 +50,6 @@ body {
   width: 300px;
 }
 
-.products-spacing .col-sm, .products-spacing .col-lg{
-  padding: 15px 15px 15px 15px;
-}
-
 /*----------------------- GLOBAL STYLES END -----------------------*/
 
 /*----------------------- HOME PAGE STYLE START -----------------------*/
@@ -112,15 +108,16 @@ body {
   list-style: none;
 }
 .social-media {
-  margin: auto;
   font-size: 18px;
   list-style: none;
   letter-spacing: 2px;
-  text-align: left;
+}
+
+.social-media a {
+  padding: 3px 3px 3px 3px;
 }
 
 .iconify {
-  margin: auto 0;
   width: 30px;
   height: 30px;
 }
@@ -324,14 +321,15 @@ body {
 
 #footer-nav a {
   color: #eeba2b;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 200;
 }
 
 #footer-nav h3 {
   text-transform: uppercase;
   color: #eeba2b;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 #footer-nav li {
@@ -695,28 +693,41 @@ body {
     display: none;
   }
 }
-
-@media only screen and (min-width: 320px) and (max-width: 1100px) {
-  #event-section h5 {
-    font-size: 14px;
-    padding: 20px 5px 5px 5px;
+@media only screen and (min-width: 320px) and (max-width: 574px) {
+  #footer-form,
+  #footer-sitemap,
+  #footer-about {
+    align-items: center;
+    justify-content: left;
   }
+}
 
-  #event-section p,
-  #featured-section {
-    font-size: 14px;
-    padding: 5px 5px 5px 5px;
+@media only screen and (min-width: 575px) and (max-width: 770px) {
+  #footer-form,
+  #footer-sitemap,
+  #footer-about {
+    justify-content: center;
   }
-  #event-section .btn {
-    font-size: 14px;
-    padding: 5px 5px 5px 5px;
-    margin: 10px 0 10px 0;
-  }
+}
 
-  #featured-section .card-title,
+@media only screen and (min-width: 375px) and (max-width: 575px) {
+  #featured-section .card {
+    width: 350px;
+    height: 100%;
+  }
+  #featured-section .card-title {
+    font-size: 16px;
+  }
   #featured-section .card-text {
     font-size: 14px;
-    padding: 5px 5px 5px 5px;
-    margin: 0;
+  }
+  #event-section p{
+      padding: 0;
+      margin: 0;
+  }
+
+   #event-section .col{
+      padding: 0;
+      margin: 0;
   }
 }
