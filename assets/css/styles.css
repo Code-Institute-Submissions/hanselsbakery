@@ -23,6 +23,7 @@ body {
   margin: 20px 20px 20px 20px;
   padding: 25px 35px 25px 35px;
   border: 5px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .inner-row *.col,
 .inner-row *.col-sm,
@@ -47,6 +48,7 @@ body {
   border: 5px solid #fff;
   background-color: #daddda;
   overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .custom-section-title > .col-auto {
   margin-top: 30px;
@@ -71,7 +73,6 @@ body {
   text-decoration: none;
   color: #eeba2b;
 }
-
 #menu li {
   list-style: none;
 }
@@ -236,6 +237,7 @@ body {
   border: 5px solid #ffffff;
   filter: drop-shadow(0px 32px 64px rgba(17, 17, 17, 0.08));
   overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 #featured-section .card-body {
@@ -268,6 +270,7 @@ body {
   background: rgba(133, 142, 130, 0.3);
   border: 5px solid #fff;
   height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 #event-section img {
   width: 100%;
@@ -370,6 +373,7 @@ body {
   letter-spacing: 2px;
   color: #000000;
   background: rgba(238, 186, 43, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 #footer-form .btn:hover {
@@ -401,6 +405,9 @@ body {
   font-weight: 600;
   padding: 5px;
   font-size: 16px;
+  border: 5px solid #eeba2b;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 #bakery-menu p {
   padding: 5px;
@@ -424,6 +431,7 @@ body {
   color: #000;
   font-size: 14px;
   padding: 5px 5px 5px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 #download-menu p {
@@ -484,6 +492,7 @@ body {
 
 #gallery-section .card {
   border: 5px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 #gallery-section .card-header {
@@ -498,13 +507,14 @@ body {
 }
 #gallery-section .nav-pills {
   border: 5px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 #gallery-section .nav-pills a {
   color: #000;
-  border-radius: 0px;
+  border-radius: 0;
 }
 #gallery-section img {
-  border: 0px;
+  border: 0;
 }
 #gallery-section .nav-pills .active {
   background-color: #eeba2b;
@@ -522,6 +532,10 @@ body {
   transition: 700ms ease;
 }
 
+#imgModal img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
 /*----------------------- GALLERY PAGE STYLE END -----------------------*/
 
 /*----------------------- ABOUT PAGE STYLE START -----------------------*/
@@ -532,23 +546,33 @@ body {
   background-color: #858e82;
 }
 #about-section .card-body {
-  padding: 10px 10px 10px 10px;
   background: rgba(240, 240, 240, 1);
 }
 
 #about-section .card-text {
-  padding: 10px 10px 10px 10px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 34px;
   letter-spacing: 4px;
   color: #000000;
+  width: auto;
+  overflow: hidden;
 }
 
 #about-section .card {
-  width: 100%;
+  height: 550px;
+}
+
+#about-section h2 {
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#about-section img {
+  border: 5px solid #000;
   height: 100%;
-  border: 0;
-  border-radius: 0;
 }
 
 /*----------------------- ABOUT PAGE STYLE END -----------------------*/
@@ -568,7 +592,7 @@ body {
 
 #contact-form-section input,
 #contact-form-section textarea {
-  width: 200px;
+  width: 300px;
 }
 
 #contact-form-section button {
@@ -747,5 +771,38 @@ body {
   #event-section .col {
     padding: 0;
     margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1785px) {
+  #about-section .card {
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 1445px) {
+  #about-section .card {
+    height: 650px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1199px) {
+  #about-section .card {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #contact-form-section input,
+  #contact-form-section textarea {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #booking-form input,
+  #booking-form textarea {
+    width: 100%;
+  
   }
 }
