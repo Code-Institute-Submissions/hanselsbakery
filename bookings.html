@@ -30,7 +30,6 @@
 
     <title>Hansel's Bakery</title>
   </head>
-
   <body>
     <!-- Load Header Component -->
     <header id="load-header"></header>
@@ -43,133 +42,132 @@
           </div>
         </div>
       </div>
-      <div class="outer-row align-items-center d-flex justify-content-center">
+      <div class="row align-items-center d-flex justify-content-center ml-1 mr-1">
         <div class="frame-border">
-          <div class="row inner-row">
-            <form class="form-inline mx-auto">
-              <div class="col-auto text-left">
-                <!-- Booking First Name Input -->
-                <div class="form-group pt-2 mt-5">
-                  <label class="text-left" for="fname">First Name:</label>
-                  <div class="input-group">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="fname"
-                      name="firstName"
-                      placeholder="Enter first name..."
-                      required
-                    />
-                    <div class="input-group-append">
-                      <span class="input-group-text"
-                        ><i class="far fa-user"></i>
-                      </span>
+          <div class="row inner-row ml-1 mr-1">
+            <form class="mx-auto" id="booking-form">
+              <div class="mx-auto mt-5 p-2">
+                <p>Please use the form below to book for a table.</p>
+              </div>
+              <!-- Booking First Name Input -->
+              <div class="form-group form-inline p-2 mt-5">
+                <label for="fname">First Name:</label>
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fname"
+                    name="firstName"
+                    placeholder="Enter first name..."
+                    required
+                  />
+                  <div class="input-group-append">
+                    <span class="input-group-text"
+                      ><i class="far fa-user"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!-- Booking Last Name Input -->
+              <div class="form-group form-inline p-2">
+                <label for="lname">Last Name:</label>
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lname"
+                    name="lastName"
+                    placeholder="Enter last name..."
+                    required
+                  />
+                  <div class="input-group-append">
+                    <span class="input-group-text"
+                      ><i class="far fa-user"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!-- Booking Email Input -->
+              <div class="form-group form-inline p-2">
+                <label for="booking-email">Email:</label>
+                <div class="input-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="booking-email"
+                    name="bookingEmail"
+                    placeholder="Enter email..."
+                    required
+                  />
+                  <div class="input-group-append">
+                    <span class="input-group-text"
+                      ><i class="fas fa-at"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!-- Booking Group Quantity Input -->
+              <div class="form-group form-inline p-2">
+                <label for="people-quantity">People:</label>
+                <div class="input-group">
+                  <input
+                    class="form-control"
+                    type="number"
+                    id="people-quantity"
+                    placeholder="Qty"
+                    min="1"
+                    max="6"
+                    name="peopleQuantity"
+                    required
+                  />
+                  <div class="input-group-append">
+                    <span class="input-group-text"
+                      ><i class="fas fa-user-check"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!-- Booking Time Input -->
+              <div class="form-group form-inline p-2">
+                <label for="timepicker">Time:</label>
+                <div class="input-group">
+                  <input
+                    class="form-control"
+                    name="bookingTime"
+                    id="timepicker"
+                    placeholder="Select a time..."
+                    required
+                  />
+                  <div class="input-group-append">
+                    <span class="input-group-text"
+                      ><i class="far fa-clock"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!-- Booking Date Input -->
+              <div class="form-group form-inline p-2">
+                <label for="datepicker">Date:</label>
+                <div class="input-group">
+                  <input
+                    input="text"
+                    class="form-control"
+                    name="bookingDate"
+                    id="datepicker"
+                    placeholder="Select a date..."
+                    required
+                  />
+                  <div class="input-group-append">
+                    <div class="input-group-text">
+                      <i class="fas fa-calendar-alt"></i>
                     </div>
                   </div>
                 </div>
-                <!-- Booking Last Name Input -->
-                <div class="form-group pt-2">
-                  <label class="text-left" for="lname">Last Name:</label>
-                  <div class="input-group">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="lname"
-                      name="lastName"
-                      placeholder="Enter last name..."
-                      required
-                    />
-                    <div class="input-group-append">
-                      <span class="input-group-text"
-                        ><i class="far fa-user"></i>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <!-- Booking Email Input -->
-                <div class="form-group pt-2">
-                  <label class="text-left" for="booking-email">Email:</label>
-                  <div class="input-group">
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="booking-email"
-                      name="bookingEmail"
-                      placeholder="Enter email..."
-                      required
-                    />
-                    <div class="input-group-append">
-                      <span class="input-group-text"
-                        ><i class="fas fa-at"></i>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <!-- Booking Group Quantity Input -->
-                <div class="form-group pt-2">
-                  <label class="text-left" for="people-quantity">People:</label>
-                  <div class="input-group">
-                    <input
-                      class="form-control"
-                      type="number"
-                      id="people-quantity"
-                      placeholder="Qty"
-                      min="1"
-                      max="6"
-                      name="peopleQuantity"
-                      required
-                    />
-                    <div class="input-group-append">
-                      <span class="input-group-text"
-                        ><i class="fas fa-user-check"></i>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <!-- Booking Time Input -->
-                <div class="form-group pt-2">
-                  <label class="text-left" for="timepicker">Time:</label>
-                  <div class="input-group">
-                    <input
-                      class="form-control"
-                      name="bookingTime"
-                      id="timepicker"
-                      placeholder="Select a time..."
-                      required
-                    />
-                    <div class="input-group-append">
-                      <span class="input-group-text"
-                        ><i class="far fa-clock"></i>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <!-- Booking Date Input -->
-                <div class="form-group pt-2">
-                  <label class="text-left" for="datepicker"
-                    >Date:</label
-                  >
-                  <div class="input-group">
-                    <input
-                      input="text"
-                      class="form-control"
-                      name="bookingDate"
-                      id="datepicker"
-                      placeholder="Select a date..."
-                      required
-                    />
-                    <div class="input-group-append">
-                      <div class="input-group-text">
-                        <i class="fas fa-calendar-alt"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group pt-2 mb-5">
-                  <button class="btn btn-primary" type="submit">
-                    Book Table
-                  </button>
-                </div>
+              </div>
+              <div class="form-group form-inline p-2 mb-5">
+                <button class="btn btn-primary" type="submit">
+                  Book Table
+                </button>
               </div>
             </form>
           </div>
