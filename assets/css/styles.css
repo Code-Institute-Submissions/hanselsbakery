@@ -20,8 +20,8 @@ body {
 
 .frame-border {
   width: 100%;
-  margin: 20px 20px 20px 20px;
-  padding: 25px 35px 25px 35px;
+  margin: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
   border: 5px solid #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
@@ -451,14 +451,17 @@ body {
 
 #bookings .inner-row {
   background: rgba(240, 240, 240, 0.5);
-}
-#bookings label {
-  width: 120px;
+  margin: 0;
+  padding: 0;
 }
 
-#bookings input,
-#bookings select {
-  width: 250px;
+#bookings input{
+    font-size: 13px;
+    width: 170px;
+}
+
+#bookings label{
+    width: 160px;
 }
 
 #bookings button {
@@ -796,13 +799,5 @@ body {
   #contact-form-section input,
   #contact-form-section textarea {
     width: 100%;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-  #booking-form input,
-  #booking-form textarea {
-    width: 100%;
-  
   }
 }

@@ -46,16 +46,12 @@
       <div class="outer-row align-items-center d-flex justify-content-center">
         <div class="frame-border">
           <div class="row inner-row">
-            <form class="form-inline mx-auto" id="booking-form">
-              <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <form class="form-inline mx-auto">
+              <div class="col-auto text-left">
                 <!-- Booking First Name Input -->
-                <div class="form-group p-2 mt-5">
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <label class="d-block align-text-right" for="fname"
-                      >First Name:</label
-                    >
-                  </div>
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="form-group pt-2 mt-5">
+                  <label class="text-left" for="fname">First Name:</label>
+                  <div class="input-group">
                     <input
                       type="text"
                       class="form-control"
@@ -64,19 +60,17 @@
                       placeholder="Enter first name..."
                       required
                     />
-                    <div class="invalid-feedback">
-                      Please, enter your first name.
+                    <div class="input-group-append">
+                      <span class="input-group-text"
+                        ><i class="far fa-user"></i>
+                      </span>
                     </div>
                   </div>
                 </div>
                 <!-- Booking Last Name Input -->
-                <div class="form-group p-2">
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <label class="d-block align-text-left" for="lname"
-                      >Last Name:</label
-                    >
-                  </div>
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="form-group pt-2">
+                  <label class="text-left" for="lname">Last Name:</label>
+                  <div class="input-group">
                     <input
                       type="text"
                       class="form-control"
@@ -85,19 +79,17 @@
                       placeholder="Enter last name..."
                       required
                     />
-                    <div class="invalid-feedback">
-                      Please, enter your last name.
+                    <div class="input-group-append">
+                      <span class="input-group-text"
+                        ><i class="far fa-user"></i>
+                      </span>
                     </div>
                   </div>
                 </div>
                 <!-- Booking Email Input -->
-                <div class="form-group p-2">
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <label class="d-block align-text-left" for="booking-email"
-                      >Email:</label
-                    >
-                  </div>
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="form-group pt-2">
+                  <label class="text-left" for="booking-email">Email:</label>
+                  <div class="input-group">
                     <input
                       type="email"
                       class="form-control"
@@ -106,44 +98,38 @@
                       placeholder="Enter email..."
                       required
                     />
-                    <div class="invalid-feedback">
-                      Please, enter your email.
+                    <div class="input-group-append">
+                      <span class="input-group-text"
+                        ><i class="fas fa-at"></i>
+                      </span>
                     </div>
                   </div>
                 </div>
                 <!-- Booking Group Quantity Input -->
-                <div class="form-group p-2">
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <label class="d-block align-text-left" for="people-quantity"
-                      >People:</label
-                    >
-                  </div>
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="form-group pt-2">
+                  <label class="text-left" for="people-quantity">People:</label>
+                  <div class="input-group">
                     <input
                       class="form-control"
                       type="number"
                       id="people-quantity"
-                      placeholder="Enter party number..."
+                      placeholder="Qty"
                       min="1"
                       max="6"
                       name="peopleQuantity"
                       required
                     />
-                    <div class="invalid-feedback">
-                      Please, select party people.
+                    <div class="input-group-append">
+                      <span class="input-group-text"
+                        ><i class="fas fa-user-check"></i>
+                      </span>
                     </div>
                   </div>
                 </div>
                 <!-- Booking Time Input -->
-                <div class="form-group p-2 has-danger">
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <label
-                      class="control-label d-block align-text-left"
-                      for="timepicker"
-                      >Time:</label
-                    >
-                  </div>
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="form-group pt-2">
+                  <label class="text-left" for="timepicker">Time:</label>
+                  <div class="input-group">
                     <input
                       class="form-control"
                       name="bookingTime"
@@ -151,33 +137,38 @@
                       placeholder="Select a time..."
                       required
                     />
+                    <div class="input-group-append">
+                      <span class="input-group-text"
+                        ><i class="far fa-clock"></i>
+                      </span>
+                    </div>
                   </div>
                 </div>
                 <!-- Booking Date Input -->
-                <div class="form-group p-2 has-danger">
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <label
-                      class="control-label d-block align-text-left"
-                      for="datepicker"
-                      >Date:</label
-                    >
-                  </div>
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="form-group pt-2">
+                  <label class="text-left" for="datepicker"
+                    >Date:</label
+                  >
+                  <div class="input-group">
                     <input
+                      input="text"
                       class="form-control"
                       name="bookingDate"
                       id="datepicker"
                       placeholder="Select a date..."
                       required
                     />
+                    <div class="input-group-append">
+                      <div class="input-group-text">
+                        <i class="fas fa-calendar-alt"></i>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="form-group p-2 mb-5">
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <button class="btn btn-primary" type="submit">
-                      Book Table
-                    </button>
-                  </div>
+                <div class="form-group pt-2 mb-5">
+                  <button class="btn btn-primary" type="submit">
+                    Book Table
+                  </button>
                 </div>
               </div>
             </form>
@@ -209,6 +200,10 @@
     ></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d0d7ffe0f1.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="assets/scripts/scripts.js"></script>
   </body>
