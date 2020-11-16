@@ -202,6 +202,14 @@ $(function () {
   });
 });
 
+$(window).on("resize", function () {
+  if ($(document).width() <= 991) {
+    $(".navbar").addClass("fixed-top");
+  } else if ($(document).width() >= 992){
+    $(".navbar").removeClass("fixed-top");
+  }
+});
+
 $("#timepicker").timepicker({
   timeFormat: "h:mm p",
   interval: 60,
