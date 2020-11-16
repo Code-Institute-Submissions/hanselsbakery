@@ -129,9 +129,8 @@ Below you will see all the pages using high fidelity software Figma. I decided t
 - I initially planned to have a lot more done than required because of my background in coding. However, 
   after discussions with my mentor it was decided to down size my initial proposal. 
   So I have cut down from an ecommerce website to a more static one.
-- I was initially going to do an ordering system so users would be able to order cakes from the site, it would have a small backend
-  and google maps for users to check location distance and so on. 
-- I have turned the ordering section into a photo gallery instead and removed the google maps feature.
+- In addition, I was initially going to do an ordering system so users would be able to order cakes from the site, it would have a small backend
+  and google maps for users to check location distance and so on. I have turned the ordering section into a photo gallery instead and removed the google maps feature.
 
 - **Bootstrap Framework**
 
@@ -163,8 +162,10 @@ Below you will see all the pages using high fidelity software Figma. I decided t
 - Bootstrap - The majority of the project was completed using Bootstrap framework, I have mainly customised the framework to my own proposed wireframes and mockup as
   as specfied in the UX section of this document. I have used a lot of the documention from Bootstrap to accomplish the end project.
 - jQuery - I have used jQuery for parts of the website, I have mainly used previous knowledge and documentation provided by jQuery.
+- ImageKit - This is a CDN where I have used to store all images and video.
 - Video - I have one video that was taken from pexels.com  which is a video of a coffee and muffin, which is the only video in the website.
-- ImageKit -
+- Images - All images weretaken from Unsplash, Pexels and Pixabay. Please check below for all images and where it was originated:
+  - Shop Image [here](https://unsplash.com/photos/dwQRixazu9I)
 
 # Acknowledgements
 
