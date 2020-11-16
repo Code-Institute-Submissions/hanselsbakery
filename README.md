@@ -200,13 +200,13 @@ Below you will see all the pages using high fidelity software Figma. I decided t
   - Gallery Page - Two Tier Cakes - [here](https://www.pexels.com/photo/close-up-photography-of-cake-with-flower-decor-1070850/)
   - Gallery Page - Two Tier Cakes - [here](https://www.pexels.com/photo/shallow-focus-photo-of-yellow-and-pink-flowers-on-two-tier-cake-3181263/)
   - Gallery Page - Special Events Cake - [here](https://unsplash.com/photos/3962cSRPwOo)
-  - Gallery Page - Special Events Cake - [here]()
-  - Gallery Page - Special Events Cake - [here]()
-  - Gallery Page - Special Events Cake - [here]()
-  - Gallery Page - Special Events Cake - [here]()
-  - Gallery Page - Special Events Cake - [here]()
-  - Gallery Page - Special Events Cake - [here]()
-  - Gallery Page - Special Events Cake - [here]()
+  - Gallery Page - Special Events Cake - [here](https://www.pexels.com/photo/4-tier-cake-with-sliced-oranges-on-surface-2510104/)
+  - Gallery Page - Special Events Cake - [here](https://unsplash.com/photos/fXAuCMEYGY4)
+  - Gallery Page - Special Events Cake - [here](https://unsplash.com/photos/U7N6XFvTBjU)
+  - Gallery Page - Special Events Cake - [here](https://unsplash.com/photos/22JxStzTxwo)
+  - Gallery Page - Special Events Cake - [here](https://unsplash.com/photos/FqCB_SDXlmQ)
+  - Gallery Page - Special Events Cake - [here](https://www.pexels.com/photo/cake-wedding-love-19640/)
+  - Gallery Page - Special Events Cake - [here](https://unsplash.com/photos/yJKLqwAjMOU)
   
 
 # Acknowledgements
