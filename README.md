@@ -104,7 +104,8 @@ Below you will see all the pages using high fidelity software Figma. I decided t
 
 - Pexels
 - Unsplash
-- 
+- Font Awesome
+- Iconify 
 
 # Implementation
 
@@ -163,6 +164,7 @@ Below you will see all the pages using high fidelity software Figma. I decided t
   as specfied in the UX section of this document. I have used a lot of the documention from Bootstrap to accomplish the end project.
 - jQuery - I have used jQuery for parts of the website, I have mainly used previous knowledge and documentation provided by jQuery.
 - Video - I have one video that was taken from pexels.com  which is a video of a coffee and muffin, which is the only video in the website.
+- ImageKit -
 
 # Acknowledgements
 
