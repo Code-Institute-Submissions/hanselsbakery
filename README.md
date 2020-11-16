@@ -164,8 +164,50 @@ Below you will see all the pages using high fidelity software Figma. I decided t
 - jQuery - I have used jQuery for parts of the website, I have mainly used previous knowledge and documentation provided by jQuery.
 - ImageKit - This is a CDN where I have used to store all images and video.
 - Video - I have one video that was taken from pexels.com  which is a video of a coffee and muffin, which is the only video in the website.
-- Images - All images weretaken from Unsplash, Pexels and Pixabay. Please check below for all images and where it was originated:
-  - Shop Image [here](https://unsplash.com/photos/dwQRixazu9I)
+- Images and Video - All images weretaken from Unsplash, Pexels and Pixabay.In addition, I have one video that was taken from pexels.com  which is a video of a 
+  coffee and muffin, which is the only video in the website. Please check below where all images and video were sourced:
+  - Shop Image - [here](https://unsplash.com/photos/dwQRixazu9I) 
+  - Christmas Cupcake - [here](https://unsplash.com/photos/ywv6hrTgSF8)
+  - Carousel Image Slider 1 - [N/A]()
+  - Carousel Image Slider 2 - [here](https://unsplash.com/photos/VOMS9yXsdP0)
+  - Carousel Image Slider 3 - [here](https://pixabay.com/images/id-3731139/)
+  - About Page Macaroons Image - [here](https://pixabay.com/images/id-3731141/)
+  - About Page Coffee Video - [here](https://www.pexels.com/video/muffin-and-black-coffee-for-breakfast-3378581/)
+  - Gallery Page - Cupcakes - [here](https://pixabay.com/images/id-4302381/)
+  - Gallery Page - Cupcakes - [here](https://unsplash.com/photos/90HdOlGbjck)
+  - Gallery Page - Cupcakes - [here](https://unsplash.com/photos/zk-fclJdGas)
+  - Gallery Page - Cupcakes - [here](https://unsplash.com/photos/Vvx4kbkubtI)
+  - Gallery Page - Cupcakes - [here](https://unsplash.com/photos/QW5yIlJR22Y)
+  - Gallery Page - Cupcakes - [here](https://unsplash.com/photos/h5TDvTDwkBA)
+  - Gallery Page - Cupcakes - [here](https://unsplash.com/photos/1gucQwubg-s)
+  - Gallery Page - Cupcakes - [here](https://unsplash.com/photos/zyMJwFBg8u8)
+  - Gallery Page - One Tier Cakes - [here](N/A)
+  - Gallery Page - One Tier Cakes - [here](https://unsplash.com/photos/kPxsqUGneXQ)
+  - Gallery Page - One Tier Cakes - [here](https://pixabay.com/images/id-4071990/)
+  - Gallery Page - One Tier Cakes - [here](https://www.pexels.com/photo/photo-of-person-holding-raspberry-4109996/)
+  - Gallery Page - One Tier Cakes - [here](https://www.pexels.com/photo/white-icing-covered-cake-in-bokeh-photography-1721932/)
+  - Gallery Page - One Tier Cakes - [here](https://www.pexels.com/photo/cake-chocolate-cream-crepe-264939/)
+  - Gallery Page - One Tier Cakes - [here](https://pixabay.com/images/id-3532223/)
+  - Gallery Page - One Tier Cakes - [here](https://pixabay.com/images/id-3307396/)
+  - Gallery Page - One Tier Cakes - [here](https://pixabay.com/images/id-3960001/)
+  - Gallery Page - One Tier Cakes - [here](https://www.pexels.com/photo/white-round-cake-topped-with-yellow-slice-fruit-140831/)
+  - Gallery Page - Two Tier Cakes - [here](https://unsplash.com/photos/5HR1gItc7Gs)
+  - Gallery Page - Two Tier Cakes - [here](https://unsplash.com/photos/4on47p0-bk4)
+  - Gallery Page - Two Tier Cakes - [here](https://unsplash.com/photos/Dd8_frJOHco)
+  - Gallery Page - Two Tier Cakes - [here](https://unsplash.com/photos/Dd8_frJOHco)
+  - Gallery Page - Two Tier Cakes - [here](https://www.pexels.com/photo/black-round-cake-with-gold-details-on-brown-wooden-table-3923555/)
+  - Gallery Page - Two Tier Cakes - [here](https://unsplash.com/photos/44IG4wx9Rzo)
+  - Gallery Page - Two Tier Cakes - [here](https://www.pexels.com/photo/close-up-photography-of-cake-with-flower-decor-1070850/)
+  - Gallery Page - Two Tier Cakes - [here](https://www.pexels.com/photo/shallow-focus-photo-of-yellow-and-pink-flowers-on-two-tier-cake-3181263/)
+  - Gallery Page - Special Events Cake - [here](https://unsplash.com/photos/3962cSRPwOo)
+  - Gallery Page - Special Events Cake - [here]()
+  - Gallery Page - Special Events Cake - [here]()
+  - Gallery Page - Special Events Cake - [here]()
+  - Gallery Page - Special Events Cake - [here]()
+  - Gallery Page - Special Events Cake - [here]()
+  - Gallery Page - Special Events Cake - [here]()
+  - Gallery Page - Special Events Cake - [here]()
+  
 
 # Acknowledgements
 
