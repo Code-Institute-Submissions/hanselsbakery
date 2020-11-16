@@ -1,24 +1,13 @@
-User Experience Design - UX
-===========================
+# User Experience Design - UX
 
-  
-
-Strategy
---------
-
-  
+## Strategy
 
 The business is a bakery shop called Hansel's Bakery established 1 year ago, in that time they have provided customers with world class service and the products they produce all with high quality ingredients and beautiful design to indulge customers and empower them to have their best moments in life sharing with their friends and family.
 
-  
-
 This section is where we have established user stories to identify website functionality. The initiative is to build a website that will promote our shop, bring convenience to customers and visitors by letting them order online, get our business known to a bigger audience.
 
-  
+- **User Stories**
 
-*   **User Stories**
-
-    
 
     - As a First Time User, I want to be presented with a well structured and designed website, so I can intuitively navigate through the website and access the information I seek.
     - As a First Time User, I want to be able to get back to the home page quickly and easily, so I don't waste time on going back and forth for what I need.
@@ -35,28 +24,19 @@ This section is where we have established user stories to identify website funct
     - As a Frequent User, I want to have a section where I can sign up for newsletter, so I can get the latest offers and news about the shop.
     - As a Frequent User, I want a booking a table, so I can reserve ahead of time in case its busy.
 
-  
+## Scope
 
-Scope
------
+- **Functional Specifications**
 
-  
-
-*   **Functional Specifications**
-
-  
 
     *   The functional specification will be based on the [assessment criteria](https://drive.google.com/file/d/1GBoEwg5ODXp1Gg3oJJdXYpELdO7_s3MP/view?usp=sharing) and user stories.
 
-  
+- **Content Requirements**
 
-*   **Content Requirements**
-
-  
 
     *   The content required to bring value are the following:
 
-  
+
 
         - The written content has to be concise and to the point, relevant to the section of the website. It has to follow the same typography to maintain consistency throughout the website.
         - The imagery has to be consistent throughout the website in terms of colours and sizes.
@@ -65,26 +45,17 @@ Scope
         - The logo has to bring set the tone for the look and feel of the website so that the other parts can follow it nicely.
         - All information to have the right amount of contrast between foreground and background to avoid distractions.
 
-  
-
-Structure & Skeleton
---------------------
-
-  
+## Structure & Skeleton
 
 I have designed the structure and skeleton using Balsamiq to layout how I would implement sections of the website. I have started by doing a sitemap of how I would structure the website, following that I have laid out all the wireframes using low fidelity wireframing.
 
-*   **Sitemap**
+- **Sitemap**
 
-  
 
     - Sitemap for website - [view](https://share.balsamiq.com/c/v4ukjy3DWkYhper9eWnVMn.png)
 
-  
+- **Mockup Stage I**
 
-*   **Mockup Stage I**
-
-  
 
     - Home Page Wireframe - [view](https://share.balsamiq.com/c/wgdMxkKwtSrBq1ocXS5tzY.png)
     - Menu Page Wireframe - [view](https://share.balsamiq.com/c/wdaU4zAq1fGafjAj5X5gp5.png)
@@ -97,86 +68,102 @@ I have designed the structure and skeleton using Balsamiq to layout how I would 
     - Product Information Wireframe - [view](https://share.balsamiq.com/c/k66xrVpw6rLYGRG4h1PQxU.png)
     - Privacy and GDPR Policy Wireframe - [view](https://share.balsamiq.com/c/sSEnD2jX7oBeEnKWXTbJvm.png)
 
-  
-
-Surface
--------
+## Surface
 
 At this stage I have chosen the Colours, Typography, Logo and Images.
 
-  
+- **Design Choices**
 
-*   **Design Choices**
-
-  
 
     -  Colours - you can view my colour palette [here](https://drive.google.com/file/d/1UCfpu3mklf5q-NEgOSEBL4i2vkdrQvGQ/view?usp=sharing). The palette was created based on the logo.
     -  Typography - I will use Playflair Display (Medium Metallic) for the Logo and Montserrat (Regular) for the content.
     -  Images - I will use [Pixabay](https://www.pixabay.com) and [Pexels](https://www.pexels.com) to source the images.
     -  Logo - I will use [canva](https://www.canva.com) will be used to design logo and favicon.
 
-  
-
 Below you will see all the pages using high fidelity software Figma. I decided to use Figma to plot the website so that the look and feel gets as close as possible to the real implementation before I start any code. The main reason behind this is much easier for me to change things at design stage than at coding stage, as well as it would get close to the end product.
 
-  
+- **Mockup Final Stage**
 
-*   **Mockup Final Stage**
-
-  
 
     - This is the final mockup for the whole website. Once the prototype is loaded you can navigate through the links in the pages - [view](https://www.figma.com/proto/Pl4PPktv4bRNCnKCihmIjp/Project-Milestone-1?node-id=94%3A5&scaling=min-zoom)
-  
 
-  
+---
 
-* * *
+# Technologies
 
-  
+- CSS
+- HTML
+- jQuery
+- Javascript
+- CDN
+- Gitpod
+- Github
+- Website
 
-  
+# Resources
 
-Technologies
-============
+- Pexels
+- Unsplash
+- 
 
-*   List site features and what technologies used.
+# Implementation
 
-Resources
-=========
+- How was implementation done.
+- Justification in coding
 
-*   List of resources used in your project.
+# Testing
 
-Implementation
-==============
+- Browser Compatibility
+- User Stories and Project criteria
+- Form Validation
+- Website Navigation
+- Responsiviness
+- HTML Validator
+- CSS Validator
 
-*   How was implementation done.
+# Project Barriers and Solutions
 
-Testing
-=======
+- **Project Scope**
 
-*   Document all testing measures taken.
+- I initially planned to have a lot more done than required because of my background in coding. However, 
+  after discussions with my mentor it was decided to down size my initial proposal. 
+  So I have cut down from an ecommerce website to a more static one.
+- I was initially going to do an ordering system so users would be able to order cakes from the site, it would have a small backend
+  and google maps for users to check location distance and so on. 
+- I have turned the ordering section into a photo gallery instead and removed the google maps feature.
 
-Project Barriers and Solutions
-==============================
+- **Bootstrap Framework**
 
-*   Document any issues and how I overcame.
+- The main challange parts for me was using bootstrap framework, as i have not used it extensively in the past. I took the wrong approach of not 
+  going through the documention in detail. This lead me to do a lot of hard coding css when bootstrap had already had all laid out. After realising 
+  this mistake, starting from mid project forward I have extensively used more the framework and less hard coding.
 
-Version Control
-===============
+- **Heavy Loading Website**
 
-*   Describe your version control.
+- In addition, I have had problems with the amount of images in my website. Initially I have just uploaded all images to the project images folder and 
+  even after resizing and using tinypng it still was making the website very heavy to load. So I decided to look for a CDN platform to mitigate this issue.
+  Once I had the images in the CDN the website loaded much faster due to auto compressing and resizing.
 
-Deployment
-==========
+# Version Control
 
-*   Describe steps to deploy your project.
+- I have used Git as my version control, through the project I have made several commits whenever I made changes to the code. I recognise that I could have made
+  more commits but I got carried with coding at times and not committed in sections where I should have done. This is somthing I am working on to improve from next
+  project.
 
-Credits
-=======
+# Deployment
 
-*   Borrowed code, images and videos.
+- Describe steps to deploy your project.
 
-Acknowledgements
-================
+# Credits
 
-*   Guidance, assistance with code, etc.
+- Borrowed code, images and videos.
+- Code Institute - Some concepts I have got from the Love Running website part of Code Institute HTML and CSS studies. The main thing I have used as concept 
+  was the cover text in the hero image. However, this was implemented differently using bootstrap and some CSS to reshape the box and placed in a different position.
+- Bootstrap - The majority of the project was completed using Bootstrap framework, I have mainly customised the framework to my own proposed wireframes and mockup as
+  as specfied in the UX section of this document. I have used a lot of the documention from Bootstrap to accomplish the end project.
+- jQuery - I have used jQuery for parts of the website, I have mainly used previous knowledge and documentation provided by jQuery.
+- Video - I have one video that was taken from pexels.com  which is a video of a coffee and muffin, which is the only video in the website.
+
+# Acknowledgements
+
+- Guidance, assistance with code, etc.
