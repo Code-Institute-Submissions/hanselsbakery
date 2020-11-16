@@ -202,13 +202,21 @@ $(function () {
   });
 });
 
+$(window).on("load", function () {
+  addFixedTopClass();
+});
+
 $(window).on("resize", function () {
-  if ($(document).width() <= 991) {
+  addFixedTopClass();
+});
+
+function addFixedTopClass() {
+  if ($(document).width() <= 991 && !$(".navbar").hasClass("fixed-top")) {
     $(".navbar").addClass("fixed-top");
-  } else if ($(document).width() >= 992){
+  } else if ($(document).width() >= 990 && $(".navbar").hasClass("fixed-top")) {
     $(".navbar").removeClass("fixed-top");
   }
-});
+}
 
 $("#timepicker").timepicker({
   timeFormat: "h:mm p",
