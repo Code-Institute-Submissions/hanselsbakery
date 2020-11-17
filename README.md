@@ -153,8 +153,8 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	- I have used Git as my version control, through the project I have made several commits whenever I made changes to the code. I recognise that I could have made more commits but I got carried with coding at times and not committed in sections where I should have done. This is something I am working on to improve from next project.
 
--  ** epos**
-	- hs is  ebsite that idn oinetool to ecee responsivees tmentation.
+-  ** that idnee responsiv epos**
+	- hs is  ebsiteementation.
 
 - **W3C Validation** 
 	- I have used the W3C validador to check on my CSS and HTML to check if it complies with standards, please refer to the **Testing** section for more details.
@@ -200,11 +200,11 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 	  
 - **Am I Responsive?**
 
-	 - This is a website that provides an online tool to check website responsiveness to different screen sizes. Please, refer to the **Testing** section for more details. 
+	 - This is a website that provides an online [tool](http://ami.responsivedesign.is/) to check website responsiveness to different screen sizes. Please, refer to the **Testing** section for more details. 
 
 - **Responsive Website Checker**
 	
-	- This [tool]() in conjunction with Am I Responsive were used for responsive testing.I have used it  
+	- This [tool](https://responsivedesignchecker.com/) in conjunction with Am I Responsive were used for responsive testing.I have used it  
 	 
 
 # Imple ifernt eeni
@@ -388,8 +388,8 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTk3MzA5MCwtMjExMDc5Mzk2OSwtMT
-Q0MDA5ODk4LC02NjI2Mjc3OCwtMTE0ODg0MzUwNSwxMjk5NTE5
-MDc4LDQ1MjQ4NzEwMywxOTg5NzI5NTIsODQyODI1ODE0LDEzMj
-M0NjMzOV19
+eyJoaXN0b3J5IjpbMjAyODU2MjE5MywxMDc1OTczMDkwLC0xND
+QwMDk4OTgsLTY2MjYyNzc4LC0xMTQ4ODQzNTA1LDEyOTk1MTkw
+NzgsNDUyNDg3MTAzLDE5ODk3Mjk1Miw4NDI4MjU4MTQsMTMyMz
+Q2MzM5XX0=
 -->
