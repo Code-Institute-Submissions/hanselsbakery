@@ -232,8 +232,12 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 		
 	-   **Loading Components and Code Organization**
 	 
-				-	This was not a requirement for this project but knowing and used javascript before I found it would make the readability of the code much better by splitting at least parts of my code and load them when required. Also, it allowed me to implement some of the features and modals that brings a better user experience, such as, displaying the user with a spinner to simulate server side request and then displaying the user with a modal message acknowledging that their booking is confirmed.
--	**Datepicker** 
+		-	This was not a requirement for this project but knowing and used javascript before I found it would make the readability of the code much better by splitting at least parts of my code and load them when required. Also, it allowed me to implement some of the features and modals that brings a better user experience, such as, displaying the user with a spinner to simulate server side request and then displaying the user with a modal message acknowledging that their booking is confirmed.
+
+	-	**Datepicker** 
+
+	-	**Timepicker** 
+
   
 
 # Testing
@@ -407,8 +411,8 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5MTg5NTE1LDEzODQ5MTEwNjQsMTMwMT
-YwMzIxLC0xMzEzMTg1MzQ5LC0xMzEzMTg1MzQ5LC02NjI2Mjc3
-OCwtMTE0ODg0MzUwNSwxMjk5NTE5MDc4LDg0MjgyNTgxNCwxMz
-IzNDYzMzldfQ==
+eyJoaXN0b3J5IjpbMTk1Njc1NjgxOSwxMzg0OTExMDY0LDEzMD
+E2MDMyMSwtMTMxMzE4NTM0OSwtMTMxMzE4NTM0OSwtNjYyNjI3
+NzgsLTExNDg4NDM1MDUsMTI5OTUxOTA3OCw4NDI4MjU4MTQsMT
+MyMzQ2MzM5XX0=
 -->
