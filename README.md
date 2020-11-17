@@ -155,7 +155,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 -  **Web Development Tools**
  
-	- I have used this tool to help me with debugging issues that I had during implementation. In addition, by using the inspection mode I could see hthat idnee rbsiteemen
+	- I have used this tool to help me with debugging issues that I had during implementation. In addition, by using the inspection mode I could see hthat idnee rbsiteemenpiece of feature was after coding it.  
 
 - **W3C Validation** 
  
@@ -390,8 +390,8 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODIzODQwMiwyNDQ1NjExMDQsMTA3NT
-k3MzA5MCwtMTQ0MDA5ODk4LC02NjI2Mjc3OCwtMTE0ODg0MzUw
-NSwxMjk5NTE5MDc4LDQ1MjQ4NzEwMywxOTg5NzI5NTIsODQyOD
-I1ODE0LDEzMjM0NjMzOV19
+eyJoaXN0b3J5IjpbMTcxMjQ5ODc2NywtNTI4MjM4NDAyLDEwNz
+U5NzMwOTAsLTE0NDAwOTg5OCwtNjYyNjI3NzgsLTExNDg4NDM1
+MDUsMTI5OTUxOTA3OCw0NTI0ODcxMDMsMTk4OTcyOTUyLDg0Mj
+gyNTgxNCwxMzIzNDYzMzldfQ==
 -->
