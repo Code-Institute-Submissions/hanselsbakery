@@ -208,9 +208,12 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 	 
 # Implementation
 
-- How was implementation done.
 
-- Justification in coding
+- **HTML**
+	- 
+- **CSS**
+
+- **jQuery & Javascript**
 
   
 
@@ -385,7 +388,7 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTYwMzIxLC0xMzEzMTg1MzQ5LC0xMz
-EzMTg1MzQ5LC02NjI2Mjc3OCwtMTE0ODg0MzUwNSwxMjk5NTE5
-MDc4LDg0MjgyNTgxNCwxMzIzNDYzMzldfQ==
+eyJoaXN0b3J5IjpbLTQ4MDUwMTI2OCwxMzAxNjAzMjEsLTEzMT
+MxODUzNDksLTEzMTMxODUzNDksLTY2MjYyNzc4LC0xMTQ4ODQz
+NTA1LDEyOTk1MTkwNzgsODQyODI1ODE0LDEzMjM0NjMzOV19
 -->
