@@ -221,20 +221,20 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 			
 - **Components**
 			
-- In addition to the modals, later in the project I have realised that by using bootstrap framework HTML code can quickly build up and get long and at times difficult to debug and read. So I took the decision to split my code in components at least to some parts where code were being repeated. As I have some background in coding I was able to implement a- ll modals, eader and footer were this way which made things easier to read.
+- In addition to the modals, later in the project I have realised that by using bootstrap framework HTML code can quickly build up and get long and at times difficult to debug and read. So I took the decision to split my code in components at least to some parts where code were being repeated. As I have some background in coding I was able to implement all modals, header and footer were this way which made things easier to read.
 			 
-			 - In the components folder you will find 3 sub-folders Header, Footer and Modals. These will contain header code, footer code, and modals code respectively. To load these components I used jQuery by using their APIs. The section which repeated a lot across all pages was the header and footer, by doing this it saved quite a bit of repeated code.
+- In the components folder you will find 3 sub-folders Header, Footer and Modals. These will contain header code, footer code, and modals code respectively. To load these components I used jQuery by using their APIs. The section which repeated a lot across all pages was the header and footer, by doing this it saved quite a bit of repeated code.
 
-- **CSS**
+ # **CSS**
 
-	-	The CSS was coded as I was coding the HTML, I have added comment blocks to describe which sections these belong, I organised the CSS based on page. 
+-	The CSS was coded as I was coding the HTML, I have added comment blocks to describe which sections these belong, I organised the CSS based on page. 
 
 
-- **jQuery & Javascript**  
+## **jQuery & Javascript**  
 
 		
-	 -  **Loading Components and Code Organization**
-		 -	This was not a requirement for this project but knowing and used javascript before I found it would make the readability of the code much better by splitting at least parts of my code and load them when required. Also, it allowed me to implement some of the features and modals that brings a better user experience, such as, displaying the user with a spinner to simulate server side request and then displaying the user with a modal message acknowledging that their booking is confirmed.
+-  **Loading Components and Code Organization**
+	-	This was not a requirement for this project but knowing and used javascript before I found it would make the readability of the code much better by splitting at least parts of my code and load them when required. Also, it allowed me to implement some of the features and modals that brings a better user experience, such as, displaying the user with a spinner to simulate server side request and then displaying the user with a modal message acknowledging that their booking is confirmed.
 
 	-	**Datepicker** 
 
@@ -416,7 +416,7 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTQ2NjIwMywtMTY3OTU0ODk3OCw1MD
+eyJoaXN0b3J5IjpbLTE0NDc3MDQ3MywtMTY3OTU0ODk3OCw1MD
 k3NDAwODIsLTE4MDkxNTQxNTksMzgzNjIxMTI4LDE1MTA3MjAw
 ODAsMTM4NjIxNjgxNSw3NTcyODcyMTcsLTE2ODUwNjc3MTYsMT
 M4NDkxMTA2NCwtMTA5NzM1NTAzOSwxMzAxNjAzMjEsLTEzMTMx
