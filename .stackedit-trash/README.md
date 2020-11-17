@@ -207,7 +207,12 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 	 - This [resource](https://imagekit.io/) was used to store all images and video for faster loading.
 
 - **Timepicker.js**
-	- I have used this library to impleme 
+	
+	- I have used this [library](https://timepicker.co/) to implement the time picker for this project. 
+
+- **Datepicker.js**
+	
+	- I have used this [library](https://jqueryui.com/datepicker/) to implement the time picker for this project. 
 
 # Implementation
 
@@ -414,9 +419,9 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3NTU4ODE2LDE0OTk3OTgyMzAsLTE2Nz
-k1NDg5NzgsLTE4MDkxNTQxNTksMTM4NDkxMTA2NCwxMzAxNjAz
-MjEsLTEzMTMxODUzNDksLTEzMTMxODUzNDksLTY2MjYyNzc4LC
-0xMTQ4ODQzNTA1LDEyOTk1MTkwNzgsODQyODI1ODE0LDEzMjM0
-NjMzOV19
+eyJoaXN0b3J5IjpbMTY4NDg2MzMwMSwxNDk5Nzk4MjMwLC0xNj
+c5NTQ4OTc4LC0xODA5MTU0MTU5LDEzODQ5MTEwNjQsMTMwMTYw
+MzIxLC0xMzEzMTg1MzQ5LC0xMzEzMTg1MzQ5LC02NjI2Mjc3OC
+wtMTE0ODg0MzUwNSwxMjk5NTE5MDc4LDg0MjgyNTgxNCwxMzIz
+NDYzMzldfQ==
 -->
