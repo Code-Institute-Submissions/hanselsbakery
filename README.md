@@ -180,7 +180,9 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 - **Javascript**
 	- I have also used javascript [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) as a refresher and reference.
 
--**** 	
+- **HTML**
+
+	- I have also referenced to the HTML documentation during implementation. 	
   
 
 # Implementation
@@ -364,6 +366,6 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDUzMzIzMSw4NDI4MjU4MTQsMTMyMz
-Q2MzM5XX0=
+eyJoaXN0b3J5IjpbNDM2NTkyNTIyLDg0MjgyNTgxNCwxMzIzND
+YzMzldfQ==
 -->
