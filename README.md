@@ -214,7 +214,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	- I have coded the HTML side of the project by starting from the home page. The first section was the header once I was happy with that section I moved on to the next section. During implementation I took some decisions that I believed it would contribute to a better user experience.
 		- **Modals**  
-			-  I have decided that instead of loading the user with dedicated pages for Product Information, Join Us, Privacy Policy, Product Information, Testimonials, 
+			-  I have decided that instead of loading the user with dedicated pages for Product Information, Join Us, Privacy Policy, Product Information, Testimonials and Customer Service, I chose to load them as modals. By doing this w
 
 - **CSS**
 
@@ -396,9 +396,9 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDkxMTA2NCwtMTA5NzM1NTAzOSwxMz
-AxNjAzMjEsLTEzMTMxODUzNDksLTUyODIzODQwMiwxMDc1OTcz
-MDkwLC0xNDQwMDk4OTgsLTY2MjYyNzc4LC0xMTQ4ODQzNTA1LD
-EyOTk1MTkwNzgsNDUyNDg3MTAzLDE5ODk3Mjk1Miw4NDI4MjU4
-MTQsMTMyMzQ2MzM5XX0=
+eyJoaXN0b3J5IjpbLTEwNjc0MzgxMzUsMTM4NDkxMTA2NCwtMT
+A5NzM1NTAzOSwxMzAxNjAzMjEsLTEzMTMxODUzNDksLTUyODIz
+ODQwMiwxMDc1OTczMDkwLC0xNDQwMDk4OTgsLTY2MjYyNzc4LC
+0xMTQ4ODQzNTA1LDEyOTk1MTkwNzgsNDUyNDg3MTAzLDE5ODk3
+Mjk1Miw4NDI4MjU4MTQsMTMyMzQ2MzM5XX0=
 -->
