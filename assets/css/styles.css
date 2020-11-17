@@ -702,6 +702,9 @@ body {
   #logo-dropdown-nav {
     display: none;
   }
+body{
+margin-top: 40px;
+}
 }
 
 @media only screen and (min-width: 991px) and (max-width: 991px) {
