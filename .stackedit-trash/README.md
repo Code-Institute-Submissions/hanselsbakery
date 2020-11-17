@@ -236,6 +236,8 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	-	**Datepicker** 
 
+		- I have used a javascript library for the datepicker in the booking page
+
 	-	**Timepicker** 
 
   
@@ -411,8 +413,8 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1Njc1NjgxOSwxMzg0OTExMDY0LDEzMD
-E2MDMyMSwtMTMxMzE4NTM0OSwtMTMxMzE4NTM0OSwtNjYyNjI3
-NzgsLTExNDg4NDM1MDUsMTI5OTUxOTA3OCw4NDI4MjU4MTQsMT
-MyMzQ2MzM5XX0=
+eyJoaXN0b3J5IjpbNDYyMDg3Mzk1LDEzODQ5MTEwNjQsMTMwMT
+YwMzIxLC0xMzEzMTg1MzQ5LC0xMzEzMTg1MzQ5LC02NjI2Mjc3
+OCwtMTE0ODg0MzUwNSwxMjk5NTE5MDc4LDg0MjgyNTgxNCwxMz
+IzNDYzMzldfQ==
 -->
