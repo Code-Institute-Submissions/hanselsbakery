@@ -200,11 +200,11 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 	  
 - **Am I Responsive?**
 
-	 - This is a website that provides an online tool to check website responsiveness to different screen sizes. Please, refer to the **Testing** section for more details. 
+	 - This is a website that provides an online [tool](http://ami.responsivedesign.is/) to check website responsiveness to different screen sizes. Please, refer to the **Testing** section for more details. 
 
 - **Responsive Website Checker**
 	
-	- This [tool]() in conjunction with Am I Responsive were used for responsive testing. 
+	- This [tool](https://responsivedesignchecker.com/) in conjunction with Am I Responsive were used for responsive testing. 
 	 
 
 # Implementation
@@ -388,7 +388,7 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTA3OTM5NjksLTY2MjYyNzc4LC0xMT
-Q4ODQzNTA1LDEyOTk1MTkwNzgsODQyODI1ODE0LDEzMjM0NjMz
-OV19
+eyJoaXN0b3J5IjpbMTQxMDUzMTIsLTY2MjYyNzc4LC0xMTQ4OD
+QzNTA1LDEyOTk1MTkwNzgsODQyODI1ODE0LDEzMjM0NjMzOV19
+
 -->
