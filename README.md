@@ -234,7 +234,7 @@ I have coded the HTML side of the project by starting from the home page. The fi
 
 ## jQuery & Javascript  
 
-- **Loading Components and Code Organization**
+ **Loading Components and Code Organization**
  
 	-	This was not a requirement for this project but knowing and used javascript before I found it would make the readability of the code much better by splitting at least parts of my code and load them when required. Also, it allowed me to implement some of the features and modals that brings a better user experience, such as, displaying the user with a spinner to simulate server side request and then displaying the user with a modal message acknowledging that their booking is confirmed.
 
@@ -418,11 +418,11 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDYxMTI5MSwtNjU3Nzc0MjU1LDE0OT
-k3OTgyMzAsLTE2Nzk1NDg5NzgsNTA5NzQwMDgyLC0xODA5MTU0
-MTU5LDM4MzYyMTEyOCwxNTEwNzIwMDgwLDEzODYyMTY4MTUsNz
-U3Mjg3MjE3LC0xNjg1MDY3NzE2LDEzODQ5MTEwNjQsLTEwOTcz
-NTUwMzksMTMwMTYwMzIxLC0xMzEzMTg1MzQ5LC01MjgyMzg0MD
-IsMTA3NTk3MzA5MCwtMTQ0MDA5ODk4LC02NjI2Mjc3OCwtMTE0
-ODg0MzUwNV19
+eyJoaXN0b3J5IjpbLTM1MjAxMzA1OCwtMzQ0NjExMjkxLC02NT
+c3NzQyNTUsMTQ5OTc5ODIzMCwtMTY3OTU0ODk3OCw1MDk3NDAw
+ODIsLTE4MDkxNTQxNTksMzgzNjIxMTI4LDE1MTA3MjAwODAsMT
+M4NjIxNjgxNSw3NTcyODcyMTcsLTE2ODUwNjc3MTYsMTM4NDkx
+MTA2NCwtMTA5NzM1NTAzOSwxMzAxNjAzMjEsLTEzMTMxODUzND
+ksLTUyODIzODQwMiwxMDc1OTczMDkwLC0xNDQwMDk4OTgsLTY2
+MjYyNzc4XX0=
 -->
