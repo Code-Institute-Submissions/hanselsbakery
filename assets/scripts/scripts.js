@@ -57,8 +57,8 @@ $(document).on("submit", "form", function (event) {
   formSerializedArray = {};
   event.preventDefault();
   $("#formResponseModal").load("components/modals/form-response-modal.html");
-  $("#responseTitle").append("");
-  $("#responseMessage").append("");
+  $("#responseTitle").empty();
+  $("#responseMessage").empty();
   if (formID === "join-form-modal") {
     formSerializedArray = serializeFormArray(formID);
     displayJoinUsResponse(deconstructFormArray(formSerializedArray));
