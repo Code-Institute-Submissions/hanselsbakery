@@ -193,7 +193,10 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 	 - This [resource](https://imagekit.io/) was used to store all images and video for faster loading.
 
 -  **Web Development Tools**
-	- I have used this tool to debug issues as I coded if I encountered something that didn't work. By inspecting my code I also was able to see any screen responsive issues that I might have faced during the implementation. 
+	- I have used this tool to debug issues as I coded if I encountered something that didn't work. By inspecting my code I also was able to see any screen responsive issues that I might have faced during the implementation.
+
+- **W3C Validation** 
+	- I have used the W3C validador to check on my CSS and HTML to check for
 
 # Implementation
 
@@ -376,7 +379,7 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMjk4NDQxMywtMTE0ODg0MzUwNSwxMj
-k5NTE5MDc4LDQ1MjQ4NzEwMywxOTg5NzI5NTIsODQyODI1ODE0
-LDEzMjM0NjMzOV19
+eyJoaXN0b3J5IjpbLTE1MDc3ODU2MDQsLTExNDg4NDM1MDUsMT
+I5OTUxOTA3OCw0NTI0ODcxMDMsMTk4OTcyOTUyLDg0MjgyNTgx
+NCwxMzIzNDYzMzldfQ==
 -->
