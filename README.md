@@ -190,7 +190,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
  
  - **ImageKit** 
   
-	 - This [resource](https://imagekit.io/) was used to store all images and video for faster loading.  during this pr
+	 - This [resource](https://imagekit.io/) was used to store all images and video for faster loading.
 
 # Implementation
 
@@ -373,6 +373,6 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjE4Njc4NSw0NTI0ODcxMDMsMTk4OT
+eyJoaXN0b3J5IjpbMTI5OTUxOTA3OCw0NTI0ODcxMDMsMTk4OT
 cyOTUyLDg0MjgyNTgxNCwxMzIzNDYzMzldfQ==
 -->
