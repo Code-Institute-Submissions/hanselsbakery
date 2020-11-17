@@ -214,7 +214,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	- I have coded the HTML side of the project by starting from the home page. The first section was the header once I was happy with that section I moved on to the next section. During implementation I took some decisions that I believed it would contribute to a better user experience.
 		- **Modals**  
-			-  I have decided that instead of loading the user with dedicated pages for Product Information, Join Us, Privacy Policy
+			-  I have decided that instead of loading the user with dedicated pages for Product Information, Join Us, Privacy Policy, Product Information, Testimonials, 
 
 - **CSS**
 
@@ -396,7 +396,7 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDQwMjU4NywxMzAxNjAzMjEsLTEzMT
+eyJoaXN0b3J5IjpbMTM4NDkxMTA2NCwxMzAxNjAzMjEsLTEzMT
 MxODUzNDksLTEzMTMxODUzNDksLTY2MjYyNzc4LC0xMTQ4ODQz
 NTA1LDEyOTk1MTkwNzgsODQyODI1ODE0LDEzMjM0NjMzOV19
 -->
