@@ -175,11 +175,11 @@ body {
 #carousel-outer {
   margin: 0 auto;
   overflow: hidden;
-  position: relative;
   width: 100%;
 }
 
 #carousel-container {
+  overflow: hidden;
   margin: 0 auto;
   padding: 0px;
   width: 100%;
@@ -705,21 +705,12 @@ body {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 991px) {
-  .fixed-top {
-    position: relative;
-    top: auto;
-  }
-  .navbar-collapse {
-    max-height: none;
-  }
-  body {
-    margin: 0;
-  }
+  
 }
 
 @media only screen and (min-width: 991px) and (max-width: 991px) {
   #logo-dropdown-nav {
-    display: inline-block;
+    display: block;
   }
   #logo-dropdown-nav img {
     width: 200px;
@@ -729,7 +720,7 @@ body {
 
 @media only screen and (min-width: 450px) and (max-width: 991px) {
   #logo-dropdown-nav {
-    display: inline-block;
+    display: block;
   }
   #logo-dropdown-nav img {
     width: 200px;
@@ -739,7 +730,7 @@ body {
 
 @media only screen and (min-width: 320px) and (max-width: 449px) {
   #logo-dropdown-nav {
-    display: inline-block;
+    display: block;
   }
   #logo-dropdown-nav img {
     width: 200px;

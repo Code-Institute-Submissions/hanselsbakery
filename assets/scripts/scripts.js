@@ -263,10 +263,13 @@ $(window).on("resize", function () {
  * it is removed if screen is above that value.
  */
 function addFixedTopClass() {
-  if ($(document).width() <= 991 && !$(".navbar").hasClass("fixed-top")) {
+  if ($(window).width() <= 991 && !$(".navbar").hasClass("fixed-top")) {
+    $("body").css("padding-top", "70px");
     $(".navbar").addClass("fixed-top");
-  } else if ($(document).width() >= 992 && $(".navbar").hasClass("fixed-top")) {
+  } else if ($(window).width() >= 992 && $(".navbar").hasClass("fixed-top")) {
     $(".navbar").removeClass("fixed-top");
+    $("body").css("padding-top", "0px");
+
   }
 }
 
