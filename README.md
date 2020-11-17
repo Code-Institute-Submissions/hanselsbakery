@@ -217,21 +217,22 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 # Implementation
 
 
- HTM
--I have coded the HTML side of the project by starting from the home page. The first section was the header once I was happy with that section I moved on to the next section. During implementation I took some decisions that I believed it would contribute to a better user experience.
+## HTML
+I have coded the HTML side of the project by starting from the home page. The first section was the header once I was happy with that section I moved on to the next section. During implementation I took some decisions that I believed it would contribute to a better user experience.
 
 - **Modals**  
 		 
 			
--  I have decided that instead of loading the user with dedicated pages for Product Information, Join Us, Privacy Policy, Product Information, Testimonials and Customer Service, I chose to load them as modals. By doing this it would avoid reaching server to load them saving loading times and seamless user experience.
+	-  I have decided that instead of loading the user with dedicated pages for Product Information, Join Us, Privacy Policy, Product Information, Testimonials and Customer Service, I chose to load them as modals. By doing this it would avoid reaching server to load them saving loading times and seamless user experience.
 			
 - **Components**
 			
-- In addition to the modals, later in the project I have realised that by using bootstrap framework HTML code can quickly build up and get long and at times difficult to debug and read. So I took the decision to split my code in components at least to some parts where code were being repeated. As I have some background in coding I was able to implement all modals, header and footer were this way which made things easier to read.
+	- In addition to the modals, later in the project I have realised that by using bootstrap framework HTML code can quickly build up and get long and at times difficult to debug and read. So I took the decision to split my code in components at least to some parts where code were being repeated. As I have some background in coding I was able to implement all modals, header and footer were this way which made things easier to read.
 			 
-- In the components folder you will find 3 sub-folders Header, Footer and Modals. These will contain header code, footer code, and modals code respectively. To load these components I used jQuery by using their APIs. The section which repeated a lot across all pages was the header and footer, by doing this it saved quite a bit of repeated code.
+	- In the components folder you will find 3 sub-folders Header, Footer and Modals. These will contain header code, footer code, and modals code respectively. To load these components I used jQuery by using their APIs. The section which repeated a lot across all pages was the header and footer, by doing this it saved quite a bit of repeated code.
 
- CSS**-	he CSS was coded as I was coding the HTML, I have added comment blocks to describe which sections these belong, I organised the CSS based on page. 
+ CSS
+-	he CSS was coded as I was coding the HTML, I have added comment blocks to describe which sections these belong, I organised the CSS based on page. 
 
  jQuery & Javascript  
 
@@ -419,11 +420,11 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDg2MzMwMSwtNjU3Nzc0MjU1LDE0OT
-k3OTgyMzAsLTE2Nzk1NDg5NzgsNTA5NzQwMDgyLC0xODA5MTU0
-MTU5LDM4MzYyMTEyOCwxNTEwNzIwMDgwLDEzODYyMTY4MTUsNz
-U3Mjg3MjE3LC0xNjg1MDY3NzE2LDEzODQ5MTEwNjQsLTEwOTcz
-NTUwMzksMTMwMTYwMzIxLC0xMzEzMTg1MzQ5LC01MjgyMzg0MD
-IsMTA3NTk3MzA5MCwtMTQ0MDA5ODk4LC02NjI2Mjc3OCwtMTE0
-ODg0MzUwNV19
+eyJoaXN0b3J5IjpbLTE3ODQyMDM0NDgsLTY1Nzc3NDI1NSwxND
+k5Nzk4MjMwLC0xNjc5NTQ4OTc4LDUwOTc0MDA4MiwtMTgwOTE1
+NDE1OSwzODM2MjExMjgsMTUxMDcyMDA4MCwxMzg2MjE2ODE1LD
+c1NzI4NzIxNywtMTY4NTA2NzcxNiwxMzg0OTExMDY0LC0xMDk3
+MzU1MDM5LDEzMDE2MDMyMSwtMTMxMzE4NTM0OSwtNTI4MjM4ND
+AyLDEwNzU5NzMwOTAsLTE0NDAwOTg5OCwtNjYyNjI3NzgsLTEx
+NDg4NDM1MDVdfQ==
 -->
