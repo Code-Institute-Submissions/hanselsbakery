@@ -188,7 +188,9 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
  
  	 - I have referred to the CSS [documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) during this project.
  
- - **ImageKi** 
+ - **ImageKit** 
+  
+	 - This resource was used to store all images and video for faster loading. 
 
 # Implementation
 
@@ -371,6 +373,6 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0MjU4MzIyLDE5ODk3Mjk1Miw4NDI4Mj
-U4MTQsMTMyMzQ2MzM5XX0=
+eyJoaXN0b3J5IjpbODUwODIyNjYsMTk4OTcyOTUyLDg0MjgyNT
+gxNCwxMzIzNDYzMzldfQ==
 -->
