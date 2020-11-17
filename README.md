@@ -154,9 +154,11 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 	- I have used Git as my version control, through the project I have made several commits whenever I made changes to the code. I recognise that I could have made more commits but I got carried with coding at times and not committed in sections where I should have done. This is something I am working on to improve from next project.
 
 - **Web Development Tools**
-	- I have used th  
+ 
+	- I have used this tool to help me with debugging issues that I had during implementation. In addition, by using the inspection mode I could see how responsive t  
 
 - **W3C Validation** 
+ 
 	- I have used the W3C validador to check on my CSS and HTML to check if it complies with standards, please refer to the **Testing** section for more details.
 
 - **Am I Responsive?**
@@ -388,8 +390,8 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjgyMjI3OSwxMDc1OTczMDkwLC0xND
-QwMDk4OTgsLTY2MjYyNzc4LC0xMTQ4ODQzNTA1LDEyOTk1MTkw
-NzgsNDUyNDg3MTAzLDE5ODk3Mjk1Miw4NDI4MjU4MTQsMTMyMz
-Q2MzM5XX0=
+eyJoaXN0b3J5IjpbMjQ0NTYxMTA0LDEwNzU5NzMwOTAsLTE0ND
+AwOTg5OCwtNjYyNjI3NzgsLTExNDg4NDM1MDUsMTI5OTUxOTA3
+OCw0NTI0ODcxMDMsMTk4OTcyOTUyLDg0MjgyNTgxNCwxMzIzND
+YzMzldfQ==
 -->
