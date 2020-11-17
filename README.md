@@ -54,7 +54,7 @@ I have designed the structure and skeleton using Balsamiq to layout how I would 
 
     - Sitemap for website - [view](https://share.balsamiq.com/c/v4ukjy3DWkYhper9eWnVMn.png)
 
-- **Mockup Stage I**
+- **Wireframe Stage I**
 
 
     - Home Page Wireframe - [view](https://share.balsamiq.com/c/wgdMxkKwtSrBq1ocXS5tzY.png)
@@ -80,32 +80,39 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
     -  Images - I will use [Pixabay](https://www.pixabay.com) and [Pexels](https://www.pexels.com) to source the images.
     -  Logo - I will use [canva](https://www.canva.com) will be used to design logo and favicon.
 
-Below you will see all the pages using high fidelity software Figma. I decided to use Figma to plot the website so that the look and feel gets as close as possible to the real implementation before I start any code. The main reason behind this is much easier for me to change things at design stage than at coding stage, as well as it would get close to the end product.
+- **Mockup Stage II**
 
-- **Mockup Final Stage**
-
-
-    - This is the final mockup for the whole website. Once the prototype is loaded you can navigate through the links in the pages - [view](https://www.figma.com/proto/Pl4PPktv4bRNCnKCihmIjp/Project-Milestone-1?node-id=94%3A5&scaling=min-zoom)
-
----
+- Below you will see all the pages using high fidelity software Figma. I decided to use Figma to plot the website so that the look and feel gets as close as possible to the real implementation before I start any code. The main reason behind this is much easier for me to change things at design stage than at coding stage, as well as it would get close to the end product.
+- This is the final mockup for the whole website. Once the prototype is loaded you can navigate through the links in the pages - [view](https://www.figma.com/proto/Pl4PPktv4bRNCnKCihmIjp/Project-Milestone-1?node-id=94%3A5&scaling=min-zoom)
 
 # Technologies
 
 - CSS
+  - I have used CSS to create custom styles to fit the purpose of my design plan.
+    This has been used as a requierement of this project to describe HTML elemets how to be styled and structured.
+    By using the Bootstrap Framework, it reduces dramaticallly the amount of CSS being used in the project.
 - HTML
+  - HTML was also a requirement for this project and it was used for the semantic side to give the bare bones of the pages.
 - jQuery
+  - I have used jQuery where I could not use CSS and HTMl to achieve a particular feature or to reduce amounts of coding or even to structure the project
+    better.
 - Javascript
+  - jQuery is a library built to write less and do more from Javascript. It is a programming language that allows us to implement more complex pages and features.
 - CDN
+  - I have used the CDN from imagekit to store my images. This is called content delivery network (CDN) which are servers that are geographically distributed around the world to deliver fast internet content by serving from the server closest to the user.
 - Gitpod
+  - This is a platform that I have used to write my code. It is and IDE based on VS Code essentially a Software as a Service (SaaS) that gives opportunity to share code, it integrates github, easily test code.
+    It has its drawbacks but for the scope of this project it was more than sufficient. 
 - Github
-- Website
+  - I have used github to create the repository for this project and have constantly saved my code through commits locally and then pushed to remote server from github. The great about using it is that in a way it 
+  creates versions of the work done as it is being committed, if something breaks or go terribly wrong it is possible to load the lastest working version.
 
 # Resources
 
 - Pexels
 - Unsplash
 - Font Awesome
-- Iconify 
+- Iconify
 
 # Implementation
 
@@ -126,21 +133,21 @@ Below you will see all the pages using high fidelity software Figma. I decided t
 
 - **Project Scope**
 
-- I initially planned to have a lot more done than required because of my background in coding. However, 
-  after discussions with my mentor it was decided to down size my initial proposal. 
+- I initially planned to have a lot more done than required because of my background in coding. However,
+  after discussions with my mentor it was decided to down size my initial proposal.
   So I have cut down from an ecommerce website to a more static one.
 - In addition, I was initially going to do an ordering system so users would be able to order cakes from the site, it would have a small backend
   and google maps for users to check location distance and so on. I have turned the ordering section into a photo gallery instead and removed the google maps feature.
 
 - **Bootstrap Framework**
 
-- The main challange parts for me was using bootstrap framework, as i have not used it extensively in the past. I took the wrong approach of not 
-  going through the documention in detail. This lead me to do a lot of hard coding css when bootstrap had already had all laid out. After realising 
+- The main challange parts for me was using bootstrap framework, as i have not used it extensively in the past. I took the wrong approach of not
+  going through the documention in detail. This lead me to do a lot of hard coding css when bootstrap had already had all laid out. After realising
   this mistake, starting from mid project forward I have extensively used more the framework and less hard coding.
 
 - **Heavy Loading Website**
 
-- In addition, I have had problems with the amount of images in my website. Initially I have just uploaded all images to the project images folder and 
+- In addition, I have had problems with the amount of images in my website. Initially I have just uploaded all images to the project images folder and
   even after resizing and using tinypng it still was making the website very heavy to load. So I decided to look for a CDN platform to mitigate this issue.
   Once I had the images in the CDN the website loaded much faster due to auto compressing and resizing.
 
@@ -157,16 +164,17 @@ Below you will see all the pages using high fidelity software Figma. I decided t
 # Credits
 
 - Borrowed code, images and videos.
-- Code Institute - Some concepts I have got from the Love Running website part of Code Institute HTML and CSS studies. The main thing I have used as concept 
+- Code Institute - Some concepts I have got from the Love Running website part of Code Institute HTML and CSS studies. The main thing I have used as concept
   was the cover text in the hero image. However, this was implemented differently using bootstrap and some CSS to reshape the box and placed in a different position.
 - Bootstrap - The majority of the project was completed using Bootstrap framework, I have mainly customised the framework to my own proposed wireframes and mockup as
   as specfied in the UX section of this document. I have used a lot of the documention from Bootstrap to accomplish the end project.
 - jQuery - I have used jQuery for parts of the website, I have mainly used previous knowledge and documentation provided by jQuery.
 - ImageKit - This is a CDN where I have used to store all images and video.
-- Video - I have one video that was taken from pexels.com  which is a video of a coffee and muffin, which is the only video in the website.
-- Images and Video - All images weretaken from Unsplash, Pexels and Pixabay.In addition, I have one video that was taken from pexels.com  which is a video of a 
+- Video - I have one video that was taken from pexels.com which is a video of a coffee and muffin, which is the only video in the website.
+- Images and Video - All images weretaken from Unsplash, Pexels and Pixabay.In addition, I have one video that was taken from pexels.com which is a video of a
   coffee and muffin, which is the only video in the website. Please check below where all images and video were sourced:
-  - Shop Image - [here](https://unsplash.com/photos/dwQRixazu9I) 
+
+  - Shop Image - [here](https://unsplash.com/photos/dwQRixazu9I)
   - Christmas Cupcake - [here](https://unsplash.com/photos/ywv6hrTgSF8)
   - Home Page - Macaroons Image - [here](https://unsplash.com/photos/ywv6hrTgSF8)
   - Home Page - Carousel Image Slider 1 - [N/A](https://unsplash.com/photos/vIx9j3ITfaQ)
@@ -207,7 +215,6 @@ Below you will see all the pages using high fidelity software Figma. I decided t
   - Gallery Page - Special Events Cake - [here](https://unsplash.com/photos/FqCB_SDXlmQ)
   - Gallery Page - Special Events Cake - [here](https://www.pexels.com/photo/cake-wedding-love-19640/)
   - Gallery Page - Special Events Cake - [here](https://unsplash.com/photos/yJKLqwAjMOU)
-  
 
 # Acknowledgements
 
