@@ -230,7 +230,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 - **jQuery & Javascript**
 
-	-	This was not a requirement for this project but knowing and used javascript before I found it would make the readbility of the code much better byt splitting at least parts of my code and load them when requiered.
+	-	This was not a requirement for this project but knowing and used javascript before I found it would make the readability of the code much better by splitting at least parts of my code and load them when required. Also, it allowed me to implement some of the features and modals that brings a better user experience, such as, displaying the user 
   
 
 # Testing
@@ -404,8 +404,8 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3OTc3MjY0LDEzODQ5MTEwNjQsMTMwMT
-YwMzIxLC0xMzEzMTg1MzQ5LC0xMzEzMTg1MzQ5LC02NjI2Mjc3
-OCwtMTE0ODg0MzUwNSwxMjk5NTE5MDc4LDg0MjgyNTgxNCwxMz
-IzNDYzMzldfQ==
+eyJoaXN0b3J5IjpbLTE5NTA0NjI0OTcsMTM4NDkxMTA2NCwxMz
+AxNjAzMjEsLTEzMTMxODUzNDksLTEzMTMxODUzNDksLTY2MjYy
+Nzc4LC0xMTQ4ODQzNTA1LDEyOTk1MTkwNzgsODQyODI1ODE0LD
+EzMjM0NjMzOV19
 -->
