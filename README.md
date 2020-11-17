@@ -222,11 +222,11 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 			
 			- In addition to the modals, later in the project I have realised that by using bootstrap framework HTML code can quickly build up and get long and at times difficult to debug and read. So I took the decision to split my code in components at least to some parts where code were being repeated. As I have some background in coding I was able to implement a- ll modals, eader and footer were this way which made things easier to read.
 			 
-			- In the components folder you will find 3 sub-folders Header, Footer and Modals. These will contain header code, footer code, and modals code respectively. To load these components I used jQuery by using their APIs. The section which repeated a lot across all pages was the header and footer, by doing this it saved quite a bit of repeated 
+			- In the components folder you will find 3 sub-folders Header, Footer and Modals. These will contain header code, footer code, and modals code respectively. To load these components I used jQuery by using their APIs. The section which repeated a lot across all pages was the header and footer, by doing this it saved quite a bit of repeated code.
 
 - **CSS**
 
-	-	
+	-	The CSS was coded as I was coding the HTML, 
 
 - **jQuery & Javascript**
 
@@ -404,10 +404,10 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3Mjg3MjE3LC0xNjg2OTM3MzQ1LC0xNj
-g1MDY3NzE2LDEzODQ5MTEwNjQsLTEwOTczNTUwMzksMTMwMTYw
-MzIxLC0xMzEzMTg1MzQ5LC01MjgyMzg0MDIsMTA3NTk3MzA5MC
-wtMTQ0MDA5ODk4LC02NjI2Mjc3OCwtMTE0ODg0MzUwNSwxMjk5
-NTE5MDc4LDQ1MjQ4NzEwMywxOTg5NzI5NTIsODQyODI1ODE0LD
-EzMjM0NjMzOV19
+eyJoaXN0b3J5IjpbMTYyNzEzMTM0OCw3NTcyODcyMTcsLTE2OD
+UwNjc3MTYsMTM4NDkxMTA2NCwtMTA5NzM1NTAzOSwxMzAxNjAz
+MjEsLTEzMTMxODUzNDksLTUyODIzODQwMiwxMDc1OTczMDkwLC
+0xNDQwMDk4OTgsLTY2MjYyNzc4LC0xMTQ4ODQzNTA1LDEyOTk1
+MTkwNzgsNDUyNDg3MTAzLDE5ODk3Mjk1Miw4NDI4MjU4MTQsMT
+MyMzQ2MzM5XX0=
 -->
