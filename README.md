@@ -206,11 +206,15 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
   
 	 - This [resource](https://imagekit.io/) was used to store all images and video for faster loading.
 
+
+# Implementation
+
+
 - **HTML**
 
 	- I have coded the HTML side of the project by starting from the home page. The first section was the header once I was happy with that section I moved on to the next section. During implementation I took some decisions that I believed it would contribute to a better user experience.
 		- **Modals**  
-			-  I have decided that instead of loading the user with dedicated pages
+			-  I have decided that instead of loading the user with dedicated pages for Product Information, Join Us, Privacy Policy
 
 - **CSS**
 
@@ -392,9 +396,9 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzIyNTAsLTEwOTczNTUwMzksMTMwMT
-YwMzIxLC0xMzEzMTg1MzQ5LC01MjgyMzg0MDIsMTA3NTk3MzA5
-MCwtMTQ0MDA5ODk4LC02NjI2Mjc3OCwtMTE0ODg0MzUwNSwxMj
-k5NTE5MDc4LDQ1MjQ4NzEwMywxOTg5NzI5NTIsODQyODI1ODE0
-LDEzMjM0NjMzOV19
+eyJoaXN0b3J5IjpbMTk5MDQwMjU4NywtMTA5NzM1NTAzOSwxMz
+AxNjAzMjEsLTEzMTMxODUzNDksLTUyODIzODQwMiwxMDc1OTcz
+MDkwLC0xNDQwMDk4OTgsLTY2MjYyNzc4LC0xMTQ4ODQzNTA1LD
+EyOTk1MTkwNzgsNDUyNDg3MTAzLDE5ODk3Mjk1Miw4NDI4MjU4
+MTQsMTMyMzQ2MzM5XX0=
 -->
