@@ -153,11 +153,19 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	- I have used Git as my version control, through the project I have made several commits whenever I made changes to the code. I recognise that I could have made more commits but I got carried with coding at times and not committed in sections where I should have done. This is something I am working on to improve from next project.
 
--  ** that idnee responsiv epos**
-	- hs is  ebsiteementation.
+- **Web Development Tools**
+	- I have used  
 
 - **W3C Validation** 
 	- I have used the W3C validador to check on my CSS and HTML to check if it complies with standards, please refer to the **Testing** section for more details.
+
+- **Am I Responsive?**
+
+	 - This is a website that provides an online [tool](http://ami.responsivedesign.is/) to check website responsiveness to different screen sizes. Please, refer to the **Testing** section for more details. 
+
+- **Responsive Website Checker**
+	
+	- This [tool](https://responsivedesignchecker.com/) in conjunction with Am I Responsive were used for responsive testing.
 
 # Resources
 
@@ -197,14 +205,6 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
  - **ImageKit** 
   
 	 - This [resource](https://imagekit.io/) was used to store all images and video for faster loading.
-	  
-- **Am I Responsive?**
-
-	 - This is a website that provides an online [tool](http://ami.responsivedesign.is/) to check website responsiveness to different screen sizes. Please, refer to the **Testing** section for more details. 
-
-- **Responsive Website Checker**
-	
-	- This [tool](https://responsivedesignchecker.com/) in conjunction with Am I Responsive were used for responsive testing.I have used it  
 	 
 
 # Implementation
@@ -388,7 +388,7 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzI5NTEyMSwtNjYyNjI3NzgsLTExND
-g4NDM1MDUsMTI5OTUxOTA3OCw4NDI4MjU4MTQsMTMyMzQ2MzM5
-XX0=
+eyJoaXN0b3J5IjpbNDc0NzE3NjcxLC02NjI2Mjc3OCwtMTE0OD
+g0MzUwNSwxMjk5NTE5MDc4LDg0MjgyNTgxNCwxMzIzNDYzMzld
+fQ==
 -->
