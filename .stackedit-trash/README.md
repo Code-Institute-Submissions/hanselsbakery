@@ -155,7 +155,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 - **Web Development Tools**
  
-	- I have used this tool to help me with debugging issues that I had during implementation. In addition, by using the inspection mode I could see how responsive   
+	- I have used this tool to help me with debugging issues that I had during implementation. In addition, by using the inspection mode I could see how responsive a piece of feature was after coding it.  
 
 - **W3C Validation** 
  
@@ -390,7 +390,7 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwODY3MTIsLTY2MjYyNzc4LC0xMTQ4OD
-QzNTA1LDEyOTk1MTkwNzgsODQyODI1ODE0LDEzMjM0NjMzOV19
-
+eyJoaXN0b3J5IjpbLTEyODU3OTY3MzAsLTY2MjYyNzc4LC0xMT
+Q4ODQzNTA1LDEyOTk1MTkwNzgsODQyODI1ODE0LDEzMjM0NjMz
+OV19
 -->
