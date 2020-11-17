@@ -178,7 +178,9 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 	-  I have used jQuery [documentation](https://api.jquery.com/) to remind myself how some of these functions work on this framework. 
 
 - **Javascript**
-	- I have also used javascript [documentation]() as a refresher. 	
+	- I have also used javascript [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) as a refresher and reference.
+
+-**** 	
   
 
 # Implementation
@@ -362,6 +364,6 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQ5NzkzMTMsODQyODI1ODE0LDEzMj
-M0NjMzOV19
+eyJoaXN0b3J5IjpbLTUyNDUzMzIzMSw4NDI4MjU4MTQsMTMyMz
+Q2MzM5XX0=
 -->
