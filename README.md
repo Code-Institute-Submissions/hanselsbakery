@@ -231,11 +231,11 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 - **jQuery & Javascript**  
 		
 	 -  **Loading Components and Code Organization**
-	 -	This was not a requirement for this project but knowing and used javascript before I found it would make the readability of the code much better by splitting at least parts of my code and load them when required. Also, it allowed me to implement some of the features and modals that brings a better user experience, such as, displaying the user with a spinner to simulate server side request and then displaying the user with a modal message acknowledging that their booking is confirmed.
+		 -	This was not a requirement for this project but knowing and used javascript before I found it would make the readability of the code much better by splitting at least parts of my code and load them when required. Also, it allowed me to implement some of the features and modals that brings a better user experience, such as, displaying the user with a spinner to simulate server side request and then displaying the user with a modal message acknowledging that their booking is confirmed.
 
 	-	**Datepicker** 
 
-		- I have used a javascript library for the datepicker in the booking page, when user clicks on the input a calendar is displayed to the user so the user can select a date for their booking. In addition, I have set the calendar to only display 1 month of available dates ahead and user cannot book for the same day that they are requesting their booking.
+		- I have used a javascript library for the datepicker in the booking page, when user clicks on the input a calendar is displayed to the user so the user can select a date for their booking. In addition, I have set the calendar to only display 1 month of available dates ahead and user cannot book for the same day that they are requesting their booking. I have chosen to do it this way so that user does not book  
 
 	-	**Timepicker** 
 
@@ -412,7 +412,7 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjk4OTAwNSwtMTgwOTE1NDE1OSwzOD
+eyJoaXN0b3J5IjpbMTIxMjI3NTAxNSwtMTgwOTE1NDE1OSwzOD
 M2MjExMjgsMTUxMDcyMDA4MCwxMzg2MjE2ODE1LDc1NzI4NzIx
 NywtMTY4NTA2NzcxNiwxMzg0OTExMDY0LC0xMDk3MzU1MDM5LD
 EzMDE2MDMyMSwtMTMxMzE4NTM0OSwtNTI4MjM4NDAyLDEwNzU5
