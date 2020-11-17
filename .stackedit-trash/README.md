@@ -228,7 +228,9 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	-	The CSS was coded as I was coding the HTML, I have added comment blocks to describe which sections these belong, I organised the CSS based on page. 
 
+
 - **jQuery & Javascript**  
+
 		
 	 -  **Loading Components and Code Organization**
 		 -	This was not a requirement for this project but knowing and used javascript before I found it would make the readability of the code much better by splitting at least parts of my code and load them when required. Also, it allowed me to implement some of the features and modals that brings a better user experience, such as, displaying the user with a spinner to simulate server side request and then displaying the user with a modal message acknowledging that their booking is confirmed.
@@ -413,8 +415,8 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3OTExNTA0LC0xNjc5NTQ4OTc4LC0xOD
-A5MTU0MTU5LDEzODQ5MTEwNjQsMTMwMTYwMzIxLC0xMzEzMTg1
-MzQ5LC0xMzEzMTg1MzQ5LC02NjI2Mjc3OCwtMTE0ODg0MzUwNS
-wxMjk5NTE5MDc4LDg0MjgyNTgxNCwxMzIzNDYzMzldfQ==
+eyJoaXN0b3J5IjpbMTk5NjcxMjA4MCwtMTY3OTU0ODk3OCwtMT
+gwOTE1NDE1OSwxMzg0OTExMDY0LDEzMDE2MDMyMSwtMTMxMzE4
+NTM0OSwtMTMxMzE4NTM0OSwtNjYyNjI3NzgsLTExNDg4NDM1MD
+UsMTI5OTUxOTA3OCw4NDI4MjU4MTQsMTMyMzQ2MzM5XX0=
 -->
