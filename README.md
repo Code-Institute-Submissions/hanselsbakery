@@ -209,7 +209,8 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 - **HTML**
 
-	- I have coded the HTML side of the project by starting from the home page. The first section was the header once I was happy with that section I moved on to the next section. D
+	- I have coded the HTML side of the project by starting from the home page. The first section was the header once I was happy with that section I moved on to the next section. During implementation I took some decisions that I believed it would contribute to a better user experience.
+		- Mol  
 
 - **CSS**
 
@@ -391,9 +392,9 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTczNTUwMzksNDk2NTAwMTAxLDEzMD
-E2MDMyMSwtMTMxMzE4NTM0OSwtNTI4MjM4NDAyLDEwNzU5NzMw
-OTAsLTE0NDAwOTg5OCwtNjYyNjI3NzgsLTExNDg4NDM1MDUsMT
-I5OTUxOTA3OCw0NTI0ODcxMDMsMTk4OTcyOTUyLDg0MjgyNTgx
-NCwxMzIzNDYzMzldfQ==
+eyJoaXN0b3J5IjpbLTEwNDU3MTk1OTgsLTEwOTczNTUwMzksMT
+MwMTYwMzIxLC0xMzEzMTg1MzQ5LC01MjgyMzg0MDIsMTA3NTk3
+MzA5MCwtMTQ0MDA5ODk4LC02NjI2Mjc3OCwtMTE0ODg0MzUwNS
+wxMjk5NTE5MDc4LDQ1MjQ4NzEwMywxOTg5NzI5NTIsODQyODI1
+ODE0LDEzMjM0NjMzOV19
 -->
