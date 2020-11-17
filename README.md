@@ -210,7 +210,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 
 - **HTML**
-	- 
+	- I have coded the HTML side of the project by starting from the home page. The first section was the header
 - **CSS**
 
 - **jQuery & Javascript**
@@ -388,7 +388,7 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDUwMTI2OCwxMzAxNjAzMjEsLTEzMT
+eyJoaXN0b3J5IjpbLTI4NzQwNjYyNSwxMzAxNjAzMjEsLTEzMT
 MxODUzNDksLTUyODIzODQwMiwxMDc1OTczMDkwLC0xNDQwMDk4
 OTgsLTY2MjYyNzc4LC0xMTQ4ODQzNTA1LDEyOTk1MTkwNzgsND
 UyNDg3MTAzLDE5ODk3Mjk1Miw4NDI4MjU4MTQsMTMyMzQ2MzM5
