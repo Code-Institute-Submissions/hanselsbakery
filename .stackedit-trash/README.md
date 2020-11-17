@@ -354,11 +354,11 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
   
 
-# Acknowledgements
+# Acknowledgement
 
   
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyODI1ODE0XX0=
+eyJoaXN0b3J5IjpbMTMyMzQ2MzM5XX0=
 -->
