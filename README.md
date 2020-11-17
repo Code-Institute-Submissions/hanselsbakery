@@ -153,9 +153,9 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	- I have used Git as my version control, through the project I have made several commits whenever I made changes to the code. I recognise that I could have made more commits but I got carried with coding at times and not committed in sections where I should have done. This is something I am working on to improve from next project.
 
-- **Web Development Tools**
+-  **Web Development Tools**
  
-	- I have used this tool to help me with debugging issues that I had during implementation. In addition, by using the inspection mode I could see how responsive t  
+	- I have used this tool to help me with debugging issues that I had during implementation. In addition, by using the inspection mode I could see hthat idnee rbsiteemen
 
 - **W3C Validation** 
  
@@ -209,7 +209,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 	 - This [resource](https://imagekit.io/) was used to store all images and video for faster loading.
 	 
 
-# Implementation
+ mpleentatin
 
   
 
@@ -390,8 +390,8 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0NTYxMTA0LDEwNzU5NzMwOTAsLTE0ND
-AwOTg5OCwtNjYyNjI3NzgsLTExNDg4NDM1MDUsMTI5OTUxOTA3
-OCw0NTI0ODcxMDMsMTk4OTcyOTUyLDg0MjgyNTgxNCwxMzIzND
-YzMzldfQ==
+eyJoaXN0b3J5IjpbLTUyODIzODQwMiwyNDQ1NjExMDQsMTA3NT
+k3MzA5MCwtMTQ0MDA5ODk4LC02NjI2Mjc3OCwtMTE0ODg0MzUw
+NSwxMjk5NTE5MDc4LDQ1MjQ4NzEwMywxOTg5NzI5NTIsODQyOD
+I1ODE0LDEzMjM0NjMzOV19
 -->
