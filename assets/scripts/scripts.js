@@ -1,11 +1,20 @@
+/**
+ * Global Variables
+ */
 var formSerializedArray = {};
 var inputDetails = {};
 var formID;
+/**
+ * Display header and footer.
+ */
 
-/* DISPLAY MODAL FOR GALLERY CARDS AND JOIN US LINK IN THE PAGE HEADER */
 $("#load-header").load("components/header/header-component.html");
 $("#load-footer").load("components/footer/footer-component.html");
 
+
+/**
+ * Loads all modals when window loads.
+ */
 function loadModal() {
   $("#joinUsModal").load("components/modals/join-form-modal.html");
   $("#productInformationModal").load(
@@ -22,6 +31,13 @@ function loadModal() {
 
 $(window).on("load", loadModal);
 
+
+/**
+ * This displays modals for Product Information,
+ * Customer Service, Testimonials and Privacy Policy.
+ * Also, it displays the join modal upon clicking 
+ * the designated button.
+ */
 function displayModal() {
   const clickedLink = $(this).text();
   if (clickedLink === "JOIN US" || clickedLink === "Join Us Now") {
@@ -39,6 +55,10 @@ function displayModal() {
 
 $(document).on("click", ".clickCustomModal", displayModal);
 
+/**
+ * Implements a click listener to all gallery images, 
+ * and display a modal with full opened image and its name.
+ */
 $(function () {
   $(".imgThumbnail").on("click", function () {
     const cakeName = $(this).parent().text();
@@ -51,7 +71,11 @@ $(function () {
     $("#imgModal").modal("show");
   });
 });
-
+/**
+ * On form submit get form ID passes it to function to be serialized,
+ * deconstruct form array into a JSON object, and display modal
+ * using the JSON object with user input.
+ */
 $(document).on("submit", "form", function (event) {
   formID = event.target.id;
   formSerializedArray = {};
@@ -77,12 +101,20 @@ $(document).on("submit", "form", function (event) {
     .reset();
   inputDetails = {};
 });
-
+/**
+ * This function serializes a form using the form
+ * id that is taken when a form is submitted.
+ * @param {string} formID
+ */
 function serializeFormArray(formID) {
   const formArray = $("#" + formID).serializeArray();
   return formArray;
 }
-
+/**
+ * This function receives a serialized form, iterates through it and return
+ * the values as a new JSON object.
+ * @param {object} formSerializedArray
+ */
 function deconstructFormArray(formSerializedArray) {
   const keys = Object.values(formSerializedArray);
 
@@ -92,7 +124,9 @@ function deconstructFormArray(formSerializedArray) {
   return inputDetails;
 }
 /**
- *
+ * It takes an object with user inputs,
+ * call spinner modal, and displays respective modal.
+ * Also, it uses setTimeout to simulate as if backend is being accessed.
  * @param {string} userDetails
  */
 function displayJoinUsResponse(userDetails) {
@@ -117,7 +151,12 @@ function displayJoinUsResponse(userDetails) {
     $("#userResponse").modal("show");
   }, 3000);
 }
-
+/**
+ * It takes an object with user inputs,
+ * call spinner modal, and displays respective modal.
+ * Also, it uses setTimeout to simulate as if backend is being accessed.
+ * @param {string} userDetails
+ */
 function displayBookingResponse(userDetails) {
   setTimeout(() => {
     $("#spinnerResponse").modal({
@@ -145,7 +184,12 @@ function displayBookingResponse(userDetails) {
     $("#userResponse").modal("show");
   }, 3000);
 }
-
+/**
+ * It takes an object with user inputs,
+ * call spinner modal, and displays respective modal.
+ * Also, it uses setTimeout to simulate as if backend is being accessed.
+ * @param {string} userDetails
+ */
 function displayContactResponse(userDetails) {
   setTimeout(() => {
     $("#spinnerResponse").modal({
@@ -169,6 +213,10 @@ function displayContactResponse(userDetails) {
   }, 3000);
 }
 
+/**
+ * Function to load gallery images to the All Cakes tab.
+ * It removes the required tabs if other tabs were clicked.
+ */
 $(function () {
   $(document).on("click", ".clickedLink", function (e) {
     const clickedTab = $(this).text();
@@ -210,14 +258,21 @@ $(window).on("resize", function () {
   addFixedTopClass();
 });
 
+/**
+ * This function adds fixed-top class to navbar when it reaches 991px width and
+ * it is removed if screen is above that value.
+ */
 function addFixedTopClass() {
   if ($(document).width() <= 991 && !$(".navbar").hasClass("fixed-top")) {
     $(".navbar").addClass("fixed-top");
-  } else if ($(document).width() >= 990 && $(".navbar").hasClass("fixed-top")) {
+  } else if ($(document).width() >= 992 && $(".navbar").hasClass("fixed-top")) {
     $(".navbar").removeClass("fixed-top");
   }
 }
 
+/**
+ * Function from the timepicker library.
+ */
 $("#timepicker").timepicker({
   timeFormat: "h:mm p",
   interval: 60,
@@ -229,6 +284,9 @@ $("#timepicker").timepicker({
   scrollbar: true,
 });
 
+/**
+ * Funtion from the datepicker library.
+ */
 $(function () {
   $("#datepicker").datepicker({
     minDate: 1,
