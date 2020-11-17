@@ -206,6 +206,8 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
   
 	 - This [resource](https://imagekit.io/) was used to store all images and video for faster loading.
 
+- **Timepicker.js**
+	- I have used this library to implement the time p 
 
 # Implementation
 
@@ -412,11 +414,11 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Nzc3NDI1NSwxNDk5Nzk4MjMwLC0xNj
-c5NTQ4OTc4LDUwOTc0MDA4MiwtMTgwOTE1NDE1OSwzODM2MjEx
-MjgsMTUxMDcyMDA4MCwxMzg2MjE2ODE1LDc1NzI4NzIxNywtMT
-Y4NTA2NzcxNiwxMzg0OTExMDY0LC0xMDk3MzU1MDM5LDEzMDE2
-MDMyMSwtMTMxMzE4NTM0OSwtNTI4MjM4NDAyLDEwNzU5NzMwOT
-AsLTE0NDAwOTg5OCwtNjYyNjI3NzgsLTExNDg4NDM1MDUsMTI5
-OTUxOTA3OF19
+eyJoaXN0b3J5IjpbNDQ3NDAwMjc2LC02NTc3NzQyNTUsMTQ5OT
+c5ODIzMCwtMTY3OTU0ODk3OCw1MDk3NDAwODIsLTE4MDkxNTQx
+NTksMzgzNjIxMTI4LDE1MTA3MjAwODAsMTM4NjIxNjgxNSw3NT
+cyODcyMTcsLTE2ODUwNjc3MTYsMTM4NDkxMTA2NCwtMTA5NzM1
+NTAzOSwxMzAxNjAzMjEsLTEzMTMxODUzNDksLTUyODIzODQwMi
+wxMDc1OTczMDkwLC0xNDQwMDk4OTgsLTY2MjYyNzc4LC0xMTQ4
+ODQzNTA1XX0=
 -->
