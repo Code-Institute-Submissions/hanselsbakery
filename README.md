@@ -184,6 +184,9 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	- I have also referenced to the HTML [documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) during implementation) as a refresher. 	
   
+ - **CSS**
+ 
+ 	 - I have referred to the CSS documentation during this pr
 
 # Implementation
 
@@ -366,6 +369,6 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDkyMDE2MjQsMTk4OTcyOTUyLDg0Mj
-gyNTgxNCwxMzIzNDYzMzldfQ==
+eyJoaXN0b3J5IjpbODI2Njc3MSwxOTg5NzI5NTIsODQyODI1OD
+E0LDEzMjM0NjMzOV19
 -->
