@@ -217,7 +217,10 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 		- **Modals**  
 		 
 			-  I have decided that instead of loading the user with dedicated pages for Product Information, Join Us, Privacy Policy, Product Information, Testimonials and Customer Service, I chose to load them as modals. By doing this it would avoid reaching server to load them saving loading times and seamless user experience.
-			- All modals 
+			
+			- **Components**
+			
+				- In addition to the modals, later in the project I have realised that by using bootstrap framework HTML code can quickly build up and get long and at times dificult to debug 
 
 - **CSS**
 
@@ -399,7 +402,7 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDM4MDAyMSwxMzg0OTExMDY0LDEzMD
+eyJoaXN0b3J5IjpbMTc1MTMzODIyNSwxMzg0OTExMDY0LDEzMD
 E2MDMyMSwtMTMxMzE4NTM0OSwtMTMxMzE4NTM0OSwtNjYyNjI3
 NzgsLTExNDg4NDM1MDUsMTI5OTUxOTA3OCw4NDI4MjU4MTQsMT
 MyMzQ2MzM5XX0=
