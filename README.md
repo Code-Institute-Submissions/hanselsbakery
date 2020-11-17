@@ -217,7 +217,8 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 # Implementation
 
 
-## HTML
+## HTML & CSS
+
 I have coded the HTML side of the project by starting from the home page. The first section was the header once I was happy with that section I moved on to the next section. During implementation I took some decisions that I believed it would contribute to a better user experience.
 
 - **Modals**  
@@ -231,15 +232,11 @@ I have coded the HTML side of the project by starting from the home page. The fi
 			 
 	- In the components folder you will find 3 sub-folders Header, Footer and Modals. These will contain header code, footer code, and modals code respectively. To load these components I used jQuery by using their APIs. The section which repeated a lot across all pages was the header and footer, by doing this it saved quite a bit of repeated code.
 
-## CSS
-
-The CSS was coded as I was coding the HTML, I have added comment blocks to describe which sections these belong, I organised the CSS based on page. 
-
-
 ## jQuery & Javascript  
 
- **Loading Components and Code Organization**
--	This was not a requirement for this project but knowing and used javascript before I found it would make the readability of the code much better by splitting at least parts of my code and load them when required. Also, it allowed me to implement some of the features and modals that brings a better user experience, such as, displaying the user with a spinner to simulate server side request and then displaying the user with a modal message acknowledging that their booking is confirmed.
+- **Loading Components and Code Organization**
+ 
+	-	This was not a requirement for this project but knowing and used javascript before I found it would make the readability of the code much better by splitting at least parts of my code and load them when required. Also, it allowed me to implement some of the features and modals that brings a better user experience, such as, displaying the user with a spinner to simulate server side request and then displaying the user with a modal message acknowledging that their booking is confirmed.
 
 -	**Datepicker** 
 
@@ -421,11 +418,11 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDA2NTU2MjcsLTY1Nzc3NDI1NSwxND
-k5Nzk4MjMwLC0xNjc5NTQ4OTc4LDUwOTc0MDA4MiwtMTgwOTE1
-NDE1OSwzODM2MjExMjgsMTUxMDcyMDA4MCwxMzg2MjE2ODE1LD
-c1NzI4NzIxNywtMTY4NTA2NzcxNiwxMzg0OTExMDY0LC0xMDk3
-MzU1MDM5LDEzMDE2MDMyMSwtMTMxMzE4NTM0OSwtNTI4MjM4ND
-AyLDEwNzU5NzMwOTAsLTE0NDAwOTg5OCwtNjYyNjI3NzgsLTEx
-NDg4NDM1MDVdfQ==
+eyJoaXN0b3J5IjpbLTM0NDYxMTI5MSwtNjU3Nzc0MjU1LDE0OT
+k3OTgyMzAsLTE2Nzk1NDg5NzgsNTA5NzQwMDgyLC0xODA5MTU0
+MTU5LDM4MzYyMTEyOCwxNTEwNzIwMDgwLDEzODYyMTY4MTUsNz
+U3Mjg3MjE3LC0xNjg1MDY3NzE2LDEzODQ5MTEwNjQsLTEwOTcz
+NTUwMzksMTMwMTYwMzIxLC0xMzEzMTg1MzQ5LC01MjgyMzg0MD
+IsMTA3NTk3MzA5MCwtMTQ0MDA5ODk4LC02NjI2Mjc3OCwtMTE0
+ODg0MzUwNV19
 -->
