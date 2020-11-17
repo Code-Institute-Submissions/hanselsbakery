@@ -210,19 +210,19 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 # Implementation
 
 
-- **HTML**
+## HTML
 
-	- I have coded the HTML side of the project by starting from the home page. The first section was the header once I was happy with that section I moved on to the next section. During implementation I took some decisions that I believed it would contribute to a better user experience.
-	 
-		- **Modals**  
+- I have coded the HTML side of the project by starting from the home page. The first section was the header once I was happy with that section I moved on to the next section. During implementation I took some decisions that I believed it would contribute to a better user experience.
+
+- **Modals**  
 		 
-			-  I have decided that instead of loading the user with dedicated pages for Product Information, Join Us, Privacy Policy, Product Information, Testimonials and Customer Service, I chose to load them as modals. By doing this it would avoid reaching server to load them saving loading times and seamless user experience.
 			
-		- **Components**
+-  I have decided that instead of loading the user with dedicated pages for Product Information, Join Us, Privacy Policy, Product Information, Testimonials and Customer Service, I chose to load them as modals. By doing this it would avoid reaching server to load them saving loading times and seamless user experience.
 			
-			- In addition to the modals, later in the project I have realised that by using bootstrap framework HTML code can quickly build up and get long and at times difficult to debug and read. So I took the decision to split my code in components at least to some parts where code were being repeated. As I have some background in coding I was able to implement a- ll modals, eader and footer were this way which made things easier to read.
-			 
-			- In the components folder you will find 3 sub-folders Header, Footer and Modals. These will contain header code, footer code, and modals code respectively. To load these components I used jQuery by using their APIs. The section which repeated a lot across all pages was the header and footer, by doing this it saved quite a bit of repeated code.
+- **Components**
+			
+- In addition to the modals, later in the project I have realised that by using bootstrap framework HTML code can quickly build up and get long and at times difficult to debug and read. So I took the decision to split my code in components at least to some parts where code were being repeated. As I have some background in coding I was able to implement a- ll modals, eader and footer were this way which made things easier to read.
+			 - In the components folder you will find 3 sub-folders Header, Footer and Modals. These will contain header code, footer code, and modals code respectively. To load these components I used jQuery by using their APIs. The section which repeated a lot across all pages was the header and footer, by doing this it saved quite a bit of repeated code.
 
 - **CSS**
 
@@ -415,8 +415,8 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NjcxMjA4MCwtMTY3OTU0ODk3OCwtMT
-gwOTE1NDE1OSwxMzg0OTExMDY0LDEzMDE2MDMyMSwtMTMxMzE4
-NTM0OSwtMTMxMzE4NTM0OSwtNjYyNjI3NzgsLTExNDg4NDM1MD
-UsMTI5OTUxOTA3OCw4NDI4MjU4MTQsMTMyMzQ2MzM5XX0=
+eyJoaXN0b3J5IjpbODY2OTM2Mjg3LC0xNjc5NTQ4OTc4LC0xOD
+A5MTU0MTU5LDEzODQ5MTEwNjQsMTMwMTYwMzIxLC0xMzEzMTg1
+MzQ5LC0xMzEzMTg1MzQ5LC02NjI2Mjc3OCwtMTE0ODg0MzUwNS
+wxMjk5NTE5MDc4LDg0MjgyNTgxNCwxMzIzNDYzMzldfQ==
 -->
