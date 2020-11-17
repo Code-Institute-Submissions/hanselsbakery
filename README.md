@@ -207,7 +207,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 	- This [tool](https://responsivedesignchecker.com/) in conjunction with Am I Responsive were used for responsive testing.I have used it  
 	 
 
-# Imple ifernt eeni
+# Implementation
 
   
 
@@ -388,7 +388,7 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODU2MjE5MywxMDc1OTczMDkwLC0xND
+eyJoaXN0b3J5IjpbMTU5NzI5NTEyMSwxMDc1OTczMDkwLC0xND
 QwMDk4OTgsLTY2MjYyNzc4LC0xMTQ4ODQzNTA1LDEyOTk1MTkw
 NzgsNDUyNDg3MTAzLDE5ODk3Mjk1Miw4NDI4MjU4MTQsMTMyMz
 Q2MzM5XX0=
