@@ -235,10 +235,10 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	-	**Datepicker** 
 
-		- I have used a javascript library for the datepicker in the booking page, when user clicks on the input a calendar is displayed to the user so the user can select a date for their booking. In addition, I have set the calendar to only display 1 month of available dates ahead and user cannot book for the same day that they are requesting their booking. I have chosen to do it this way so that user does not book too much ahead of time and that tables are not booked for the same day because of space restrictions of the use case used in this projec  
+		- I have used a javascript library for the datepicker in the booking page, when user clicks on the input a calendar is displayed to the user so the user can select a date for their booking. In addition, I have set the calendar to only display 1 month of available dates ahead and user cannot book for the same day that they are requesting their booking. I have chosen to do it this way so that user does not book too much ahead of time and that tables are not booked for the same day because of space restrictions of the use case used in this project.  
 
 	-	**Timepicker** 
-
+		- Also, I have implemented a time picker and this was set for one hour slot per party 
   
 
 # Testing
@@ -412,11 +412,11 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxNzQ3NzExLC0xODA5MTU0MTU5LDM4Mz
-YyMTEyOCwxNTEwNzIwMDgwLDEzODYyMTY4MTUsNzU3Mjg3MjE3
-LC0xNjg1MDY3NzE2LDEzODQ5MTEwNjQsLTEwOTczNTUwMzksMT
-MwMTYwMzIxLC0xMzEzMTg1MzQ5LC01MjgyMzg0MDIsMTA3NTk3
-MzA5MCwtMTQ0MDA5ODk4LC02NjI2Mjc3OCwtMTE0ODg0MzUwNS
-wxMjk5NTE5MDc4LDQ1MjQ4NzEwMywxOTg5NzI5NTIsODQyODI1
-ODE0XX0=
+eyJoaXN0b3J5IjpbLTE2NTkzMjcyMDQsLTE4MDkxNTQxNTksMz
+gzNjIxMTI4LDE1MTA3MjAwODAsMTM4NjIxNjgxNSw3NTcyODcy
+MTcsLTE2ODUwNjc3MTYsMTM4NDkxMTA2NCwtMTA5NzM1NTAzOS
+wxMzAxNjAzMjEsLTEzMTMxODUzNDksLTUyODIzODQwMiwxMDc1
+OTczMDkwLC0xNDQwMDk4OTgsLTY2MjYyNzc4LC0xMTQ4ODQzNT
+A1LDEyOTk1MTkwNzgsNDUyNDg3MTAzLDE5ODk3Mjk1Miw4NDI4
+MjU4MTRdfQ==
 -->
