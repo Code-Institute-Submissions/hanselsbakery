@@ -239,7 +239,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 -	**Datepicker** 
 
-	- I have used a javascript library for the datepicker in the booking page, when user clicks on the input a calendar is displayed to the user so the user can select a date for their booking. In addition, I have set the calendar to only display 1 month of available dates ahead and user cannot book for the same day that they are requesting their booking. I have chosen to do it this way so that user does not book too much ahead of time and that tables are not booked for the same day because of space restrictions of the use case used in this project.  
+	- I have used a javascript library for the datepicker in the booking page, when user clicks on the input a calendar is displayed to the user so the user can select a date for their booking. In addition, I have set the calendar to only display 1 month of available dates ahead and user cannot book for the same day that they are requesting their booking. I have chosen to do it this way so that user does not book too much ahead of time and that tables are not booked for the same day because of space restrictions of the use case used in this project.  Also, I have initially tried to implement date picker from bootstrap but because of customisation issues and deprecated code I decided to change. 
 
 -	**Timepicker** 
 		
@@ -417,8 +417,8 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY5MTY2NjE4LC0xNjc5NTQ4OTc4LC0xOD
-A5MTU0MTU5LDEzODQ5MTEwNjQsMTMwMTYwMzIxLC0xMzEzMTg1
-MzQ5LC0xMzEzMTg1MzQ5LC02NjI2Mjc3OCwtMTE0ODg0MzUwNS
-wxMjk5NTE5MDc4LDg0MjgyNTgxNCwxMzIzNDYzMzldfQ==
+eyJoaXN0b3J5IjpbMTQ5OTc5ODIzMCwtMTY3OTU0ODk3OCwtMT
+gwOTE1NDE1OSwxMzg0OTExMDY0LDEzMDE2MDMyMSwtMTMxMzE4
+NTM0OSwtMTMxMzE4NTM0OSwtNjYyNjI3NzgsLTExNDg4NDM1MD
+UsMTI5OTUxOTA3OCw4NDI4MjU4MTQsMTMyMzQ2MzM5XX0=
 -->
