@@ -205,9 +205,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
  - **ImageKit** 
   
 	 - This [resource](https://imagekit.io/) was used to store all images and video for faster loading.
-	 
-# Implementation
-
+	  sieeta
 
 - **HTML**
 
@@ -248,7 +246,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 -  **Project Scope**
 
-	- I initially planned to have a lot more done than required because of my background in coding. However, after discussions with my mentor it was decided to down size my initial proposal. So I have cut down from an eCommerce website to a more static one.
+	- I initially planned to have a lot more done than required because of my background in ci. However, after discussions with my mentor it was decided to down size my initial proposal. So I have cut down from an eCommerce website to a more static one.
 
 	- In addition, I was initially going to do an ordering system so users would be able to order cakes from the site, it would have a small backend and google maps for users to check location distance and so on. I have turned the ordering section into a photo gallery instead and removed the google maps feature.
 
@@ -393,9 +391,9 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2NTAwMTAxLDEzMDE2MDMyMSwtMTMxMz
-E4NTM0OSwtNTI4MjM4NDAyLDEwNzU5NzMwOTAsLTE0NDAwOTg5
-OCwtNjYyNjI3NzgsLTExNDg4NDM1MDUsMTI5OTUxOTA3OCw0NT
-I0ODcxMDMsMTk4OTcyOTUyLDg0MjgyNTgxNCwxMzIzNDYzMzld
-fQ==
+eyJoaXN0b3J5IjpbLTEwOTczNTUwMzksNDk2NTAwMTAxLDEzMD
+E2MDMyMSwtMTMxMzE4NTM0OSwtNTI4MjM4NDAyLDEwNzU5NzMw
+OTAsLTE0NDAwOTg5OCwtNjYyNjI3NzgsLTExNDg4NDM1MDUsMT
+I5OTUxOTA3OCw0NTI0ODcxMDMsMTk4OTcyOTUyLDg0MjgyNTgx
+NCwxMzIzNDYzMzldfQ==
 -->
