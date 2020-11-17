@@ -225,24 +225,25 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 			 
 - In the components folder you will find 3 sub-folders Header, Footer and Modals. These will contain header code, footer code, and modals code respectively. To load these components I used jQuery by using their APIs. The section which repeated a lot across all pages was the header and footer, by doing this it saved quite a bit of repeated code.
 
- # **CSS**
+## CSS
 
 -	The CSS was coded as I was coding the HTML, I have added comment blocks to describe which sections these belong, I organised the CSS based on page. 
 
 
-## **jQuery & Javascript**  
+## jQuery & Javascript  
 
 		
 -  **Loading Components and Code Organization**
+ 
 	-	This was not a requirement for this project but knowing and used javascript before I found it would make the readability of the code much better by splitting at least parts of my code and load them when required. Also, it allowed me to implement some of the features and modals that brings a better user experience, such as, displaying the user with a spinner to simulate server side request and then displaying the user with a modal message acknowledging that their booking is confirmed.
 
-	-	**Datepicker** 
+-	**Datepicker** 
 
-		- I have used a javascript library for the datepicker in the booking page, when user clicks on the input a calendar is displayed to the user so the user can select a date for their booking. In addition, I have set the calendar to only display 1 month of available dates ahead and user cannot book for the same day that they are requesting their booking. I have chosen to do it this way so that user does not book too much ahead of time and that tables are not booked for the same day because of space restrictions of the use case used in this project.  
+	- I have used a javascript library for the datepicker in the booking page, when user clicks on the input a calendar is displayed to the user so the user can select a date for their booking. In addition, I have set the calendar to only display 1 month of available dates ahead and user cannot book for the same day that they are requesting their booking. I have chosen to do it this way so that user does not book too much ahead of time and that tables are not booked for the same day because of space restrictions of the use case used in this project.  
 
-	-	**Timepicker** 
+-	**Timepicker** 
 		
-		- Also, I used a library to implement time picker and this was set for one hour  timepicker intervals from 10am to 8pm. This is to give groups of people roughly one hour especially for busy periods when time is crucial. I have initially tried to implement time picker from bootstrap but because of customisation issues and deprecated code I decided to change. 
+	- Also, I used a library to implement time picker and this was set for one hour  timepicker intervals from 10am to 8pm. This is to give groups of people roughly one hour especially for busy periods when time is crucial. I have initially tried to implement time picker from bootstrap but because of customisation issues and deprecated code I decided to change. 
   
 
 # Testing
@@ -416,11 +417,11 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDc3MDQ3MywtMTY3OTU0ODk3OCw1MD
-k3NDAwODIsLTE4MDkxNTQxNTksMzgzNjIxMTI4LDE1MTA3MjAw
-ODAsMTM4NjIxNjgxNSw3NTcyODcyMTcsLTE2ODUwNjc3MTYsMT
-M4NDkxMTA2NCwtMTA5NzM1NTAzOSwxMzAxNjAzMjEsLTEzMTMx
-ODUzNDksLTUyODIzODQwMiwxMDc1OTczMDkwLC0xNDQwMDk4OT
-gsLTY2MjYyNzc4LC0xMTQ4ODQzNTA1LDEyOTk1MTkwNzgsNDUy
-NDg3MTAzXX0=
+eyJoaXN0b3J5IjpbNjY5MTY2NjE4LC0xNjc5NTQ4OTc4LDUwOT
+c0MDA4MiwtMTgwOTE1NDE1OSwzODM2MjExMjgsMTUxMDcyMDA4
+MCwxMzg2MjE2ODE1LDc1NzI4NzIxNywtMTY4NTA2NzcxNiwxMz
+g0OTExMDY0LC0xMDk3MzU1MDM5LDEzMDE2MDMyMSwtMTMxMzE4
+NTM0OSwtNTI4MjM4NDAyLDEwNzU5NzMwOTAsLTE0NDAwOTg5OC
+wtNjYyNjI3NzgsLTExNDg4NDM1MDUsMTI5OTUxOTA3OCw0NTI0
+ODcxMDNdfQ==
 -->
