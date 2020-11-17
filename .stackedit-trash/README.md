@@ -116,8 +116,6 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	- This is the final mockup for the whole website. Once the prototype is loaded you can navigate through the links in the pages - [view](https://www.figma.com/proto/Pl4PPktv4bRNCnKCihmIjp/Project-Milestone-1?node-id=94%3A5&scaling=min-zoom)
 
-  
-
 # Technologies
 
   This section is for technologies used in this website. I explain how I used them and a brief description of each.
@@ -153,9 +151,9 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	- I have used Git as my version control, through the project I have made several commits whenever I made changes to the code. I recognise that I could have made more commits but I got carried with coding at times and not committed in sections where I should have done. This is something I am working on to improve from next project.
 
-- **Web Development Tools**
+-  **Web Development Tools**
  
-	- I have used this tool to help me with debugging issues that I had during implementation. In addition, by using the inspection mode I could see how responsive a piece of feature was after coding it.  
+	- I have used this tool to help me with debugging issues that I had during implementation. In addition, by using the inspection mode I could see hthat idnee rbsiteemenpiece of feature was after coding it.  
 
 - **W3C Validation** 
  
@@ -209,7 +207,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 	 - This [resource](https://imagekit.io/) was used to store all images and video for faster loading.
 	 
 
-# Implementation
+ # Implementation
 
   
 
@@ -390,7 +388,7 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODU3OTY3MzAsLTY2MjYyNzc4LC0xMT
+eyJoaXN0b3J5IjpbLTEzMTMxODUzNDksLTY2MjYyNzc4LC0xMT
 Q4ODQzNTA1LDEyOTk1MTkwNzgsODQyODI1ODE0LDEzMjM0NjMz
 OV19
 -->
