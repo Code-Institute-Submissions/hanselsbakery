@@ -116,8 +116,6 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	- This is the final mockup for the whole website. Once the prototype is loaded you can navigate through the links in the pages - [view](https://www.figma.com/proto/Pl4PPktv4bRNCnKCihmIjp/Project-Milestone-1?node-id=94%3A5&scaling=min-zoom)
 
-  
-
 # Technologies
 
   This section is for technologies used in this website. I explain how I used them and a brief description of each.
@@ -209,7 +207,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 	 - This [resource](https://imagekit.io/) was used to store all images and video for faster loading.
 	 
 
- mpleentatin
+ # Implementation
 
   
 
@@ -390,8 +388,8 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjQ5ODc2NywtNTI4MjM4NDAyLDEwNz
-U5NzMwOTAsLTE0NDAwOTg5OCwtNjYyNjI3NzgsLTExNDg4NDM1
-MDUsMTI5OTUxOTA3OCw0NTI0ODcxMDMsMTk4OTcyOTUyLDg0Mj
-gyNTgxNCwxMzIzNDYzMzldfQ==
+eyJoaXN0b3J5IjpbLTEzMTMxODUzNDksLTUyODIzODQwMiwxMD
+c1OTczMDkwLC0xNDQwMDk4OTgsLTY2MjYyNzc4LC0xMTQ4ODQz
+NTA1LDEyOTk1MTkwNzgsNDUyNDg3MTAzLDE5ODk3Mjk1Miw4ND
+I4MjU4MTQsMTMyMzQ2MzM5XX0=
 -->
