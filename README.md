@@ -153,8 +153,8 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	- I have used Git as my version control, through the project I have made several commits whenever I made changes to the code. I recognise that I could have made more commits but I got carried with coding at times and not committed in sections where I should have done. This is something I am working on to improve from next project.
 
--  **Web Development Tools**
-	- I have used this tool to debug issues as I coded if I encountered something that didn't work. By inspecting my code I also was able to see any screen responsive issues that I might have faced during the implementation.
+-  ** epos**
+	- hs is  ebsite that idn oinetool to ecee responsivees tmentation.
 
 - **W3C Validation** 
 	- I have used the W3C validador to check on my CSS and HTML to check if it complies with standards, please refer to the **Testing** section for more details.
@@ -204,10 +204,10 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 - **Responsive Website Checker**
 	
-	- This [tool]() in conjunction with Am I Responsive were used for responsive testing. 
+	- This [tool]() in conjunction with Am I Responsive were used for responsive testing.I have used it  
 	 
 
-# Implementation
+# Imple ifernt eeni
 
   
 
@@ -388,7 +388,8 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTA3OTM5NjksLTE0NDAwOTg5OCwtNj
-YyNjI3NzgsLTExNDg4NDM1MDUsMTI5OTUxOTA3OCw0NTI0ODcx
-MDMsMTk4OTcyOTUyLDg0MjgyNTgxNCwxMzIzNDYzMzldfQ==
+eyJoaXN0b3J5IjpbMTA3NTk3MzA5MCwtMjExMDc5Mzk2OSwtMT
+Q0MDA5ODk4LC02NjI2Mjc3OCwtMTE0ODg0MzUwNSwxMjk5NTE5
+MDc4LDQ1MjQ4NzEwMywxOTg5NzI5NTIsODQyODI1ODE0LDEzMj
+M0NjMzOV19
 -->
