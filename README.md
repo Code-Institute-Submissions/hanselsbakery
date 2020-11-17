@@ -226,11 +226,11 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 - **CSS**
 
-	-	The CSS was coded as I was coding the HTML, 
+	-	The CSS was coded as I was coding the HTML, I have added comment blocks to describe which sections these belong, I organised the CSS based on page. 
 
 - **jQuery & Javascript**
 
-	-	
+	-	This was not a requiem
   
 
 # Testing
@@ -404,10 +404,10 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzEzMTM0OCw3NTcyODcyMTcsLTE2OD
-UwNjc3MTYsMTM4NDkxMTA2NCwtMTA5NzM1NTAzOSwxMzAxNjAz
-MjEsLTEzMTMxODUzNDksLTUyODIzODQwMiwxMDc1OTczMDkwLC
-0xNDQwMDk4OTgsLTY2MjYyNzc4LC0xMTQ4ODQzNTA1LDEyOTk1
-MTkwNzgsNDUyNDg3MTAzLDE5ODk3Mjk1Miw4NDI4MjU4MTQsMT
-MyMzQ2MzM5XX0=
+eyJoaXN0b3J5IjpbLTc1NTE4MDE4LDc1NzI4NzIxNywtMTY4NT
+A2NzcxNiwxMzg0OTExMDY0LC0xMDk3MzU1MDM5LDEzMDE2MDMy
+MSwtMTMxMzE4NTM0OSwtNTI4MjM4NDAyLDEwNzU5NzMwOTAsLT
+E0NDAwOTg5OCwtNjYyNjI3NzgsLTExNDg4NDM1MDUsMTI5OTUx
+OTA3OCw0NTI0ODcxMDMsMTk4OTcyOTUyLDg0MjgyNTgxNCwxMz
+IzNDYzMzldfQ==
 -->
