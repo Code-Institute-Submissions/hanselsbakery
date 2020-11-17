@@ -171,7 +171,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 - **Boostrap**
 
-	- I have used bootstrap  [documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/). extensively through out this project, so this piece of resource has been crucial to it. Please, check **implementation section** in this document for more details.
+	- I have used bootstrap  [documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/). extensively through out this project, so this piece of resource has been crucial to it. Please, check **implementation** section in this document for more details.
 	
 - **jQuery**
 
@@ -373,6 +373,6 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTUxOTA3OCw4NDI4MjU4MTQsMTMyMz
-Q2MzM5XX0=
+eyJoaXN0b3J5IjpbMTk2Mjc4MzAxNCwxMjk5NTE5MDc4LDg0Mj
+gyNTgxNCwxMzIzNDYzMzldfQ==
 -->
