@@ -220,7 +220,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 			
 		- **Components**
 			
-			- In addition to the modals, later in the project I have realised that by using bootstrap framework HTML code can quickly build up and get long and at times difficult to debug and read. So I took the decision to split my code in components at least to some parts where code were being repeated. As I have background in coding I was able to implement 
+			- In addition to the modals, later in the project I have realised that by using bootstrap framework HTML code can quickly build up and get long and at times difficult to debug and read. So I took the decision to split my code in components at least to some parts where code were being repeated. As I have background in coding I was able to implement - All modals were
 
 - **CSS**
 
@@ -402,9 +402,10 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDg0NjgyNTksMTM4NDkxMTA2NCwtMT
-A5NzM1NTAzOSwxMzAxNjAzMjEsLTEzMTMxODUzNDksLTUyODIz
-ODQwMiwxMDc1OTczMDkwLC0xNDQwMDk4OTgsLTY2MjYyNzc4LC
-0xMTQ4ODQzNTA1LDEyOTk1MTkwNzgsNDUyNDg3MTAzLDE5ODk3
-Mjk1Miw4NDI4MjU4MTQsMTMyMzQ2MzM5XX0=
+eyJoaXN0b3J5IjpbLTE2ODUwNjc3MTYsLTE4NDg0NjgyNTksMT
+M4NDkxMTA2NCwtMTA5NzM1NTAzOSwxMzAxNjAzMjEsLTEzMTMx
+ODUzNDksLTUyODIzODQwMiwxMDc1OTczMDkwLC0xNDQwMDk4OT
+gsLTY2MjYyNzc4LC0xMTQ4ODQzNTA1LDEyOTk1MTkwNzgsNDUy
+NDg3MTAzLDE5ODk3Mjk1Miw4NDI4MjU4MTQsMTMyMzQ2MzM5XX
+0=
 -->
