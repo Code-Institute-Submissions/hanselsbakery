@@ -235,7 +235,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	-	**Datepicker** 
 
-		- I have used a javascript library for the datepicker in the booking page, when user clicks on the input a calendar is displayed to the user so the user can select a date for their booking
+		- I have used a javascript library for the datepicker in the booking page, when user clicks on the input a calendar is displayed to the user so the user can select a date for their booking. In addition, I have set the calender to only display 1 month of available dates ahead and user cannot book for the same day that they are requesting their booking.
 
 	-	**Timepicker** 
 
@@ -412,8 +412,8 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDkxNTQxNTksMTM4NDkxMTA2NCwxMz
-AxNjAzMjEsLTEzMTMxODUzNDksLTEzMTMxODUzNDksLTY2MjYy
-Nzc4LC0xMTQ4ODQzNTA1LDEyOTk1MTkwNzgsODQyODI1ODE0LD
-EzMjM0NjMzOV19
+eyJoaXN0b3J5IjpbMTIxODk0MzE4NSwtMTgwOTE1NDE1OSwxMz
+g0OTExMDY0LDEzMDE2MDMyMSwtMTMxMzE4NTM0OSwtMTMxMzE4
+NTM0OSwtNjYyNjI3NzgsLTExNDg4NDM1MDUsMTI5OTUxOTA3OC
+w4NDI4MjU4MTQsMTMyMzQ2MzM5XX0=
 -->
