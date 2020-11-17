@@ -197,8 +197,11 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
  - **ImageKit** 
   
 	 - This [resource](https://imagekit.io/) was used to store all images and video for faster loading.
-	 - 
+	  
 - **Am I Responsive?**
+
+	 - This is a website that provides an online tool to check website responsiveness to different screen sizes. I have used it  
+	 
 
 # Implementation
 
@@ -381,7 +384,7 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzI2Njg0NzAsLTE0NDAwOTg5OCwtNj
-YyNjI3NzgsLTExNDg4NDM1MDUsMTI5OTUxOTA3OCw0NTI0ODcx
-MDMsMTk4OTcyOTUyLDg0MjgyNTgxNCwxMzIzNDYzMzldfQ==
+eyJoaXN0b3J5IjpbLTk3NTEzMDIyNywtMTQ0MDA5ODk4LC02Nj
+I2Mjc3OCwtMTE0ODg0MzUwNSwxMjk5NTE5MDc4LDQ1MjQ4NzEw
+MywxOTg5NzI5NTIsODQyODI1ODE0LDEzMjM0NjMzOV19
 -->
