@@ -205,14 +205,12 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
  - **ImageKit** 
   
 	 - This [resource](https://imagekit.io/) was used to store all images and video for faster loading.
-	 
-# Implementation
-
 
 - **HTML**
 
 	- I have coded the HTML side of the project by starting from the home page. The first section was the header once I was happy with that section I moved on to the next section. During implementation I took some decisions that I believed it would contribute to a better user experience.
-		- M  
+		- **Modals**  
+			-  I have decided that instead of loading the user with dedicated pages
 
 - **CSS**
 
@@ -249,7 +247,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 -  **Project Scope**
 
-	- I initially planned to have a lot more done than required because of my background in coding. However, after discussions with my mentor it was decided to down size my initial proposal. So I have cut down from an eCommerce website to a more static one.
+	- I initially planned to have a lot more done than required because of my background in ci. However, after discussions with my mentor it was decided to down size my initial proposal. So I have cut down from an eCommerce website to a more static one.
 
 	- In addition, I was initially going to do an ordering system so users would be able to order cakes from the site, it would have a small backend and google maps for users to check location distance and so on. I have turned the ordering section into a photo gallery instead and removed the google maps feature.
 
@@ -394,8 +392,7 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzk0OTE2MjMsMTMwMTYwMzIxLC0xMz
-EzMTg1MzQ5LC0xMzEzMTg1MzQ5LC02NjI2Mjc3OCwtMTE0ODg0
-MzUwNSwxMjk5NTE5MDc4LDg0MjgyNTgxNCwxMzIzNDYzMzldfQ
-==
+eyJoaXN0b3J5IjpbLTgwNzIyNTAsMTMwMTYwMzIxLC0xMzEzMT
+g1MzQ5LC0xMzEzMTg1MzQ5LC02NjI2Mjc3OCwtMTE0ODg0MzUw
+NSwxMjk5NTE5MDc4LDg0MjgyNTgxNCwxMzIzNDYzMzldfQ==
 -->
