@@ -116,8 +116,6 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	- This is the final mockup for the whole website. Once the prototype is loaded you can navigate through the links in the pages - [view](https://www.figma.com/proto/Pl4PPktv4bRNCnKCihmIjp/Project-Milestone-1?node-id=94%3A5&scaling=min-zoom)
 
-  
-
 # Technologies
 
   This section is for technologies used in this website. I explain how I used them and a brief description of each.
@@ -153,6 +151,22 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 	- I have used Git as my version control, through the project I have made several commits whenever I made changes to the code. I recognise that I could have made more commits but I got carried with coding at times and not committed in sections where I should have done. This is something I am working on to improve from next project.
 
+-  **Web Development Tools**
+ 
+	- I have used this tool to help me with debugging issues that I had during implementation. In addition, by using the inspection mode I could see hthat idnee rbsiteemenpiece of feature was after coding it.  
+
+- **W3C Validation** 
+ 
+	- I have used the W3C validador to check on my CSS and HTML to check if it complies with standards, please refer to the **Testing** section for more details.
+
+- **Am I Responsive?**
+
+	 - This is a website that provides an online [tool](http://ami.responsivedesign.is/) to check website responsiveness to different screen sizes. Please, refer to the **Testing** section for more details. 
+
+- **Responsive Website Checker**
+	
+	- This [tool](https://responsivedesignchecker.com/) in conjunction with Am I Responsive were used for responsive testing.
+
 # Resources
 
 - **Pexels, Unplash and Pixabay**
@@ -171,22 +185,66 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 - **Boostrap**
 
-	- I have used bootstrap  [documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/). extensively through out this project, so this piece of resource has been crucial to it. Please, check **implementation section** in this document for more details.
+	- I have used bootstrap  [documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/). extensively through out this project, so this piece of resource has been crucial to it. Please, check **implementation** section in this document for more details.
 	
 - **jQuery**
 
-	-  I have used jQuery documentation to remind myself how some of these functions work on this framework. 
+	-  I have used jQuery [documentation](https://api.jquery.com/) to remind myself how some of these functions work on this framework. 
 
+- **Javascript**
+	- I have also used javascript [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) as a refresher and reference.
+
+- **HTML**
+
+	- I have also referenced to the HTML [documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) during implementation) as a refresher. 	
   
+ - **CSS**
+ 
+ 	 - I have referred to the CSS [documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) during this project.
+ 
+ - **ImageKit** 
+  
+	 - This [resource](https://imagekit.io/) was used to store all images and video for faster loading.
+
+- **Timepicker.js**
+	
+	- I have used this [library](https://timepicker.co/) to implement the time picker for this project. 
+
+- **Datepicker.js**
+	
+	- I have used this [library](https://jqueryui.com/datepicker/) to implement the time picker for this project. 
 
 # Implementation
 
-  
 
-- How was implementation done.
+## HTML & CSS
 
-- Justification in coding
+I have coded the HTML side of the project by starting from the home page. The first section was the header once I was happy with that section I moved on to the next section. During implementation I took some decisions that I believed it would contribute to a better user experience.
 
+- **Modals**  
+		 
+			
+	-  I have decided that instead of loading the user with dedicated pages for Product Information, Join Us, Privacy Policy, Product Information, Testimonials and Customer Service, I chose to load them as modals. By doing this it would avoid reaching server to load them saving loading times and seamless user experience.
+			
+- **Components**
+			
+	- In addition to the modals, later in the project I have realised that by using bootstrap framework HTML code can quickly build up and get long and at times difficult to debug and read. So I took the decision to split my code in components at least to some parts where code were being repeated. As I have some background in coding I was able to implement all modals, header and footer were this way which made things easier to read.
+			 
+	- In the components folder you will find 3 sub-folders Header, Footer and Modals. These will contain header code, footer code, and modals code respectively. To load these components I used jQuery by using their APIs. The section which repeated a lot across all pages was the header and footer, by doing this it saved quite a bit of repeated code.
+
+## jQuery & Javascript  
+
+ **Loading Components and Code Organization**
+ 
+	-	This was not a requirement for this project but knowing and used javascript before I found it would make the readability of the code much better by splitting at least parts of my code and load them when required. Also, it allowed me to implement some of the features and modals that brings a better user experience, such as, displaying the user with a spinner to simulate server side request and then displaying the user with a modal message acknowledging that their booking is confirmed.
+
+-	**Datepicker** 
+
+	- I have used a javascript library for the datepicker in the booking page, when user clicks on the input a calendar is displayed to the user so the user can select a date for their booking. In addition, I have set the calendar to only display 1 month of available dates ahead and user cannot book for the same day that they are requesting their booking. I have chosen to do it this way so that user does not book too much ahead of time and that tables are not booked for the same day because of space restrictions of the use case used in this project.  Also, I have initially tried to implement date picker from bootstrap but because of customisation issues and deprecated code I decided to change. 
+
+-	**Timepicker** 
+		
+		- Also, I used a library to implement time picker and this was set for one hour  timepicker intervals from 10am to 8pm. This is to give groups of people roughly one hour especially for busy periods when time is crucial. I have initially tried to implement time picker from bootstrap but because of customisation issues and deprecated code I decided to change. 
   
 
 # Testing
@@ -215,7 +273,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 -  **Project Scope**
 
-	- I initially planned to have a lot more done than required because of my background in coding. However, after discussions with my mentor it was decided to down size my initial proposal. So I have cut down from an eCommerce website to a more static one.
+	- I initially planned to have a lot more done than required because of my background in ci. However, after discussions with my mentor it was decided to down size my initial proposal. So I have cut down from an eCommerce website to a more static one.
 
 	- In addition, I was initially going to do an ordering system so users would be able to order cakes from the site, it would have a small backend and google maps for users to check location distance and so on. I have turned the ordering section into a photo gallery instead and removed the google maps feature.
 
@@ -360,5 +418,11 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyODI1ODE0LDEzMjM0NjMzOV19
+eyJoaXN0b3J5IjpbLTM1MjAxMzA1OCwtMzQ0NjExMjkxLC02NT
+c3NzQyNTUsMTQ5OTc5ODIzMCwtMTY3OTU0ODk3OCw1MDk3NDAw
+ODIsLTE4MDkxNTQxNTksMzgzNjIxMTI4LDE1MTA3MjAwODAsMT
+M4NjIxNjgxNSw3NTcyODcyMTcsLTE2ODUwNjc3MTYsMTM4NDkx
+MTA2NCwtMTA5NzM1NTAzOSwxMzAxNjAzMjEsLTEzMTMxODUzND
+ksLTUyODIzODQwMiwxMDc1OTczMDkwLC0xNDQwMDk4OTgsLTY2
+MjYyNzc4XX0=
 -->
