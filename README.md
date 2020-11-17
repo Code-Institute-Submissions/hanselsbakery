@@ -210,9 +210,8 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 # Implementation
 
 
-## HTML
-
-- I have coded the HTML side of the project by starting from the home page. The first section was the header once I was happy with that section I moved on to the next section. During implementation I took some decisions that I believed it would contribute to a better user experience.
+ HTM
+-I have coded the HTML side of the project by starting from the home page. The first section was the header once I was happy with that section I moved on to the next section. During implementation I took some decisions that I believed it would contribute to a better user experience.
 
 - **Modals**  
 		 
@@ -225,17 +224,13 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 			 
 - In the components folder you will find 3 sub-folders Header, Footer and Modals. These will contain header code, footer code, and modals code respectively. To load these components I used jQuery by using their APIs. The section which repeated a lot across all pages was the header and footer, by doing this it saved quite a bit of repeated code.
 
-## CSS
+ CSS**-	he CSS was coded as I was coding the HTML, I have added comment blocks to describe which sections these belong, I organised the CSS based on page. 
 
--	The CSS was coded as I was coding the HTML, I have added comment blocks to describe which sections these belong, I organised the CSS based on page. 
-
-
-## jQuery & Javascript  
+ jQuery & Javascript  
 
 		
--  **Loading Components and Code Organization**
- 
-	-	This was not a requirement for this project but knowing and used javascript before I found it would make the readability of the code much better by splitting at least parts of my code and load them when required. Also, it allowed me to implement some of the features and modals that brings a better user experience, such as, displaying the user with a spinner to simulate server side request and then displaying the user with a modal message acknowledging that their booking is confirmed.
+ **Loading Components and Code Organization**
+-	This was not a requirement for this project but knowing and used javascript before I found it would make the readability of the code much better by splitting at least parts of my code and load them when required. Also, it allowed me to implement some of the features and modals that brings a better user experience, such as, displaying the user with a spinner to simulate server side request and then displaying the user with a modal message acknowledging that their booking is confirmed.
 
 -	**Datepicker** 
 
@@ -243,7 +238,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 -	**Timepicker** 
 		
-	- Also, I used a library to implement time picker and this was set for one hour  timepicker intervals from 10am to 8pm. This is to give groups of people roughly one hour especially for busy periods when time is crucial. I have initially tried to implement time picker from bootstrap but because of customisation issues and deprecated code I decided to change. 
+		- Also, I used a library to implement time picker and this was set for one hour  timepicker intervals from 10am to 8pm. This is to give groups of people roughly one hour especially for busy periods when time is crucial. I have initially tried to implement time picker from bootstrap but because of customisation issues and deprecated code I decided to change. 
   
 
 # Testing
@@ -417,11 +412,11 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5OTc5ODIzMCwtMTY3OTU0ODk3OCw1MD
-k3NDAwODIsLTE4MDkxNTQxNTksMzgzNjIxMTI4LDE1MTA3MjAw
-ODAsMTM4NjIxNjgxNSw3NTcyODcyMTcsLTE2ODUwNjc3MTYsMT
-M4NDkxMTA2NCwtMTA5NzM1NTAzOSwxMzAxNjAzMjEsLTEzMTMx
-ODUzNDksLTUyODIzODQwMiwxMDc1OTczMDkwLC0xNDQwMDk4OT
-gsLTY2MjYyNzc4LC0xMTQ4ODQzNTA1LDEyOTk1MTkwNzgsNDUy
-NDg3MTAzXX0=
+eyJoaXN0b3J5IjpbLTY1Nzc3NDI1NSwxNDk5Nzk4MjMwLC0xNj
+c5NTQ4OTc4LDUwOTc0MDA4MiwtMTgwOTE1NDE1OSwzODM2MjEx
+MjgsMTUxMDcyMDA4MCwxMzg2MjE2ODE1LDc1NzI4NzIxNywtMT
+Y4NTA2NzcxNiwxMzg0OTExMDY0LC0xMDk3MzU1MDM5LDEzMDE2
+MDMyMSwtMTMxMzE4NTM0OSwtNTI4MjM4NDAyLDEwNzU5NzMwOT
+AsLTE0NDAwOTg5OCwtNjYyNjI3NzgsLTExNDg4NDM1MDUsMTI5
+OTUxOTA3OF19
 -->
