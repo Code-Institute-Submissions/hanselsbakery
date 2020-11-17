@@ -220,7 +220,8 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 			
 		- **Components**
 			
-			- In addition to the modals, later in the project I have realised that by using bootstrap framework HTML code can quickly build up and get long and at times difficult to debug and read. So I took the decision to split my code in components at least to some parts where code were being repeated. As I have background in coding I was able to implement - All modals were
+			- In addition to the modals, later in the project I have realised that by using bootstrap framework HTML code can quickly build up and get long and at times difficult to debug and read. So I took the decision to split my code in components at least to some parts where code were being repeated. As I have background in coding I was able to implement - All modals werethis which made things easier to read.
+			- In the components folder you will find 3 sub-folders Header, Footer and Modals. H
 
 - **CSS**
 
@@ -402,10 +403,10 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODUwNjc3MTYsLTE4NDg0NjgyNTksMT
-M4NDkxMTA2NCwtMTA5NzM1NTAzOSwxMzAxNjAzMjEsLTEzMTMx
-ODUzNDksLTUyODIzODQwMiwxMDc1OTczMDkwLC0xNDQwMDk4OT
-gsLTY2MjYyNzc4LC0xMTQ4ODQzNTA1LDEyOTk1MTkwNzgsNDUy
-NDg3MTAzLDE5ODk3Mjk1Miw4NDI4MjU4MTQsMTMyMzQ2MzM5XX
-0=
+eyJoaXN0b3J5IjpbLTE5MDg1MjcyNCwtMTY4NTA2NzcxNiwxMz
+g0OTExMDY0LC0xMDk3MzU1MDM5LDEzMDE2MDMyMSwtMTMxMzE4
+NTM0OSwtNTI4MjM4NDAyLDEwNzU5NzMwOTAsLTE0NDAwOTg5OC
+wtNjYyNjI3NzgsLTExNDg4NDM1MDUsMTI5OTUxOTA3OCw0NTI0
+ODcxMDMsMTk4OTcyOTUyLDg0MjgyNTgxNCwxMzIzNDYzMzldfQ
+==
 -->
