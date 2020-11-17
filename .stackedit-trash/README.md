@@ -175,7 +175,9 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 	
 - **jQuery**
 
-	-  I have used jQuery documentation to remind myself how some of these functions work on this framework. 
+	-  I have used jQuery [documentation](https://api.jquery.com/) to remind myself how some of these functions work on this framework. 
+
+- ****
 
   
 
@@ -360,5 +362,6 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyODI1ODE0LDEzMjM0NjMzOV19
+eyJoaXN0b3J5IjpbLTE3NDExMTMzMjMsODQyODI1ODE0LDEzMj
+M0NjMzOV19
 -->
