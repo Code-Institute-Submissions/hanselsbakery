@@ -200,7 +200,9 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 	  
 - **Am I Responsive?**
 
-	 - This is a website that provides an online tool to check website responsiveness to different screen sizes. I have used  
+	 - This is a website that provides an online tool to check website responsiveness to different screen sizes. Please, refer to the **Testing** section for more details. 
+
+-****
 	 
 
 # Implementation
@@ -384,7 +386,7 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
 - Guidance, assistance with code, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjM0MDI0MCwtNjYyNjI3NzgsLTExND
+eyJoaXN0b3J5IjpbLTg5MzIyOTI3MiwtNjYyNjI3NzgsLTExND
 g4NDM1MDUsMTI5OTUxOTA3OCw4NDI4MjU4MTQsMTMyMzQ2MzM5
 XX0=
 -->
