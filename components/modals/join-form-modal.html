@@ -10,7 +10,7 @@
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <div class="row custom-section-title modal-title mx-auto">
+        <div class="row custom-section-title modal-title mx-auto" style="width: 230px;">
           <div class="col-auto mx-auto">
             <h1 class="mx-auto">JOIN US</h1>
           </div>
@@ -23,17 +23,24 @@
           <div class="frame-border">
             <div class="row inner-row">
               <form class="mx-auto" id="join-form-modal">
-                <div class="form-group p-2">
-                  <h3>Join Our Newsletter</h3>
-                  <label for="join-email">Email Address</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="join-email"
-                    name="joinEmail"
-                    placeholder="Enter email"
-                    required
-                  />
+                <div class="form-group form-inline p-2 ">
+                  <label for="join-email">Email:</label>
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="join-email"
+                      name="joinEmail"
+                      placeholder="Enter an email..."
+                      required
+                      style="width: 170px"
+                    />
+                    <div class="input-group-append">
+                      <span class="input-group-text"
+                        ><i class="fas fa-at"></i>
+                      </span>
+                    </div>
+                  </div>
                 </div>
                 <div class="form-group p-2">
                   <div class="form-check">
