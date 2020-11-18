@@ -322,11 +322,11 @@ I have coded the HTML side of the project by starting from the home page. The fi
 
 	- As a Returning User, I want to easily login to my account, so I can make a purchase.
 
-- **Due to the scope of the project discussed with my mentor it was decided to not implement the initial plan but to down it a notch. instead, if user would like to purchase a cake the website has a contact form and information about deliveries and customer services. All links and form have been tested fully.**
+	- **Due to the scope of the project discussed with my mentor it was decided to not implement the initial plan but to down it a notch. instead, if user would like to purchase a cake the website has a contact form and information about deliveries and customer services. All links and form have been tested fully.**
 
 	- As a Frequent User, I want to have a section where I can sign up for newsletter, so I can get the latest offers and news about the shop.
 
-- **To achieve this user story I have created a Join Now form that can be accessed from the header and footer. Once validated and submitted it will simulate a server side request and respond user with a message in a modal component. This has been tested and it is fully functional.**
+		- **To achieve this user story I have created a Join Now form that can be accessed from the header and footer. Once validated and submitted it will simulate a server side request and respond user with a message in a modal component. This has been tested and it is fully functional.**
 
 	- As a Frequent User, I want a booking a table, so I can reserve ahead of time in case its busy.
 		
@@ -536,7 +536,7 @@ The tests that I have carried was for all forms. I can confirm that I have teste
 
 - Last but not least, I would like to thank you [Code Institute](https://codeinstitute.net/) for the course content and amazing support you have always provided me!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NzA3Mjc4NywtMzQ0NjExMjkxLDE0OT
+eyJoaXN0b3J5IjpbMTE4MjI3Mzk5NSwtMzQ0NjExMjkxLDE0OT
 k3OTgyMzAsLTE2Nzk1NDg5NzgsLTE4MDkxNTQxNTksMTM4NDkx
 MTA2NCwxMzAxNjAzMjEsLTEzMTMxODUzNDksLTEzMTMxODUzND
 ksLTY2MjYyNzc4LC0xMTQ4ODQzNTA1LDEyOTk1MTkwNzgsODQy
