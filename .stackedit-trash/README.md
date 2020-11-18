@@ -1,4 +1,21 @@
 
+
+![This is a screenshot taken from AM I RESPONSIVE? website.](https://ik.imagekit.io/2a1in3cldn/responsive_image_tests/responsive_image_DdrbhtJO4oyV.jpg)
+
+# Table Of Contents
+
+
+- [User Experience Design - UX](#user-experience-design---ux)
+- [Technologies](#technologies)
+- [Resources](#resources)
+- [Implementation](#implementation)
+- [Testing](#testing)
+- [Project Barriers and Solutions](#project-barriers-and-solutions)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
+
+
 # User Experience Design - UX
 
   
@@ -153,7 +170,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 -  **Web Development Tools**
  
-	- I have used this tool to help me with debugging issues that I had during implementation. In addition, by using the inspection mode I could see hthat idnee rbsiteemenpiece of feature was after coding it.  
+	- I have used this tool to help me with debugging issues that I had during implementation. In addition, by using the inspection mode I could see how responsive the feature was after coding it.  
 
 - **W3C Validation** 
  
@@ -214,6 +231,12 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 	
 	- I have used this [library](https://jqueryui.com/datepicker/) to implement the time picker for this project. 
 
+- **Auto CSS Prefixer**
+	- I have used auto-prefixer in this project to enhance compatibility with browsers, it can be found [here](https://autoprefixer.github.io/). 
+
+- **Auto Minifier** 
+	-  I have used this website to minify my CSS and JS to improve loading times. I have preserved the un-minified versions. The auto minifier can be found [here](https://www.minifier.org/).
+
 # Implementation
 
 
@@ -244,27 +267,127 @@ I have coded the HTML side of the project by starting from the home page. The fi
 
 -	**Timepicker** 
 		
-		- Also, I used a library to implement time picker and this was set for one hour  timepicker intervals from 10am to 8pm. This is to give groups of people roughly one hour especially for busy periods when time is crucial. I have initially tried to implement time picker from bootstrap but because of customisation issues and deprecated code I decided to change. 
+	- Also, I used a library to implement time picker and this was set for one hour  timepicker intervals from 10am to 8pm. This is to give groups of people roughly one hour especially for busy periods when time is crucial. I have initially tried to implement time picker from bootstrap but because of customisation issues and deprecated code I decided to change. 
   
 
 # Testing
 
-  
+## User Stories
 
-- Browser Compatibility
+-  **User Stories**
+	
+	- As a First Time User, I want to be presented with a well structured and designed website, so I can intuitively navigate through the website and access the information I seek.
+		
+		- **This has been achieved by having a navigation menu where users can navigate through 6 pages. Home Page, Menu Page, Bookings Page, Gallery Page, About Page and Contact Page. All sections are easy and simple to understand. I have tested all links to make sure navigation are 100%.**
 
-- User Stories and Project criteria
+	- As a First Time User, I want to be able to get back to the home page quickly and easily, so I don't waste time on going back and forth for what I need.
+		
+		- **This has been achieved by having the menu navigation in the header, a sitemap in the footer and also a back to top button. I have tested all three features and all were working fine.**
 
-- Form Validation
+	- As a First Time User, I want to be able to see pictures of all the products are sold by the shop, so I can browse through it and choose the one that most catches my attention.
+ 
+		- **This has been achieved by having the gallery page. I have tested that all images are loaded correctly and all modals are opening correctly upon clicking on a cake from the gallery.**
 
-- Website Navigation
+	- As a First Time User, I want to know in a glance what the website is about and why I should make a purchase, so I can make an informed decision whether to buy or not.
 
-- Responsiviness
+		- **To achieve this I have created an about page where user can find out more about the bakery, the bakery logo is a giver to what we provide, plus the carousel as well. All these have been tested and all are functioning correctly.**
 
-- HTML Validator
+	- As a First Time User, I want to know prices for all products, so I can know if my budget is sufficient to purchase it.
 
-- CSS Validator
+		- **This has been tested by going to the menu page and looking at the prices. There is also a contact page where enquiries can be made for bigger whole cakes. The contact form has been tested and it works fine to simulate this functionality.**
 
+	- As a First Time User, I want to be able to order cakes to be delivered to my home, so I can save time by having the convenience of home delivery.
+
+		- **The website has a section where the bakery can be contacted to enquiry about deliveries and refunds. I have checked the contact form and it all works fine to simulate a user enquiry.**
+
+	- As a First Time User, I want to have special occasion section, so cakes can be bespoke based on my needs.
+		
+		- **Due to the scope of the project that was discussed with mentor this feature has not been implemented, instead users can send an enquiry form, which its functionality has been tested and it simulates an enquiry request.**
+	
+	- As a First Time User, I want to change the website colour, so if I am colour blind the website will be more accessible.
+
+		- **Due to the scope of the project that was discussed with mentor this feature has not been implemented exactly, instead users can send an enquiry form, which its functionality has been tested and it simulates an enquiry request.**
+
+	- As a First Time User, I want to see reviews about their products, so I can understand what others think about the company.
+
+		- **To achieve this user story I have created a testimonials modal that is opened from the the footer navigation. In addition, the home page has a section where it shows products which other customers have eaten and their review. These has been tested by loading the home page and clicking on the Testimonials link.**
+
+	- As a Returning User, I want to have a section where I can see their social media links, so I can follow them to get new updates.
+
+		- **To achieve this user story I have implemented social media icons in the header at bigger screen devices and in the footer  at all screen sizes. This has been tested by clicking on them and they open as external link.**
+
+	- As a Returning User, I want to have a section where I can contact the Bakery, when I have questions about the company.
+
+		- **This has been achieved by having a contact page. The contact page has been tested and it is fully functional, in addition I simulate a server side request.**
+
+	- As a Returning User, I want to easily login to my account, so I can make a purchase.
+
+		- **Due to the scope of the project discussed with my mentor it was decided to not implement the initial plan but to down it a notch. instead, if user would like to purchase a cake the website has a contact form and information about deliveries and customer services. All links and form have been tested fully.**
+
+	- As a Frequent User, I want to have a section where I can sign up for newsletter, so I can get the latest offers and news about the shop.
+
+		- **To achieve this user story I have created a Join Now form that can be accessed from the header and footer. Once validated and submitted it will simulate a server side request and respond user with a message in a modal component. This has been tested and it is fully functional.**
+
+	- As a Frequent User, I want a booking a table, so I can reserve ahead of time in case its busy.
+		
+		- **To achieve this user story I have implemented a booking page where it will take details from the customer for booking once validated and submitted it will simulate a server-side request and display user with a nice modal confirming their booking. It has been tested.**
+
+## Browser Compatibility
+
+ - The website was compatible with most browsers with latest updates. The optimum experiences was at Firefox, Chromium, Edge and Safari. The worst experience was IE 11 and below which completely broke the website. I have added prefixers to improve browser compatibility using [Autoprefixers](https://autoprefixer.github.io/) online.
+
+## Responsiveness
+
+In this section, I have checked how responsive my website is by using **Google Development Tools**, **Am I Responsive?**  and **Responsive Design Checker**. Also, I checked on **Samsung S20**, **iPhone 6S** and **iPhone 6S Plus** which all worked 100%.
+
+- **Am I Responsive?**
+	- I have checked with it and it was showing a white space, this is because I used the bootstrap navbar which was overlapping with the carousel. Because this was something that I could not fix immediately I decided to instead use a back to top button in case user would like to go to the top.
+
+- **Google Development Tools** 
+	- I have tested my website extensively during development and testing. I have taken some screenshots for the following sizes below, all tests done below worked properly without issues, however, if the screen is smaller than 320px the website breaks. I have chosen not to make the website responsive past this point first because I believe the amount of users with screen below 320px are very very small and the user experience past this point does not give a very good experience. I would say 425px and above are optimum sizes for the website.
+
+		- **2560px** - The test is [here](https://ik.imagekit.io/2a1in3cldn/responsive_image_tests/Screenshot_from_2020-11-18_01-15-38_ezoggRKG-Gel.png).
+		- **1440px** - The test is [here](https://ik.imagekit.io/2a1in3cldn/responsive_image_tests/Screenshot_from_2020-11-18_01-15-55_UrEtr81XBmX2.png).
+		- **1024px** - The test is [here](https://ik.imagekit.io/2a1in3cldn/responsive_image_tests/Screenshot_from_2020-11-18_01-16-01__oo443LNhmhM.png).
+		- **768px** - The test is [here](https://ik.imagekit.io/2a1in3cldn/responsive_image_tests/Screenshot_from_2020-11-18_01-16-07_mDvKDHO-YTJQ.png).
+		- **425px** - The test is [here](https://ik.imagekit.io/2a1in3cldn/responsive_image_tests/Screenshot_from_2020-11-18_01-16-14_tB4rZnTvlAIXq.png).
+		- **375px** - The test is [here](https://ik.imagekit.io/2a1in3cldn/responsive_image_tests/Screenshot_from_2020-11-18_01-16-21_y1N5FO9UyiDt.png).
+		- **320px**- The test is [here](https://ik.imagekit.io/2a1in3cldn/responsive_image_tests/Screenshot_from_2020-11-18_01-16-24_Qyno3_WzVGeAb.png).
+
+- **Responsive Design Checker** 
+
+	- I have tested using this website for all iPhones and all Samsungs were displaying the website appropriately.  
+
+## **Form Validation**
+
+The tests that I have carried was for all forms. I can confirm that I have tested all forms and all of them behaved as expected, I did not screenshot extensively all inputs validation as all of them are the same, but all passed validation tests. 
+
+- **Footer Join Form**  
+
+	- **[TEST 1](https://ik.imagekit.io/2a1in3cldn/testing_images/footer_form_cbl8yxzZJ4Dk.png)** - It was validated by trying to submit without any input, the form uses the default validation to let the user know that no input was entered.
+	- **[TEST 2](https://ik.imagekit.io/2a1in3cldn/testing_images/Screenshot_from_2020-11-17_18-39-24_0Ac_giTghost.png)** - This time I have tried to input something and clicked on subscribed. The form displayed with a message asking to input an email with @ symbol.
+	- **[TEST 3](https://ik.imagekit.io/2a1in3cldn/testing_images/Screenshot_from_2020-11-17_18-43-11__Vygfi5gM_a8.png)** - This time I have input all correct information required and form was successfully submitted. 
+ 
+- **Booking Form** 
+
+	- **[TEST 1](https://ik.imagekit.io/2a1in3cldn/testing_images/Screenshot_from_2020-11-17_18-45-38_WHnsm0Mpx4X4.png)** - It was validated by trying to submit without any input, the form uses the default validation to let the user know that no input was entered.
+	- **[TEST 2](https://ik.imagekit.io/2a1in3cldn/testing_images/Screenshot_from_2020-11-17_18-47-14_QSsEQJUU_uiK.png)** - This time I have tried to input something and clicked on subscribed. The form displayed with a message asking to input an email with @ symbol.
+	- **[TEST 3](https://ik.imagekit.io/2a1in3cldn/testing_images/Screenshot_from_2020-11-17_18-57-08_Afy636Jnowz7.png)** - This time I have test the timepicker input. If not time is selected it will display an error message alerting user to select time.
+	- **[TEST 4](https://ik.imagekit.io/2a1in3cldn/testing_images/Screenshot_from_2020-11-17_18-57-52_UTOF-Yzqcdfp_.png)** - In this test I was validating the calendar, if user has not selected a date it will display an error alerting user to input date. However, if user select the calendar input it will open to choose a given date. 
+	- **[TEST 5](https://ik.imagekit.io/2a1in3cldn/testing_images/Screenshot_from_2020-11-17_18-59-08_v9DnIe7LeHTJ.png)** - In this test I have checked input for the number of people for the booking. The max number of people per booking is 6, this was an implementation choice as we don't want the bakery to overcrowd.  
+
+- **Contact Form** 
+
+	- **[TEST 1](https://ik.imagekit.io/2a1in3cldn/testing_images/Screenshot_from_2020-11-17_19-03-02_hkfxAE2cwMKs.png)** - It was validated by trying to submit without any input, the form uses the default validation to let the user know that no input was entered.
+	- **[TEST 2](https://ik.imagekit.io/2a1in3cldn/testing_images/Screenshot_from_2020-11-17_19-04-07_9G1tWAuegJdi.png)** - This time I have tried to input something and clicked on subscribed. The form displayed with a message asking to input an email with @ symbol.
+	- **[TEST 3](https://ik.imagekit.io/2a1in3cldn/testing_images/Screenshot_from_2020-11-17_19-04-30_iFkKItUYUyPPL.png)** - This time I have test the timepicker input. If not time is selected it will display an error message alerting user to select time.
+
+## **HTML Validation**
+
+- I have tested my website on the HTML Validation, only one error was displayed saying that there is a heading section missing from the carousel section. To fix this issue I have removed the section element tags that wrapped the carousel. The final check after the change shows validation successful. It can be viewed [here](https://ik.imagekit.io/2a1in3cldn/testing_images/html_validation_FA3s44bpxZL7.png).
+
+## **CSS Validation**
+- I have tested also my CSS file using the W3C validation. The result is that it did not pass the validation checks due to the bootstrap framework. All the CSS that I have coded passed were validated fine.  As it shows in the screenshot it shows that there were 2 errors and 751 warnings all from bootstrap. The result can be viewed [here](https://ik.imagekit.io/2a1in3cldn/testing_images/css_validation_LlCqghCeZexg.png)	
   
 
 # Project Barriers and Solutions
@@ -285,20 +408,47 @@ I have coded the HTML side of the project by starting from the home page. The fi
 
 	- In addition, I have had problems with the amount of images in my website. Initially I have just uploaded all images to the project images folder and even after resizing and using [TINYPNG](https://tinypng.com/) it still was making the website very heavy to load. So I decided to look for a CDN platform to mitigate this issue. Once I had the images in the CDN the website loaded much faster due to auto compressing and resizing.
 
-  
-
-# Version Control
-
- 
-
-
+- **Bootstrap Navbar**
+	
+	- I have come across an issue during testing where the fixed top navbar was overlapping with the carousel, so I have followed bootstrap solution to add padding top to the body, even though this does work, if using older browsers it will actually display the white padding space, due to this reason I decided to remove the navbar being fixed to the top when scrolling and instead added a back to top button.
   
 
 # Deployment
 
-  
+**Creation and Publication**  
 
-- Describe steps to deploy your project.
+1.  I created an account on GitHub -  [My account](https://github.com/tpsantos2120)
+2.  I used the my-full-template -  [Code Institute Template](https://github.com/Code-Institute-Org/gitpod-full-template)  from Code Institute as the base for my project.
+3.  I created the repository -  [Hansel's Bakery](https://github.com/tpsantos2120/hanselsbakery)  for my Milestone project.
+4.  To publish the project and make it available for public viewing, I used the following steps:
+    -   Opened my repositories.
+    -   Selected -  [Hansel's Bakery Repository](https://github.com/tpsantos2120/hanselsbakery)  from the list of repositories.
+    -   Chose the settings option on the right of the taskbar.
+    -   Scrolled down the page until ‘GitHub Pages’ was visible.
+    -   Clicked on the ‘source settings’ drop-down menu and selected ‘master branch’ for publishing.
+    -   You are returned to the top of the page.
+    -   After scrolling back down to ‘GitHub Pages’, a link to my repository was available.
+    -   My project is now available to view publicly -  [https://github.com/tpsantos2120/hanselsbakery](https://github.com/tpsantos2120/hanselsbakery)
+ 
+ **Download Project & Github CLI**
+ 
+-  You can select to clone my repository via CLI.
+	
+	1. Open terminal in your preferred IDE.
+	2. Navigate to the folder where you wish to close the repository.
+	3. Enter `git clone https://github.com/tpsantos2120/hanselsbakery.git`
+	4. The project will be pulled to your current directory.
+
+- To download this project do the following:
+	1. Navigate to the menu in the very top of this page
+	2. Click on the **Code** button.
+	3. Then click on **Download.zip**
+		- **Note** you can also click here to download the zip file. 
+	4. Choose the directory you wish to download it.
+	5. Unzip file.
+	6. Once unzipped project will be ready.
+		- If you are going to use it locally you will need a web server, something like **LAMP**, you use this [Tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04) from Digital Ocean for Linux Machines or this [link](https://www.apachefriends.org/index.html) for Windows machines.
+
 
   
 
@@ -306,109 +456,73 @@ I have coded the HTML side of the project by starting from the home page. The fi
 
   
 
-- Borrowed code, images and videos.
+- **Borrowed Code** 
+	
+	- I have used a code from the internet which helped me achieve the back to top button. The source can be found [here](https://bbbootstrap.com/snippets/simple-back-top-smooth-scroll-17111555). I have used that code and customised it to my requirements.
 
-- Code Institute - Some concepts I have got from the Love Running website part of Code Institute HTML and CSS studies. The main thing I have used as concept
+- **Code Institute** 
+	- Some concepts I have got from the Love Running website part of Code Institute HTML and CSS studies. The main thing I have used as concept was the cover text in the hero image. However, this was implemented differently using bootstrap and some CSS to reshape the box and placed in a different position.
 
-was the cover text in the hero image. However, this was implemented differently using bootstrap and some CSS to reshape the box and placed in a different position.
+- **Timepicker.js & Datepicker.js**
+	
+	- I have used this [Timepicker](https://timepicker.co/) library and [Datepicker](https://jqueryui.com/datepicker/) library in this project. 
 
-- Bootstrap - The majority of the project was completed using Bootstrap framework, I have mainly customised the framework to my own proposed wireframes and mockup as
 
-as specfied in the UX section of this document. I have used a lot of the documention from Bootstrap to accomplish the end project.
+- **Bootstrap** 
+	
+	- The majority of the project was completed using Bootstrap framework, I have mainly customised the framework to my own proposed wireframes and mockup as specified in the UX section of this document. I have used a lot of the documentation from Bootstrap to accomplish the end project.
 
-- jQuery - I have used jQuery for parts of the website, I have mainly used previous knowledge and documentation provided by jQuery.
+- **jQuery** 
+	- I have used jQuery for parts of the website, I have mainly used previous knowledge and documentation provided by jQuery.
 
-- ImageKit - This is a CDN where I have used to store all images and video.
+- **ImageKit** 
+	 - This is a CDN where I have used to store all images and video.
 
-- Video - I have one video that was taken from pexels.com which is a video of a coffee and muffin, which is the only video in the website.
+- **Images and Video**
+	
+	- All images were taken from **Unsplash**, **Pexels** and **Pixabay**. In addition, I have one video that was taken from Pexels which is a video of a coffee and muffin, which is the only video in the website. Please check below where all images and video were sourced:
 
-- Images and Video - All images weretaken from Unsplash, Pexels and Pixabay.In addition, I have one video that was taken from pexels.com which is a video of a
-
-coffee and muffin, which is the only video in the website. Please check below where all images and video were sourced:
-
-  
-
-- Shop Image - [here](https://unsplash.com/photos/dwQRixazu9I)
-
-- Christmas Cupcake - [here](https://unsplash.com/photos/ywv6hrTgSF8)
-
-- Home Page - Macaroons Image - [here](https://unsplash.com/photos/ywv6hrTgSF8)
-
-- Home Page - Carousel Image Slider 1 - [N/A](https://unsplash.com/photos/vIx9j3ITfaQ)
-
-- Home Page - Carousel Image Slider 2 - [here](https://unsplash.com/photos/VOMS9yXsdP0)
-
-- Home Page - Carousel Image Slider 3 - [here](https://pixabay.com/images/id-3731139/)
-
-- About Page Macaroons Image - [here](https://pixabay.com/images/id-3731141/)
-
-- About Page Coffee Video - [here](https://www.pexels.com/video/muffin-and-black-coffee-for-breakfast-3378581/)
-
-- Gallery Page - Cupcakes - [here](https://pixabay.com/images/id-4302381/)
-
-- Gallery Page - Cupcakes - [here](https://unsplash.com/photos/90HdOlGbjck)
-
-- Gallery Page - Cupcakes - [here](https://unsplash.com/photos/zk-fclJdGas)
-
-- Gallery Page - Cupcakes - [here](https://unsplash.com/photos/Vvx4kbkubtI)
-
-- Gallery Page - Cupcakes - [here](https://unsplash.com/photos/QW5yIlJR22Y)
-
-- Gallery Page - Cupcakes - [here](https://unsplash.com/photos/h5TDvTDwkBA)
-
-- Gallery Page - Cupcakes - [here](https://unsplash.com/photos/1gucQwubg-s)
-
-- Gallery Page - Cupcakes - [here](https://unsplash.com/photos/zyMJwFBg8u8)
-
-- Gallery Page - One Tier Cakes - [here](https://unsplash.com/photos/kPxsqUGneXQ)
-
-- Gallery Page - One Tier Cakes - [here](https://pixabay.com/images/id-4071990/)
-
-- Gallery Page - One Tier Cakes - [here](https://www.pexels.com/photo/photo-of-person-holding-raspberry-4109996/)
-
-- Gallery Page - One Tier Cakes - [here](https://www.pexels.com/photo/white-icing-covered-cake-in-bokeh-photography-1721932/)
-
-- Gallery Page - One Tier Cakes - [here](https://www.pexels.com/photo/cake-chocolate-cream-crepe-264939/)
-
-- Gallery Page - One Tier Cakes - [here](https://pixabay.com/images/id-3532223/)
-
-- Gallery Page - One Tier Cakes - [here](https://pixabay.com/images/id-3307396/)
-
-- Gallery Page - One Tier Cakes - [here](https://pixabay.com/images/id-3960001/)
-
-- Gallery Page - One Tier Cakes - [here](https://www.pexels.com/photo/white-round-cake-topped-with-yellow-slice-fruit-140831/)
-
-- Gallery Page - Two Tier Cakes - [here](https://unsplash.com/photos/5HR1gItc7Gs)
-
-- Gallery Page - Two Tier Cakes - [here](https://unsplash.com/photos/4on47p0-bk4)
-
-- Gallery Page - Two Tier Cakes - [here](https://unsplash.com/photos/Dd8_frJOHco)
-
-- Gallery Page - Two Tier Cakes - [here](https://unsplash.com/photos/fpSOMQj2A6I)
-
-- Gallery Page - Two Tier Cakes - [here](https://www.pexels.com/photo/black-round-cake-with-gold-details-on-brown-wooden-table-3923555/)
-
-- Gallery Page - Two Tier Cakes - [here](https://unsplash.com/photos/44IG4wx9Rzo)
-
-- Gallery Page - Two Tier Cakes - [here](https://www.pexels.com/photo/close-up-photography-of-cake-with-flower-decor-1070850/)
-
-- Gallery Page - Two Tier Cakes - [here](https://www.pexels.com/photo/shallow-focus-photo-of-yellow-and-pink-flowers-on-two-tier-cake-3181263/)
-
-- Gallery Page - Special Events Cake - [here](https://unsplash.com/photos/3962cSRPwOo)
-
-- Gallery Page - Special Events Cake - [here](https://www.pexels.com/photo/4-tier-cake-with-sliced-oranges-on-surface-2510104/)
-
-- Gallery Page - Special Events Cake - [here](https://unsplash.com/photos/fXAuCMEYGY4)
-
-- Gallery Page - Special Events Cake - [here](https://unsplash.com/photos/U7N6XFvTBjU)
-
-- Gallery Page - Special Events Cake - [here](https://unsplash.com/photos/22JxStzTxwo)
-
-- Gallery Page - Special Events Cake - [here](https://unsplash.com/photos/FqCB_SDXlmQ)
-
-- Gallery Page - Special Events Cake - [here](https://www.pexels.com/photo/cake-wedding-love-19640/)
-
-- Gallery Page - Special Events Cake - [here](https://unsplash.com/photos/yJKLqwAjMOU)
+		- **Shop Image** - [here](https://unsplash.com/photos/dwQRixazu9I)
+		- **Christmas Cupcake** - [here](https://unsplash.com/photos/ywv6hrTgSF8)
+		- **Home Page** - Macaroons Image - [here](https://unsplash.com/photos/ywv6hrTgSF8)
+		- **Home Page** - Carousel Image Slider 1 - [N/A]()
+		- **Home Page** - Carousel Image Slider 2 - [here](https://unsplash.com/photos/VOMS9yXsdP0)
+		- **Home Page** - Carousel Image Slider 3 - [here](https://pixabay.com/images/id-3731139/)
+		- **About Page**  - Macaroons Image - [here](https://pixabay.com/images/id-3731141/)
+		- **About Page**  - Coffee Video - [here](https://www.pexels.com/video/muffin-and-black-coffee-for-breakfast-3378581/)
+		- **Gallery Page** - Cupcakes - [here](https://pixabay.com/images/id-4302381/)
+		- **Gallery Page** - Cupcakes - [here](https://unsplash.com/photos/90HdOlGbjck)
+		- **Gallery Page** - Cupcakes - [here](https://unsplash.com/photos/zk-fclJdGas)
+		- **Gallery Page** - Cupcakes - [here](https://unsplash.com/photos/Vvx4kbkubtI)
+		- **Gallery Page** - Cupcakes - [here](https://unsplash.com/photos/QW5yIlJR22Y)
+		- **Gallery Page** - Cupcakes - [here](https://unsplash.com/photos/h5TDvTDwkBA)
+		- **Gallery Page** - Cupcakes - [here](https://unsplash.com/photos/1gucQwubg-s)
+		- **Gallery Page** - Cupcakes - [here](https://unsplash.com/photos/zyMJwFBg8u8)
+		- **Gallery Page** - One Tier Cakes - [here](https://unsplash.com/photos/kPxsqUGneXQ)
+		- **Gallery Page** - One Tier Cakes - [here](https://pixabay.com/images/id-4071990/)
+		- **Gallery Page** - One Tier Cakes - [here](https://www.pexels.com/photo/photo-of-person-holding-raspberry-4109996/)
+		- **Gallery Page** - One Tier Cakes - [here](https://www.pexels.com/photo/white-icing-covered-cake-in-bokeh-photography-1721932/)
+		- **Gallery Page** - One Tier Cakes - [here](https://www.pexels.com/photo/cake-chocolate-cream-crepe-264939/)
+		- **Gallery Page** - One Tier Cakes - [here](https://pixabay.com/images/id-3532223/)
+		- **Gallery Page** - One Tier Cakes - [here](https://pixabay.com/images/id-3307396/)
+		- **Gallery Page** - One Tier Cakes - [here](https://pixabay.com/images/id-3960001/)
+		- **Gallery Page** - One Tier Cakes - [here](https://www.pexels.com/photo/white-round-cake-topped-with-yellow-slice-fruit-140831/)
+		- **Gallery Page** - Two Tier Cakes - [here](https://unsplash.com/photos/5HR1gItc7Gs)
+		- **Gallery Page** - Two Tier Cakes - [here](https://unsplash.com/photos/4on47p0-bk4)
+		- **Gallery Page** - Two Tier Cakes - [here](https://unsplash.com/photos/Dd8_frJOHco)
+		- **Gallery Page** - Two Tier Cakes - [here](https://unsplash.com/photos/fpSOMQj2A6I)
+		- **Gallery Page** - Two Tier Cakes - [here](https://www.pexels.com/photo/black-round-cake-with-gold-details-on-brown-wooden-table-3923555/)
+		- **Gallery Page** - Two Tier Cakes - [here](https://unsplash.com/photos/44IG4wx9Rzo)
+		- **Gallery Page** - Two Tier Cakes - [here](https://www.pexels.com/photo/close-up-photography-of-cake-with-flower-decor-1070850/)
+		- **Gallery Page** - Two Tier Cakes - [here](https://www.pexels.com/photo/shallow-focus-photo-of-yellow-and-pink-flowers-on-two-tier-cake-3181263/)
+		- **Gallery Page** - Special Events Cake - [here](https://unsplash.com/photos/3962cSRPwOo)
+		- **Gallery Page** - Special Events Cake - [here](https://www.pexels.com/photo/4-tier-cake-with-sliced-oranges-on-surface-2510104/)
+		- **Gallery Page** - Special Events Cake - [here](https://unsplash.com/photos/fXAuCMEYGY4)
+		- **Gallery Page** - Special Events Cake - [here](https://unsplash.com/photos/U7N6XFvTBjU)
+		- **Gallery Page** - Special Events Cake - [here](https://unsplash.com/photos/22JxStzTxwo)
+		- **Gallery Page** - Special Events Cake - [here](https://unsplash.com/photos/FqCB_SDXlmQ)
+		- **Gallery Page** - Special Events Cake - [here](https://www.pexels.com/photo/cake-wedding-love-19640/)
+		- **Gallery Page** - Special Events Cake - [here](https://unsplash.com/photos/yJKLqwAjMOU)
 
   
 
@@ -416,11 +530,15 @@ coffee and muffin, which is the only video in the website. Please check below wh
 
   
 
-- Guidance, assistance with code, etc.
+- I would like to thank you [Stuart Crang](https://www.linkedin.com/in/stuart-crang-50401897/) for helping me getting enrolled in this course which took ages and the support. Also, for the long conversations and patience that you have had with me through this time.
+
+- Also, I would like to mention my mentor here. Thank you [Dick Vlaanderen](https://www.linkedin.com/in/dick-vlaanderen/) for the support and guidance especially when my plan was bigger than was needed so you told me to calm down. Also, for giving me your opinion throughout our meetings.
+
+- Last but not least, I would like to thank you [Code Institute](https://codeinstitute.net/) for the course content and amazing support you have always provided me!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDYxMTI5MSwxNDk5Nzk4MjMwLC0xNj
-c5NTQ4OTc4LC0xODA5MTU0MTU5LDEzODQ5MTEwNjQsMTMwMTYw
-MzIxLC0xMzEzMTg1MzQ5LC0xMzEzMTg1MzQ5LC02NjI2Mjc3OC
-wtMTE0ODg0MzUwNSwxMjk5NTE5MDc4LDg0MjgyNTgxNCwxMzIz
-NDYzMzldfQ==
+eyJoaXN0b3J5IjpbMTk3MTMxMDEzMSwtMzQ0NjExMjkxLDE0OT
+k3OTgyMzAsLTE2Nzk1NDg5NzgsLTE4MDkxNTQxNTksMTM4NDkx
+MTA2NCwxMzAxNjAzMjEsLTEzMTMxODUzNDksLTEzMTMxODUzND
+ksLTY2MjYyNzc4LC0xMTQ4ODQzNTA1LDEyOTk1MTkwNzgsODQy
+ODI1ODE0LDEzMjM0NjMzOV19
 -->
