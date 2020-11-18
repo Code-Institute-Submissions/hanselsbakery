@@ -496,6 +496,14 @@ The tests that I have carried was for all forms. I can confirm that I have teste
 - **ImageKit** 
 	 - This is a [CDN](https://imagekit.io/) where I have used to store all images and video.
 
+- **Our Ethos** 
+	
+	- I have used ethos from this website with some minor changes. You can find it [here](https://www.cuckoosbakery.co.uk/ourethos).
+
+- **Privacy Policy** 
+	
+	- I have used Termly to generate the privacy policy. You find their website [here](https://termly.io/en/).
+
 - **Images and Video**
 	
 	- All images were taken from **Unsplash**, **Pexels** and **Pixabay**. In addition, I have one video that was taken from Pexels which is a video of a coffee and a muffin, which is the only video in the website. Please check below where all images and video were sourced:
