@@ -11,7 +11,6 @@ var formID;
 $("#load-header").load("components/header/header-component.html");
 $("#load-footer").load("components/footer/footer-component.html");
 
-
 /**
  * Loads all modals when window loads.
  */
@@ -31,11 +30,10 @@ function loadModal() {
 
 $(window).on("load", loadModal);
 
-
 /**
  * This displays modals for Product Information,
  * Customer Service, Testimonials and Privacy Policy.
- * Also, it displays the join modal upon clicking 
+ * Also, it displays the join modal upon clicking
  * the designated button.
  */
 function displayModal() {
@@ -56,7 +54,7 @@ function displayModal() {
 $(document).on("click", ".clickCustomModal", displayModal);
 
 /**
- * Implements a click listener to all gallery images, 
+ * Implements a click listener to all gallery images,
  * and display a modal with full opened image and its name.
  */
 $(function () {
@@ -250,28 +248,28 @@ $(function () {
   });
 });
 
-$(window).on("load", function () {
-  addFixedTopClass();
-});
-
-$(window).on("resize", function () {
-  addFixedTopClass();
-});
-
-/**
- * This function adds fixed-top class to navbar when it reaches 991px width and
- * it is removed if screen is above that value.
+/** This function was borrowed from the internet and customised by me
+    to behave the way I want it.
  */
-function addFixedTopClass() {
-  if ($(window).width() <= 991 && !$(".navbar").hasClass("fixed-top")) {
-    $("body").css("padding-top", "70px");
-    $(".navbar").addClass("fixed-top");
-  } else if ($(window).width() >= 992 && $(".navbar").hasClass("fixed-top")) {
-    $(".navbar").removeClass("fixed-top");
-    $("body").css("padding-top", "0px");
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 20) {
+      $("#back-to-top-button").fadeIn();
+    } else {
+      $("#back-to-top-button").fadeOut();
+    }
+  });
 
-  }
-}
+  $("#back-to-top-button").click(function () {
+    $("html, body").animate(
+      {
+        scrollTop: 0,
+      },
+      2000
+    );
+    return false;
+  });
+});
 
 /**
  * Function from the timepicker library.
