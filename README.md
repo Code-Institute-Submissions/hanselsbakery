@@ -24,6 +24,8 @@
   - [**CSS Validation**](#css-validation)
 - [Project Barriers and Solutions](#project-barriers-and-solutions)
 - [Deployment](#deployment)
+  - [**Creation and Publication**](#creation-and-publication)
+  - [**Download Project & Github CLI**](#download-project--github-cli)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
 
@@ -288,63 +290,63 @@ I have coded the HTML side of the project by starting from the home page. The fi
 
 ## User Stories
 
--  **User Stories**
+
 	
-	- As a First Time User, I want to be presented with a well structured and designed website, so I can intuitively navigate through the website and access the information I seek.
+- As a First Time User, I want to be presented with a well structured and designed website, so I can intuitively navigate through the website and access the information I seek.
 		
-		- **This has been achieved by having a navigation menu where users can navigate through 6 pages. Home Page, Menu Page, Bookings Page, Gallery Page, About Page and Contact Page. All sections are easy and simple to understand. I have tested all links to make sure navigation are 100%.**
+	- **This has been achieved by having a navigation menu where users can navigate through 6 pages. Home Page, Menu Page, Bookings Page, Gallery Page, About Page and Contact Page. All sections are easy and simple to understand. I have tested all links to make sure navigation are 100%.**
 
-	- As a First Time User, I want to be able to get back to the home page quickly and easily, so I don't waste time on going back and forth for what I need.
+- As a First Time User, I want to be able to get back to the home page quickly and easily, so I don't waste time on going back and forth for what I need.
 		
-		- **This has been achieved by having the menu navigation in the header, a sitemap in the footer and also a back to top button. I have tested all three features and all were working fine.**
+	- **This has been achieved by having the menu navigation in the header, a sitemap in the footer and also a back to top button. I have tested all three features and all were working fine.**
 
-	- As a First Time User, I want to be able to see pictures of all the products are sold by the shop, so I can browse through it and choose the one that most catches my attention.
+- As a First Time User, I want to be able to see pictures of all the products are sold by the shop, so I can browse through it and choose the one that most catches my attention.
  
-		- **This has been achieved by having the gallery page. I have tested that all images are loaded correctly and all modals are opening correctly upon clicking on a cake from the gallery.**
+	- **This has been achieved by having the gallery page. I have tested that all images are loaded correctly and all modals are opening correctly upon clicking on a cake from the gallery.**
 
-	- As a First Time User, I want to know in a glance what the website is about and why I should make a purchase, so I can make an informed decision whether to buy or not.
+- As a First Time User, I want to know in a glance what the website is about and why I should make a purchase, so I can make an informed decision whether to buy or not.
 
-		- **To achieve this I have created an about page where user can find out more about the bakery, the bakery logo is a giver to what we provide, plus the carousel as well. All these have been tested and all are functioning correctly.**
+	- **To achieve this I have created an about page where user can find out more about the bakery, the bakery logo is a giver to what we provide, plus the carousel as well. All these have been tested and all are functioning correctly.**
 
-	- As a First Time User, I want to know prices for all products, so I can know if my budget is sufficient to purchase it.
+- As a First Time User, I want to know prices for all products, so I can know if my budget is sufficient to purchase it.
 
-		- **This has been tested by going to the menu page and looking at the prices. There is also a contact page where enquiries can be made for bigger whole cakes. The contact form has been tested and it works fine to simulate this functionality.**
+	- **This has been tested by going to the menu page and looking at the prices. There is also a contact page where enquiries can be made for bigger whole cakes. The contact form has been tested and it works fine to simulate this functionality.**
 
-	- As a First Time User, I want to be able to order cakes to be delivered to my home, so I can save time by having the convenience of home delivery.
+- As a First Time User, I want to be able to order cakes to be delivered to my home, so I can save time by having the convenience of home delivery.
 
-		- **The website has a section where the bakery can be contacted to enquiry about deliveries and refunds. I have checked the contact form and it all works fine to simulate a user enquiry.**
+	- **The website has a section where the bakery can be contacted to enquiry about deliveries and refunds. I have checked the contact form and it all works fine to simulate a user enquiry.**
 
-	- As a First Time User, I want to have special occasion section, so cakes can be bespoke based on my needs.
+- As a First Time User, I want to have special occasion section, so cakes can be bespoke based on my needs.
 		
-		- **Due to the scope of the project that was discussed with mentor this feature has not been implemented, instead users can send an enquiry form, which its functionality has been tested and it simulates an enquiry request.**
+	- **Due to the scope of the project that was discussed with mentor this feature has not been implemented, instead users can send an enquiry form, which its functionality has been tested and it simulates an enquiry request.**
 	
-	- As a First Time User, I want to change the website colour, so if I am colour blind the website will be more accessible.
+- As a First Time User, I want to change the website colour, so if I am colour blind the website will be more accessible.
 
-		- **Due to the scope of the project that was discussed with mentor this feature has not been implemented exactly, instead users can send an enquiry form, which its functionality has been tested and it simulates an enquiry request.**
+	- **Due to the scope of the project that was discussed with mentor this feature has not been implemented exactly, instead users can send an enquiry form, which its functionality has been tested and it simulates an enquiry request.**
 
-	- As a First Time User, I want to see reviews about their products, so I can understand what others think about the company.
+- As a First Time User, I want to see reviews about their products, so I can understand what others think about the company.
 
-		- **To achieve this user story I have created a testimonials modal that is opened from the the footer navigation. In addition, the home page has a section where it shows products which other customers have eaten and their review. These has been tested by loading the home page and clicking on the Testimonials link.**
+	- **To achieve this user story I have created a testimonials modal that is opened from the the footer navigation. In addition, the home page has a section where it shows products which other customers have eaten and their review. These has been tested by loading the home page and clicking on the Testimonials link.**
 
-	- As a Returning User, I want to have a section where I can see their social media links, so I can follow them to get new updates.
+- As a Returning User, I want to have a section where I can see their social media links, so I can follow them to get new updates.
 
-		- **To achieve this user story I have implemented social media icons in the header at bigger screen devices and in the footer  at all screen sizes. This has been tested by clicking on them and they open as external link.**
+	- **To achieve this user story I have implemented social media icons in the header at bigger screen devices and in the footer  at all screen sizes. This has been tested by clicking on them and they open as external link.**
 
-	- As a Returning User, I want to have a section where I can contact the Bakery, when I have questions about the company.
+- As a Returning User, I want to have a section where I can contact the Bakery, when I have questions about the company.
 
-		- **This has been achieved by having a contact page. The contact page has been tested and it is fully functional, in addition I simulate a server side request.**
+	- **This has been achieved by having a contact page. The contact page has been tested and it is fully functional, in addition I simulate a server side request.**
 
-	- As a Returning User, I want to easily login to my account, so I can make a purchase.
+- As a Returning User, I want to easily login to my account, so I can make a purchase.
 
-		- **Due to the scope of the project discussed with my mentor it was decided to not implement the initial plan but to down it a notch. instead, if user would like to purchase a cake the website has a contact form and information about deliveries and customer services. All links and form have been tested fully.**
+	- **Due to the scope of the project discussed with my mentor it was decided to not implement the initial plan but to down it a notch. instead, if user would like to purchase a cake the website has a contact form and information about deliveries and customer services. All links and form have been tested fully.**
 
-	- As a Frequent User, I want to have a section where I can sign up for newsletter, so I can get the latest offers and news about the shop.
+- As a Frequent User, I want to have a section where I can sign up for newsletter, so I can get the latest offers and news about the shop.
 
-		- **To achieve this user story I have created a Join Now form that can be accessed from the header and footer. Once validated and submitted it will simulate a server side request and respond user with a message in a modal component. This has been tested and it is fully functional.**
+	- **To achieve this user story I have created a Join Now form that can be accessed from the header and footer. Once validated and submitted it will simulate a server side request and respond user with a message in a modal component. This has been tested and it is fully functional.**
 
-	- As a Frequent User, I want a booking a table, so I can reserve ahead of time in case its busy.
+- As a Frequent User, I want a booking a table, so I can reserve ahead of time in case its busy.
 		
-		- **To achieve this user story I have implemented a booking page where it will take details from the customer for booking once validated and submitted it will simulate a server-side request and display user with a nice modal confirming their booking. It has been tested.**
+	- **To achieve this user story I have implemented a booking page where it will take details from the customer for booking once validated and submitted it will simulate a server-side request and display user with a nice modal confirming their booking. It has been tested.**
 
 ## Browser Compatibility
 
@@ -433,7 +435,7 @@ The tests that I have carried was for all forms. I can confirm that I have teste
 
 # Deployment
 
-**Creation and Publication**  
+## **Creation and Publication**  
 
 1.  I created an account on GitHub -  [My account](https://github.com/tpsantos2120)
 2.  I used the my-full-template -  [Code Institute Template](https://github.com/Code-Institute-Org/gitpod-full-template)  from Code Institute as the base for my project.
@@ -448,7 +450,7 @@ The tests that I have carried was for all forms. I can confirm that I have teste
     -   After scrolling back down to ‘GitHub Pages’, a link to my repository was available.
     -   My project is now available to view publicly -  [https://github.com/tpsantos2120/hanselsbakery](https://github.com/tpsantos2120/hanselsbakery)
  
- **Download Project & Github CLI**
+##  **Download Project & Github CLI**
  
 -  You can select to clone my repository via CLI.
 	
