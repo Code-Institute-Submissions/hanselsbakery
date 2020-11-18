@@ -19,13 +19,13 @@
   - [User Stories](#user-stories)
   - [Browser Compatibility](#browser-compatibility)
   - [Responsiveness](#responsiveness)
-  - [**Form Validation**](#form-validation)
-  - [**HTML Validation**](#html-validation)
-  - [**CSS Validation**](#css-validation)
+  - [Form Validation](#form-validation)
+  - [HTML Validation](#html-validation)
+  - [CSS Validation](#css-validation)
 - [Project Barriers and Solutions](#project-barriers-and-solutions)
 - [Deployment](#deployment)
-  - [**Creation and Publication**](#creation-and-publication)
-  - [**Download Project & Github CLI**](#download-project--github-cli)
+  - [Creation and Publication](#creation-and-publication)
+  - [Download Project & Github CLI](#download-project--github-cli)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
 
@@ -374,7 +374,7 @@ In this section, I have checked how responsive my website is by using **Google D
 
 	- I have tested using this website for all iPhones and all Samsungs were displaying the website appropriately.  
 
-## **Form Validation**
+## Form Validation
 
 The tests that I have carried was for all forms. I can confirm that I have tested all forms and all of them behaved as expected, I did not screenshot extensively all inputs validation as all of them are the same, but all passed validation tests. 
 
@@ -402,11 +402,11 @@ The tests that I have carried was for all forms. I can confirm that I have teste
 
 	- **[TEST 1](https://ik.imagekit.io/2a1in3cldn/Screenshot_from_2020-11-18_15-52-26_MPotixFN8Wmc7.png)** - I have tested the menu download link and it opens correctly as a pdf.
 
-## **HTML Validation**
+## HTML Validation
 
 - I have tested my website on the HTML Validation, only one error was displayed saying that there is a heading section missing from the carousel section. To fix this issue I have removed the section element tags that wrapped the carousel. The final check after the change shows validation successful. It can be viewed [here](https://ik.imagekit.io/2a1in3cldn/testing_images/html_validation_FA3s44bpxZL7.png).
 
-## **CSS Validation**
+## CSS Validation
 - I have tested also my CSS file using the W3C validation. The result is that it did not pass the validation checks due to the bootstrap framework. All the CSS that I have coded passed were validated fine.  As it shows in the screenshot it shows that there were 2 errors and 751 warnings all from bootstrap. The result can be viewed [here](https://ik.imagekit.io/2a1in3cldn/testing_images/css_validation_LlCqghCeZexg.png).
   
 
@@ -435,7 +435,7 @@ The tests that I have carried was for all forms. I can confirm that I have teste
 
 # Deployment
 
-## **Creation and Publication**  
+## Creation and Publication  
 
 1.  I created an account on GitHub -  [My account](https://github.com/tpsantos2120)
 2.  I used the my-full-template -  [Code Institute Template](https://github.com/Code-Institute-Org/gitpod-full-template)  from Code Institute as the base for my project.
@@ -450,7 +450,7 @@ The tests that I have carried was for all forms. I can confirm that I have teste
     -   After scrolling back down to ‘GitHub Pages’, a link to my repository was available.
     -   My project is now available to view publicly -  [https://github.com/tpsantos2120/hanselsbakery](https://github.com/tpsantos2120/hanselsbakery)
  
-##  **Download Project & Github CLI**
+##  Download Project & Github CLI
  
 -  You can select to clone my repository via CLI.
 	
