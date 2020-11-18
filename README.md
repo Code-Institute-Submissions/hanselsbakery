@@ -62,7 +62,7 @@ This section is where we have established user stories to identify website funct
 
 -  **Functional Specifications**
 
-	* The functional specification will be based on the [assessment criteria (https://drive.google.com/file/d/1GBoEwg5ODXp1Gg3oJJdXYpELdO7_s3MP/view?usp=sharing) and user stories.
+	* The functional specification will be based on the [assessment criteria](https://drive.google.com/file/d/1GBoEwg5ODXp1Gg3oJJdXYpELdO7_s3MP/view?usp=sharing) and user stories.
 
 -  **Content Requirements**
 
@@ -536,11 +536,11 @@ The tests that I have carried was for all forms. I can confirm that I have teste
 
 - Last but not least, I would like to thank you [Code Institute](https://codeinstitute.net/) for the course content and amazing support you have always provided me!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTMxMDEzMSwtMzUyMDEzMDU4LC0zND
-Q2MTEyOTEsLTY1Nzc3NDI1NSwxNDk5Nzk4MjMwLC0xNjc5NTQ4
-OTc4LDUwOTc0MDA4MiwtMTgwOTE1NDE1OSwzODM2MjExMjgsMT
-UxMDcyMDA4MCwxMzg2MjE2ODE1LDc1NzI4NzIxNywtMTY4NTA2
-NzcxNiwxMzg0OTExMDY0LC0xMDk3MzU1MDM5LDEzMDE2MDMyMS
-wtMTMxMzE4NTM0OSwtNTI4MjM4NDAyLDEwNzU5NzMwOTAsLTE0
-NDAwOTg5OF19
+eyJoaXN0b3J5IjpbMjY4MDc5NzkyLDE5NzEzMTAxMzEsLTM1Mj
+AxMzA1OCwtMzQ0NjExMjkxLC02NTc3NzQyNTUsMTQ5OTc5ODIz
+MCwtMTY3OTU0ODk3OCw1MDk3NDAwODIsLTE4MDkxNTQxNTksMz
+gzNjIxMTI4LDE1MTA3MjAwODAsMTM4NjIxNjgxNSw3NTcyODcy
+MTcsLTE2ODUwNjc3MTYsMTM4NDkxMTA2NCwtMTA5NzM1NTAzOS
+wxMzAxNjAzMjEsLTEzMTMxODUzNDksLTUyODIzODQwMiwxMDc1
+OTczMDkwXX0=
 -->
