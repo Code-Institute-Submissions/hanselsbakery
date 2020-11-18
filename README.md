@@ -1,15 +1,27 @@
 
-
 ![This is a screenshot taken from AM I RESPONSIVE? website.](https://ik.imagekit.io/2a1in3cldn/responsive_image_tests/responsive_image_DdrbhtJO4oyV.jpg)
 
 # Table Of Contents
 
 
+- [Table Of Contents](#table-of-contents)
 - [User Experience Design - UX](#user-experience-design---ux)
+  - [Strategy](#strategy)
+  - [Scope](#scope)
+  - [Structure & Skeleton](#structure--skeleton)
+  - [Surface](#surface)
 - [Technologies](#technologies)
 - [Resources](#resources)
 - [Implementation](#implementation)
+  - [HTML & CSS](#html--css)
+  - [jQuery & Javascript](#jquery--javascript)
 - [Testing](#testing)
+  - [User Stories](#user-stories)
+  - [Browser Compatibility](#browser-compatibility)
+  - [Responsiveness](#responsiveness)
+  - [**Form Validation**](#form-validation)
+  - [**HTML Validation**](#html-validation)
+  - [**CSS Validation**](#css-validation)
 - [Project Barriers and Solutions](#project-barriers-and-solutions)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -26,7 +38,7 @@
 
 The business is a bakery shop called Hansel's Bakery established 1 year ago, in that time they have provided customers with world class service and the products they produce all with high quality ingredients and beautiful design to indulge customers and empower them to have their best moments in life sharing with their friends and family.
 
-This section is where we have established user stories to identify website functionality. The initiative is to build a website that will promote our shop, bring convenience to customers and visitors by letting them order online, get our business known to a bigger audience.  
+This section is where we have established user stories to identify website functionality. The initiative is to build a website that will promote their shop, bring convenience to customers and visitors by letting them order online, get their business known to a bigger audience.  
 
 -  **User Stories**
 
@@ -66,7 +78,7 @@ This section is where we have established user stories to identify website funct
 
 -  **Content Requirements**
 
-	- The content required to bring value are the following:
+	The content required to bring value are the following:
 
 	- The written content has to be concise and to the point, relevant to the section of the website. It has to follow the same typography to maintain consistency throughout the website.
 
@@ -79,6 +91,8 @@ This section is where we have established user stories to identify website funct
 	- The logo has to bring set the tone for the look and feel of the website so that the other parts can follow it nicely.
 
 	- All information to have the right amount of contrast between foreground and background to avoid distractions.
+
+[](#user-experience-design---ux)
 
 ## Structure & Skeleton
 
@@ -123,7 +137,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 	
 	- **Images** - I will use [Pixabay](https://www.pixabay.com) and [Pexels](https://www.pexels.com) to source the images.
 	
-	- **Logo** - I will use [Canva](https://www.canva.com) will be used to design logo and favicon.  
+	- **Logo** - I used [Canva](https://www.canva.com) to design logo and favicon. You can view this under **Resources** in this document.  
 	
 	- **Icons** - I will be using [Font Awesome](https://fontawesome.com/) for icons needed for the website.
 
@@ -186,7 +200,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 # Resources
 
-- **Pexels, Unplash and Pixabay**
+- **Pexels, Unsplash and Pixabay**
 	- I have used [Pexels](https://www.pexels.com/), [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/) to source all of the images and video that I have used int he project. To know more which images I used please visit the **Credits** section of this document.
 
 - **Font Awesome & Iconify**
@@ -202,7 +216,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 - **Boostrap**
 
-	- I have used bootstrap  [documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/). extensively through out this project, so this piece of resource has been crucial to it. Please, check **implementation** section in this document for more details.
+	- I have used bootstrap  [documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/), extensively through out this project, so this piece of resource has been crucial to it. Please, check **implementation** section in this document for more details.
 	
 - **jQuery**
 
@@ -213,7 +227,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 - **HTML**
 
-	- I have also referenced to the HTML [documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) during implementation) as a refresher. 	
+	- I have also referenced to the HTML [documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) during implementation as a refresher. 	
   
  - **CSS**
  
@@ -242,7 +256,7 @@ At this stage I have chosen the Colours, Typography, Logo and Images.
 
 ## HTML & CSS
 
-I have coded the HTML side of the project by starting from the home page. The first section was the header once I was happy with that section I moved on to the next section. During implementation I took some decisions that I believed it would contribute to a better user experience.
+I have coded the HTML side of the project by starting from the home page. The first section was the header, once I was happy with that section I moved on to the next section. During implementation I took some decisions that I believed it would contribute to a better user experience.
 
 - **Modals**  
 		 
@@ -334,7 +348,7 @@ I have coded the HTML side of the project by starting from the home page. The fi
 
 ## Browser Compatibility
 
- - The website was compatible with most browsers with latest updates. The optimum experiences was at Firefox, Chromium, Edge and Safari. The worst experience was IE 11 and below which completely broke the website. I have added prefixers to improve browser compatibility using [Autoprefixers](https://autoprefixer.github.io/) online.
+ - The website was compatible with most browsers with latest updates. The optimum experiences was at Firefox, Chrome, Edge and Safari. The worst experience was IE 11 and below which completely broke the website. I have added prefixers to improve browser compatibility using [Autoprefixers](https://autoprefixer.github.io/) online.
 
 ## Responsiveness
 
@@ -382,12 +396,16 @@ The tests that I have carried was for all forms. I can confirm that I have teste
 	- **[TEST 2](https://ik.imagekit.io/2a1in3cldn/testing_images/Screenshot_from_2020-11-17_19-04-07_9G1tWAuegJdi.png)** - This time I have tried to input something and clicked on subscribed. The form displayed with a message asking to input an email with @ symbol.
 	- **[TEST 3](https://ik.imagekit.io/2a1in3cldn/testing_images/Screenshot_from_2020-11-17_19-04-30_iFkKItUYUyPPL.png)** - This time I have test the timepicker input. If not time is selected it will display an error message alerting user to select time.
 
+- **Menu Page** 
+
+	- **[TEST 1](https://ik.imagekit.io/2a1in3cldn/Screenshot_from_2020-11-18_15-52-26_MPotixFN8Wmc7.png)** - I have tested the menu download link and it opens correctly as a pdf.
+
 ## **HTML Validation**
 
 - I have tested my website on the HTML Validation, only one error was displayed saying that there is a heading section missing from the carousel section. To fix this issue I have removed the section element tags that wrapped the carousel. The final check after the change shows validation successful. It can be viewed [here](https://ik.imagekit.io/2a1in3cldn/testing_images/html_validation_FA3s44bpxZL7.png).
 
 ## **CSS Validation**
-- I have tested also my CSS file using the W3C validation. The result is that it did not pass the validation checks due to the bootstrap framework. All the CSS that I have coded passed were validated fine.  As it shows in the screenshot it shows that there were 2 errors and 751 warnings all from bootstrap. The result can be viewed [here](https://ik.imagekit.io/2a1in3cldn/testing_images/css_validation_LlCqghCeZexg.png)	
+- I have tested also my CSS file using the W3C validation. The result is that it did not pass the validation checks due to the bootstrap framework. All the CSS that I have coded passed were validated fine.  As it shows in the screenshot it shows that there were 2 errors and 751 warnings all from bootstrap. The result can be viewed [here](https://ik.imagekit.io/2a1in3cldn/testing_images/css_validation_LlCqghCeZexg.png).
   
 
 # Project Barriers and Solutions
@@ -396,13 +414,13 @@ The tests that I have carried was for all forms. I can confirm that I have teste
 
 -  **Project Scope**
 
-	- I initially planned to have a lot more done than required because of my background in ci. However, after discussions with my mentor it was decided to down size my initial proposal. So I have cut down from an eCommerce website to a more static one.
+	- I initially planned to have a lot more done than required because of my background in coding. However, after discussions with my mentor it was decided to down size my initial proposal. So I have cut down from an eCommerce website to a more static one.
 
 	- In addition, I was initially going to do an ordering system so users would be able to order cakes from the site, it would have a small backend and google maps for users to check location distance and so on. I have turned the ordering section into a photo gallery instead and removed the google maps feature.
 
 -  **Bootstrap Framework**
 
-	- The main challange parts for me was using bootstrap framework, as i have not used it extensively in the past. I took the wrong approach of not going through the documentation in detail. This lead me to do a lot of hard coding css when bootstrap had already had all laid out. After realising this mistake, starting from mid project forward I have extensively used more the framework and less hard coding.
+	- The main challenging part for me was using bootstrap framework, as i have not used it extensively in the past. I took the wrong approach of not going through the documentation in detail. This lead me to do a lot of hard coding CSS when bootstrap had already had all laid out. After realising this mistake, starting from mid project forward I have extensively used more the framework and less hard coding.
 
 -  **Heavy Loading Website**
 
@@ -443,7 +461,7 @@ The tests that I have carried was for all forms. I can confirm that I have teste
 	1. Navigate to the menu in the very top of this page
 	2. Click on the **Code** button.
 	3. Then click on **Download.zip**
-		- **Note** you can also click here to download the zip file. 
+		- **Note** you can also click [here](https://github.com/tpsantos2120/hanselsbakery/archive/master.zip) to download the zip file. 
 	4. Choose the directory you wish to download it.
 	5. Unzip file.
 	6. Once unzipped project will be ready.
@@ -476,11 +494,11 @@ The tests that I have carried was for all forms. I can confirm that I have teste
 	- I have used jQuery for parts of the website, I have mainly used previous knowledge and documentation provided by jQuery.
 
 - **ImageKit** 
-	 - This is a CDN where I have used to store all images and video.
+	 - This is a [CDN](https://imagekit.io/) where I have used to store all images and video.
 
 - **Images and Video**
 	
-	- All images were taken from **Unsplash**, **Pexels** and **Pixabay**. In addition, I have one video that was taken from Pexels which is a video of a coffee and muffin, which is the only video in the website. Please check below where all images and video were sourced:
+	- All images were taken from **Unsplash**, **Pexels** and **Pixabay**. In addition, I have one video that was taken from Pexels which is a video of a coffee and a muffin, which is the only video in the website. Please check below where all images and video were sourced:
 
 		- **Shop Image** - [here](https://unsplash.com/photos/dwQRixazu9I)
 		- **Christmas Cupcake** - [here](https://unsplash.com/photos/ywv6hrTgSF8)
@@ -488,6 +506,7 @@ The tests that I have carried was for all forms. I can confirm that I have teste
 		- **Home Page** - Carousel Image Slider 1 - [N/A]()
 		- **Home Page** - Carousel Image Slider 2 - [here](https://unsplash.com/photos/VOMS9yXsdP0)
 		- **Home Page** - Carousel Image Slider 3 - [here](https://pixabay.com/images/id-3731139/)
+		- **Menu Page** -  Menu - [here](https://ik.imagekit.io/2a1in3cldn/menu_bakery_CoT3oJl9JuP_.pdf) 
 		- **About Page**  - Macaroons Image - [here](https://pixabay.com/images/id-3731141/)
 		- **About Page**  - Coffee Video - [here](https://www.pexels.com/video/muffin-and-black-coffee-for-breakfast-3378581/)
 		- **Gallery Page** - Cupcakes - [here](https://pixabay.com/images/id-4302381/)
@@ -530,17 +549,8 @@ The tests that I have carried was for all forms. I can confirm that I have teste
 
   
 
-- I would like to thank you [Stuart Crang](https://www.linkedin.com/in/stuart-crang-50401897/) for helping me getting enrolled in this course which took ages and the support. Also, for the long conversations and patience that you have had with me through this time.
+- I would like to thank you [Stuart Crang](https://www.linkedin.com/in/stuart-crang-50401897/) for helping me getting enrolled in this course which took ages and the support. Also, for the long conversations and patience that he had with me through this time.
 
-- Also, I would like to mention my mentor here. Thank you [Dick Vlaanderen](https://www.linkedin.com/in/dick-vlaanderen/) for the support and guidance especially when my plan was bigger than was needed so you told me to calm down. Also, for giving me your opinion throughout our meetings.
+- Also, I would like to mention my mentor here. Thank you [Dick Vlaanderen](https://www.linkedin.com/in/dick-vlaanderen/) for the support and guidance especially when my plan was bigger than was needed so he told me to calm down. Also, for giving me your opinion throughout our meetings.
 
-- Last but not least, I would like to thank you [Code Institute](https://codeinstitute.net/) for the course content and amazing support you have always provided me!
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4MDc5NzkyLDE5NzEzMTAxMzEsLTM1Mj
-AxMzA1OCwtMzQ0NjExMjkxLC02NTc3NzQyNTUsMTQ5OTc5ODIz
-MCwtMTY3OTU0ODk3OCw1MDk3NDAwODIsLTE4MDkxNTQxNTksMz
-gzNjIxMTI4LDE1MTA3MjAwODAsMTM4NjIxNjgxNSw3NTcyODcy
-MTcsLTE2ODUwNjc3MTYsMTM4NDkxMTA2NCwtMTA5NzM1NTAzOS
-wxMzAxNjAzMjEsLTEzMTMxODUzNDksLTUyODIzODQwMiwxMDc1
-OTczMDkwXX0=
--->
+- Last but not least, I would like to thank the [Code Institute](https://codeinstitute.net/) for the course content and amazing support they have always provided me!
